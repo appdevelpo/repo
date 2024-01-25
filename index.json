@@ -72,7 +72,7 @@
   "package": "anime.girigirilove.com",
   "type": "bangumi",
   "url": "anime.girigirilove.com.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://anime.girigirilove.com"
  },
  {
@@ -100,6 +100,18 @@
   "url": "api.yinyuetai.js",
   "version": "v0.0.1",
   "webSite": "https://video-api.yinyuetai.com"
+ },
+ {
+  "author": "JerukPurut404",
+  "icon": "https://arabsama.net/wp-content/uploads/2023/09/svgexport-34.png",
+  "lang": "ar",
+  "license": "MIT",
+  "name": "Arabsama",
+  "package": "arabsama.net",
+  "type": "bangumi",
+  "url": "arabsama.net.js",
+  "version": "v0.0.1",
+  "webSite": "https://arabsama.net"
  },
  {
   "author": "bethro",
@@ -239,7 +251,7 @@
   "type": "manga",
   "url": "comick.app.js",
   "version": "v0.0.4",
-  "webSite": "https://cors.notesnook.com/https://api.comick.cc"
+  "webSite": "https://api.comick.cc"
  },
  {
   "author": "OshekharO",
@@ -707,6 +719,19 @@
   "webSite": "https://yts.mx"
  },
  {
+  "author": "OshekharO",
+  "icon": "https://myasiantv.ac/favicon.ico",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Myasiantv",
+  "nsfw": "false",
+  "package": "myasiantv",
+  "type": "bangumi",
+  "url": "myasiantv.js",
+  "version": "v0.0.1",
+  "webSite": "https://myasiantv.ac"
+ },
+ {
   "author": "bachig26",
   "icon": "https://netfapx.com/wp-content/uploads/2017/11/netfapx-lg-1_319381e1f227e13ae1201bfa30857622.png",
   "lang": "en",
@@ -944,8 +969,8 @@
   "package": "simplyhentai.com",
   "type": "manga",
   "url": "simplyhentai.com.js",
-  "version": "v0.0.1",
-  "webSite": "https://api.simply-hentai.com/v3"
+  "version": "v0.0.2",
+  "webSite": "https://cors.notesnook.com/https://api.simply-hentai.com/v3"
  },
  {
   "author": "bachig26",
@@ -1264,14 +1289,14 @@
  },
  {
   "author": "OshekharO",
-  "icon": "https://zeroscans.com/favicon.ico",
+  "icon": "https://zscans.com/favicon.ico",
   "lang": "en",
   "license": "MIT",
   "name": "ZeroScans",
   "package": "zeroscans.com",
   "type": "manga",
   "url": "zeroscans.com.js",
-  "version": "v0.0.1",
-  "webSite": "https://zeroscans.com"
+  "version": "v0.0.2",
+  "webSite": "https://zscans.com"
  }
 ]
