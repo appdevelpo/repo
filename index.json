@@ -27,6 +27,19 @@
  },
  {
   "author": "OshekharO",
+  "icon": "https://wiki-img.airav.wiki/storage/settings/September2019/hj8LddG9oFlmPe0YFkUd.png",
+  "lang": "jp",
+  "license": "MIT",
+  "name": "AirWiki",
+  "nsfw": "true",
+  "package": "airav",
+  "type": "bangumi",
+  "url": "airav.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.airav.wiki"
+ },
+ {
+  "author": "OshekharO",
   "icon": "https://anilist.co/img/icons/apple-touch-icon.png",
   "lang": "en",
   "license": "MIT",
@@ -36,18 +49,6 @@
   "url": "ani.gogo.js",
   "version": "v0.0.3",
   "webSite": "https://api.amvstr.me/api/v2"
- },
- {
-  "author": "OshekharO",
-  "icon": "https://aniwatch.to/images/android-chrome-512x512.png",
-  "lang": "en",
-  "license": "MIT",
-  "name": "AniWatch",
-  "package": "ani.watch",
-  "type": "bangumi",
-  "url": "ani.watch.js",
-  "version": "v0.0.6",
-  "webSite": "https://aniwatch.to"
  },
  {
   "author": "(koikiss-dev)",
@@ -72,8 +73,20 @@
   "package": "anime.girigirilove.com",
   "type": "bangumi",
   "url": "anime.girigirilove.com.js",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "webSite": "https://anime.girigirilove.com"
+ },
+ {
+  "author": "JerukPurut404",
+  "icon": "https://animeazu.com/wp-content/uploads/2023/08/dada.png",
+  "lang": "pr",
+  "license": "MIT",
+  "name": "Animeazu",
+  "package": "animeazu.com",
+  "type": "bangumi",
+  "url": "animeazu.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://animeazu.com"
  },
  {
   "author": "appdevelpo",
@@ -85,8 +98,20 @@
   "package": "animepahe.ru",
   "type": "bangumi",
   "url": "animepahe.ru.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://animepahe.ru"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://cdn.jsdelivr.net/gh/TechShreyash/AnimeDex@main/static/img/favicon.ico",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Animxer",
+  "package": "animxer.xyz",
+  "type": "bangumi",
+  "url": "animxer.xyz.js",
+  "version": "v0.0.1",
+  "webSite": "https://api.anime-dex.workers.dev"
  },
  {
   "author": "vvsolo",
@@ -98,7 +123,7 @@
   "package": "api.yinyuetai",
   "type": "bangumi",
   "url": "api.yinyuetai.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://video-api.yinyuetai.com"
  },
  {
@@ -139,6 +164,18 @@
   "webSite": "https://www.baozimh.com"
  },
  {
+  "author": "bethro",
+  "icon": "https://bato.to/amsta/img/batoto/favicon.ico?v0",
+  "lang": "all",
+  "license": "MIT",
+  "name": "Bato",
+  "package": "bato.to",
+  "type": "manga",
+  "url": "bato.to.js",
+  "version": "v0.0.2",
+  "webSite": "https://bato.to"
+ },
+ {
   "author": "anishi7",
   "icon": "https://bestlightnovel.com/themes/home/images/favicon.png",
   "lang": "en",
@@ -150,6 +187,18 @@
   "url": "best.light.novel.js",
   "version": "v0.0.1",
   "webSite": "https://bestlightnovel.com"
+ },
+ {
+  "author": "yxxyun",
+  "icon": "https://m.bi17.cc/favicon.ico",
+  "lang": "zh-cn",
+  "license": "MIT",
+  "name": "笔趣阁",
+  "package": "bqg.cc",
+  "type": "fikushon",
+  "url": "bqg.cc.js",
+  "version": "v0.0.1",
+  "webSite": "https://m.bi17.cc"
  },
  {
   "author": "MiaoMint",
@@ -166,7 +215,7 @@
  {
   "author": "vvsolo",
   "description": "client",
-  "icon": "https://avatars.githubusercontent.com/u/55937028?s=200\u0026v=4",
+  "icon": "https://s11.ax1x.com/2024/01/11/pFCMKit.png",
   "lang": "all",
   "license": "MIT",
   "name": "MyIPTV",
@@ -174,8 +223,8 @@
   "package": "client.iptv",
   "type": "bangumi",
   "url": "client.iptv.js",
-  "version": "v0.0.5",
-  "webSite": "https://"
+  "version": "v0.0.6",
+  "webSite": "https://live.fanmingming.com"
  },
  {
   "author": "vvsolo",
@@ -187,7 +236,7 @@
   "package": "club.everia",
   "type": "manga",
   "url": "club.everia.js",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "webSite": "https://everia.club"
  },
  {
@@ -200,7 +249,7 @@
   "package": "club.manga18",
   "type": "manga",
   "url": "club.manga18.js",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "webSite": "https://manga18.club"
  },
  {
@@ -225,8 +274,21 @@
   "package": "com.freexcomic",
   "type": "manga",
   "url": "com.freexcomic.js",
-  "version": "v0.0.1",
+  "version": "v0.0.3",
   "webSite": "http://"
+ },
+ {
+  "author": "vvsolo",
+  "icon": "https://manga18fx.com/images/favicon-96x96.jpg",
+  "lang": "en",
+  "license": "MIT",
+  "name": "manga18fx",
+  "nsfw": "true",
+  "package": "com.manga18fx",
+  "type": "manga",
+  "url": "com.manga18fx.js",
+  "version": "v0.0.1",
+  "webSite": "https://manga18fx.com"
  },
  {
   "author": "MiaoMint",
@@ -240,6 +302,18 @@
   "url": "com.olevod.www.js",
   "version": "v0.0.1",
   "webSite": "https://www.olevod.com"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://comicextra.me/favicon.ico",
+  "lang": "en",
+  "license": "MIT",
+  "name": "ComicExtra",
+  "package": "comicextra",
+  "type": "manga",
+  "url": "comicextra.js",
+  "version": "v0.0.1",
+  "webSite": "https://comicextra.me"
  },
  {
   "author": "OshekharO",
@@ -292,15 +366,15 @@
  },
  {
   "author": "OshekharO",
-  "icon": "https://dramacool.pa/images/mobi/logo.png",
+  "icon": "https://proxy.techzbots1.workers.dev/?u=https://dramacool.pa/images/mobi/logo.png",
   "lang": "en",
   "license": "MIT",
   "name": "DramaCool",
   "package": "dramacool.pa",
   "type": "bangumi",
   "url": "dramacool.pa.js",
-  "version": "v0.0.2",
-  "webSite": "https://nontan-source-kgw9jch3s-imkryp70n.vercel.app/movies/dramacool"
+  "version": "v0.0.3",
+  "webSite": "https://proxy.techzbots1.workers.dev/?u=https://nontan-source-kgw9jch3s-imkryp70n.vercel.app/movies/dramacool"
  },
  {
   "author": "OshekharO",
@@ -316,17 +390,42 @@
   "webSite": "https://eroticmv.com"
  },
  {
-  "author": "appdevelpo",
-  "icon": "https://111.90.151.26/wp-content/uploads/2020/06/cropped-Logo-2-60x60.png",
+  "author": "OshekharO",
+  "icon": "https://i.postimg.cc/SNhTmxT5/FilmyCab.png",
   "lang": "hi",
   "license": "MIT",
-  "name": "FlimyPujab",
+  "name": "FilmyCab",
   "nsfw": "false",
-  "package": "flimypujab.com",
+  "package": "filmycab",
   "type": "bangumi",
-  "url": "flimypujab.com.js",
+  "url": "filmycab.js",
   "version": "v0.0.2",
-  "webSite": "https://111.90.151.26"
+  "webSite": "https://filmycab.mom"
+ },
+ {
+  "author": "appdevelpo",
+  "icon": "https://111.90.140.97/wp-content/uploads/2022/09/Fliz-Hindi-Movie-Website-02.jpg",
+  "lang": "hi",
+  "license": "MIT",
+  "name": "FilmyPunjab",
+  "nsfw": "false",
+  "package": "filmypunjab.com",
+  "type": "bangumi",
+  "url": "filmypunjab.com.js",
+  "version": "v0.0.3",
+  "webSite": "https://111.90.140.97"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://flamecomics.com/wp-content/uploads/2021/03/cropped-fds-1-192x192.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "FlameComics",
+  "package": "flamecomics.com",
+  "type": "manga",
+  "url": "flamecomics.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://flamecomics.com/"
  },
  {
   "author": "OshekharO",
@@ -375,8 +474,8 @@
   "package": "gogo.anime",
   "type": "bangumi",
   "url": "gogo.anime.js",
-  "version": "v0.0.4",
-  "webSite": "https://api-consumet-6adls650k-saurabhgangule.vercel.app/anime/gogoanime"
+  "version": "v0.0.5",
+  "webSite": "https://goraku-api.vercel.app/anime/gogoanime"
  },
  {
   "author": "appdevelpo",
@@ -403,6 +502,18 @@
   "url": "hentaidexy.net.js",
   "version": "v0.0.1",
   "webSite": "https://backend.hentaidexy.net"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://hianime.to/favicon.ico",
+  "lang": "en",
+  "license": "MIT",
+  "name": "HiAnime",
+  "package": "hianime.to",
+  "type": "bangumi",
+  "url": "hianime.to.js",
+  "version": "v0.0.7",
+  "webSite": "https://hianime.to"
  },
  {
   "author": "OshekharO",
@@ -469,6 +580,19 @@
   "webSite": "https://javhd.today"
  },
  {
+  "author": "SendHX",
+  "icon": "https://www.jisuzy.com/template/default/images/site_logo.png",
+  "lang": "zh-cn",
+  "license": "MIT",
+  "name": "极速资源",
+  "nsfw": "false",
+  "package": "jisuzy.com",
+  "type": "bangumi",
+  "url": "jisuzy.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://jszyapi.com/api.php/provide/vod/?ac=videolist"
+ },
+ {
   "author": "OshekharO",
   "icon": "https://www.juxiaoshuo.net/images/nocover.png",
   "lang": "zh-cn",
@@ -514,8 +638,20 @@
   "package": "kisskh.co",
   "type": "bangumi",
   "url": "kisskh.co.js",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "webSite": "https://kisskh.co"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://komikcast.lol/wp-content/uploads/2021/02/cropped-logo-kc-180x180.png",
+  "lang": "all",
+  "license": "MIT",
+  "name": "Komikcast",
+  "package": "komikcast.lol",
+  "type": "manga",
+  "url": "komikcast.lol.js",
+  "version": "v0.0.1",
+  "webSite": "https://komikcast.lol"
  },
  {
   "author": "appdevelpo",
@@ -542,6 +678,18 @@
   "webSite": "https://www.libvio.pro"
  },
  {
+  "author": "bethro",
+  "icon": "https://lilymanga.net/wp-content/uploads/2019/12/cropped-2Prancheta-1-192x192.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "LilyManga",
+  "package": "lilymanga.net",
+  "type": "manga",
+  "url": "lilymanga.net.js",
+  "version": "v0.0.1",
+  "webSite": "https://lilymanga.net"
+ },
+ {
   "author": "OshekharO",
   "icon": "https://s8.lk21static.xyz/wp-content/themes/dunia21/images/favicon-set/apple-icon-144x144.png",
   "lang": "id",
@@ -555,6 +703,31 @@
   "webSite": "https://tv3.lk21official.wiki"
  },
  {
+  "author": "bethro",
+  "icon": "https://manga-lek.net/wp-content/mangalek.png",
+  "lang": "ar",
+  "license": "MIT",
+  "name": "Manga-lek.net",
+  "package": "manga-lek.net",
+  "type": "manga",
+  "url": "manga-lek.net.js",
+  "version": "v0.0.1",
+  "webSite": "https://manga-lek.net"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://manga1k.com/wp-content/uploads/2023/08/6-2-1.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Manga1k",
+  "nsfw": "true",
+  "package": "manga1k.com",
+  "type": "manga",
+  "url": "manga1k.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://manga1k.com"
+ },
+ {
   "author": "appdevelpo",
   "icon": "https://www.manga4life.com/media/favicon.png",
   "lang": "en",
@@ -566,6 +739,30 @@
   "url": "manga4life.com.js",
   "version": "v0.0.1",
   "webSite": "https://www.manga4life.com"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://h.mangabat.com/favicon-96x96.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "MangaBat",
+  "package": "mangabat.com",
+  "type": "manga",
+  "url": "mangabat.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://h.mangabat.com"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://mangaclash.com/wp-content/uploads/2020/03/cropped-22.jpg",
+  "lang": "en",
+  "license": "MIT",
+  "name": "MangaClash",
+  "package": "mangaclash.com",
+  "type": "manga",
+  "url": "mangaclash.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://mangaclash.com"
  },
  {
   "author": "Monster",
@@ -614,6 +811,43 @@
   "url": "mangakatana.com.js",
   "version": "v0.0.1",
   "webSite": "https://mangakatana.com/"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://mangakomi.io/wp-content/uploads/2019/12/v-I-BhKu.jpeg",
+  "lang": "en",
+  "license": "MIT",
+  "name": "MangaKomi",
+  "package": "mangakomi",
+  "type": "manga",
+  "url": "mangakomi.js",
+  "version": "v0.0.1",
+  "webSite": "https://mangakomi.io"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://manganato.com/themes/hm/images/logo.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Manganato",
+  "package": "manganato",
+  "type": "manga",
+  "url": "manganato.js",
+  "version": "v0.0.1",
+  "webSite": "https://manganato.com"
+ },
+ {
+  "author": "ftbom",
+  "icon": "https://www.manhuadb.com/assets/www/img/favicon.png",
+  "lang": "zh",
+  "license": "MIT",
+  "name": "漫画DB",
+  "nsfw": "false",
+  "package": "manhuadb.com",
+  "type": "manga",
+  "url": "manhuadb.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.manhuadb.com"
  },
  {
   "author": "appdevelpo",
@@ -873,6 +1107,18 @@
   "webSite": "https://www.pornxp.com"
  },
  {
+  "author": "bethro",
+  "icon": "https://i0.wp.com/ravenscans.com/wp-content/uploads/2022/12/cropped-33-192x192.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "Ravenscans",
+  "package": "ravenscans.com",
+  "type": "manga",
+  "url": "ravenscans.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://ravenscans.com"
+ },
+ {
   "author": "appdevelpo",
   "icon": "https://rawkuma.com/wp-content/uploads/2020/01/cropped-Yuna.Kuma_.Kuma_.Kuma_.Bear_.full_.2385251-32x32.png",
   "lang": "jp",
@@ -884,6 +1130,18 @@
   "url": "rawkuma.com.js",
   "version": "v0.0.2",
   "webSite": "https://rawkuma.com"
+ },
+ {
+  "author": "OshekharO",
+  "icon": "https://readcomicsonline.ru/images/banner.jpg",
+  "lang": "en",
+  "license": "MIT",
+  "name": "ReadComicsOnline",
+  "package": "readcomicsonline.ru",
+  "type": "manga",
+  "url": "readcomicsonline.ru.js",
+  "version": "v0.0.1",
+  "webSite": "https://readcomicsonline.ru"
  },
  {
   "author": "OshekharO",
@@ -1012,6 +1270,18 @@
   "webSite": "https://www.supercartoons.net"
  },
  {
+  "author": "bethro",
+  "icon": "https://swatmanhua.com/images/logo_light.png",
+  "lang": "ar",
+  "license": "MIT",
+  "name": "swatmanhua",
+  "package": "swatmanhua.com",
+  "type": "manga",
+  "url": "swatmanhua.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://swatmanhua.com"
+ },
+ {
   "author": "appdevelpo",
   "icon": "https://tamilyogi.plus/wp-content/uploads/2021/06/ty.png",
   "lang": "hi-ta",
@@ -1039,6 +1309,18 @@
  },
  {
   "author": "OshekharO",
+  "icon": "https://teamxnovel.com/assets/images/favicon.png",
+  "lang": "ar",
+  "license": "MIT",
+  "name": "TeamxNovel",
+  "package": "teamxnovel.com",
+  "type": "manga",
+  "url": "teamxnovel.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://teamxnovel.com"
+ },
+ {
+  "author": "OshekharO",
   "icon": "https://themoviearchive.site/favicons/apple-touch-icon.png",
   "lang": "all",
   "license": "MIT",
@@ -1046,8 +1328,20 @@
   "package": "themoviearchive",
   "type": "bangumi",
   "url": "themoviearchive.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://api.themoviedb.org/3"
+ },
+ {
+  "author": "bethro",
+  "icon": "https://i.ibb.co/XtNNVVT/AR-TH-WEB.png",
+  "lang": "ar",
+  "license": "MIT",
+  "name": "thunderscans",
+  "package": "thunderscans.com",
+  "type": "manga",
+  "url": "thunderscans.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://thunderscans.com"
  },
  {
   "author": "zj",
@@ -1084,7 +1378,7 @@
   "package": "truyen.net",
   "type": "manga",
   "url": "truyen.net.js",
-  "version": "v0.0.4",
+  "version": "v0.0.5",
   "webSite": "https://comics-api.vercel.app"
  },
  {
@@ -1099,6 +1393,19 @@
   "url": "turkish123.js",
   "version": "v0.0.2",
   "webSite": "https://www2.turkish123.org"
+ },
+ {
+  "author": "wenmoux",
+  "icon": "https://www.uaa.com/assets/uaalogo.7acb1f90.svg",
+  "lang": "zh-cn",
+  "license": "MIT",
+  "name": "UAA视频",
+  "nsfw": "true",
+  "package": "uaa.com",
+  "type": "bangumi",
+  "url": "uaa.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.uaa.com/api/video/app/video"
  },
  {
   "author": "CakesTwix",
@@ -1160,6 +1467,19 @@
   "webSite": "https://cj.bajiecaiji.com"
  },
  {
+  "author": "OshekharO",
+  "icon": "https://www.watchasian.sk/favicon.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "WatchAsian",
+  "nsfw": "false",
+  "package": "watchasian",
+  "type": "bangumi",
+  "url": "watchasian.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.watchasian.sk"
+ },
+ {
   "author": "Monster",
   "icon": "https://www.dm530w.org/tpsf/fc_pic/favicon.ico",
   "lang": "zh-cn",
@@ -1181,7 +1501,7 @@
   "package": "wnacg.com",
   "type": "manga",
   "url": "wnacg.com.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://www.wnacg.com"
  },
  {
@@ -1262,8 +1582,20 @@
   "webSite": "https://caocao15.xyz"
  },
  {
+  "author": "Mg",
+  "icon": "https://oss-cdn.meowa.cn/mxtheme/images/favicon.png",
+  "lang": "zh-cn",
+  "license": "MIT",
+  "name": "CC",
+  "package": "yinhuadm",
+  "type": "bangumi",
+  "url": "yinhuadm.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.yinhuadm.cc/"
+ },
+ {
   "author": "OshekharO",
-  "icon": "https://yomovies.media/wp-content/uploads/2023/12/120.jpg",
+  "icon": "https://yomovies.town/wp-content/uploads/2023/12/120.jpg",
   "lang": "hi",
   "license": "MIT",
   "name": "YoMovies",
@@ -1271,8 +1603,21 @@
   "package": "yomovies",
   "type": "bangumi",
   "url": "yomovies.js",
-  "version": "v0.0.3",
-  "webSite": "https://yomovies.media"
+  "version": "v0.0.5",
+  "webSite": "https://yomovies.town"
+ },
+ {
+  "author": "appdevelpo",
+  "icon": "https://yugenanime.tv/static/img/favicon-32x32.png",
+  "lang": "en",
+  "license": "MIT",
+  "name": "yugenanime",
+  "nsfw": "true",
+  "package": "yugenanime.tv",
+  "type": "bangumi",
+  "url": "yugenanime.tv.js",
+  "version": "v0.0.1",
+  "webSite": "https://yugenanime.tv"
  },
  {
   "author": "OshekharO",
