@@ -1607,13 +1607,15 @@
   "webSite": "https://yomovies.town"
  },
  {
+  "api": "2",
   "author": "appdevelpo",
   "icon": "https://yugenanime.tv/static/img/favicon-32x32.png",
   "lang": "en",
   "license": "MIT",
   "name": "yugenanime",
-  "nsfw": "true",
+  "nsfw": "false",
   "package": "yugenanime.tv",
+  "tag": "anime",
   "type": "bangumi",
   "url": "yugenanime.tv.js",
   "version": "v0.0.1",
