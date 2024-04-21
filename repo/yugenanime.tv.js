@@ -10,7 +10,7 @@
 // @webSite      https://yugenanime.tv
 // @nsfw         false
 // @api          2
-// @tag          anime
+// @tag          anime,english
 // ==/MiruExtension==
 
 var search = async(kw, page) =>{
