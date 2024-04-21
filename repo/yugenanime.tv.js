@@ -8,104 +8,94 @@
 // @icon         https://yugenanime.tv/static/img/favicon-32x32.png
 // @package      yugenanime.tv
 // @webSite      https://yugenanime.tv
-// @nsfw         true
+// @nsfw         false
+// @api          2
+// @tag          anime
 // ==/MiruExtension==
 
-export default class Yugenanime extends Extension {
-    async latest(page) {
-        const res = await this.request(`/latest/?page=${page}`);
-        //  console.log(res)
-        const bsxList = await this.querySelectorAll(res, "li.ep-card");
-        const mangas = [];
-        for (const element of bsxList) {
-            const content = element.content;
-            const url = await this.getAttributeText(content, "a.ep-details", "href");
-            const title = await this.querySelector(content, ".ep-origin-name").text;
-            const title_text = title.replace(/\r|\n|\t/g, "")
-            const cover = await this.getAttributeText(content, "img", "data-src");
-            mangas.push({
-                title: title_text,
-                url,
-                cover,
-            });
-        }
-        return mangas;
-    }
-
-    async search(kw, page) {
-        const res = await this.request(`/discover/?page=${page}&q=${kw}`);
-        const bsxList = await this.querySelectorAll(res, "a.anime-meta");
-        console.log(bsxList.length)
-        const mangas = [];
-        for(const element of bsxList){
-            const content = element.content;
-            const url = await this.getAttributeText(content, "a.anime-meta", "href")
-            const title = await this.getAttributeText(content, "a.anime-meta", "title")
-            const cover = await this.getAttributeText(content, "img", "data-src");
-            mangas.push({
-                title,
-                url,
-                cover,
-            });
-        }
-        console.log(mangas)
-        return mangas;
-    }
-
-    async detail(url) {
-        const res = await this.request(`${url}watch`);
-        const title = await this.querySelector(res, ".content > .p-10-t").text;
-        //  console.log(title)
-        const cover = await this.getAttributeText(res, "img.cover", "src");
-        //  console.log(cover)
-        const desc = await this.querySelector(res, ".p-10-t.description").text;
-        //  console.log(desc)
-        const bsxList = await this.querySelectorAll(res, ".ep-card");
-        const urls = []
-        for (const element of bsxList) {
-            const content = element.content;
-            const name = await this.querySelector(content, "a.ep-title").text;
-            const url = await this.getAttributeText(content, "a.ep-title", "href");
-            urls.push({
-                name,
-                url
-            })
-        }
-        const bangumi = {
-            title: title.replace(/\r|\n|\t/g, ""),
+var search = async(kw, page) =>{
+    const res = await request(`/discover/?page=${page}&q=${kw}`);
+    const {document:doc} = parseHTML(res);
+    const bsxList = doc.querySelectorAll("a.anime-meta");
+    const mangas = [];
+    bsxList.forEach(element => {
+        const url = element.getAttribute("href");
+        const title = element.getAttribute("title");
+        const cover = element.querySelector("img").getAttribute("data-src");
+        mangas.push({
+            title,
+            url,
             cover,
-            desc,
-            episodes: [{ title: "", urls }]
-        }
-        return bangumi
-    }
-
-    async watch(url) {
-        const api = "https://yugenanime.tv/api/embed/"
-        const res = await this.request(url);
-        const embedSelector = await this.getAttributeText(res, "#main-embed", "src");
-        const id = embedSelector.match(/\/e\/(.+)/)[1]
-        const body = {
-            id:id, ac: 0
-        }
-        const apiRes = await this.request("", {
-
-            method: "POST",
-            data: body,
-            headers: {
-                "Miru-Url": api,
-                 "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
-                 "X-Requested-With":"XMLHttpRequest",
-                "Referer":`https://yugenanime.tv/e/${id}/`,
-            }
         });
-        console.log(apiRes)
-        const videoLink = apiRes.hls
-        return{
-            type:"hls",
-            url:videoLink[0],
-          }
+    });
+    return mangas;
 
+}
+var detail = async(url) =>{
+    const res = await request(`${url}watch`);
+    const {document:doc} = parseHTML(res);
+    const title = doc.querySelector(".content > .p-10-t").innerHTML;
+    const cover = doc.querySelector("img.cover").getAttribute("src");
+    const desc = doc.querySelector(".p-10-t.description").innerHTML;
+    const bsxList = doc.querySelectorAll(".ep-card");
+    const urls = []
+    bsxList.forEach(element => {
+        const name = element.querySelector("a.ep-title").innerHTML;
+        const url = element.querySelector("a.ep-title").getAttribute("href");
+        urls.push({
+            name,
+            url
+        })
+    });
+    return {
+        title: title.replace(/\r|\n|\t/g, ""),
+        cover,
+        desc,
+        episodes: [{ title: "", urls }]
     }
 }
+var watch = async(url) =>{
+    const res = await request(url);
+    const {document:doc} = parseHTML(res);
+    const embedSelector = doc.querySelector("#main-embed").getAttribute("src");
+    console.log(embedSelector)
+    const id = embedSelector.match(/\/e\/(.+)/)[1]
+    console.log(id)
+    const body = {
+        id:id, ac: 0
+    }
+    const apiRes = await request("", {
+        method: "POST",
+        data: body,
+        headers: {
+            "Miru-Url": "https://yugenanime.tv/api/embed/",
+            "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
+            "X-Requested-With":"XMLHttpRequest",
+            "Referer":`https://yugenanime.tv/e/${id}/`,
+        }
+    });
+    const videoLink = apiRes.hls
+    return{
+        type:"hls",
+        url:videoLink[0],
+    }
 
+}
+var latest = async(page) =>{
+    const res = await request(`/latest/?page=${page}`);
+    const {document:doc} = parseHTML(res);
+    const bsxList = doc.querySelectorAll("li.ep-card"); 
+    const mangas = [];
+    bsxList.forEach(element => {
+        const url = element.querySelector("a.ep-details").getAttribute("href");
+        const title = element.querySelector(".ep-origin-name").innerHTML;
+        const title_text = title.replace(/\r|\n|\t/g, "")
+        const cover = element.querySelector("img").getAttribute("data-src");
+        mangas.push({
+            title: title_text,
+            url,
+            cover,
+        });
+    });
+    return mangas;
+}
