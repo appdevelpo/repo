@@ -9,6 +9,8 @@
 // @type         bangumi
 // @webSite      https://sflix.to
 // @nsfw         false
+// @status      0
+// @tags         movie,english
 // ==/MiruExtension==
 
 export default class extends Extension {
