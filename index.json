@@ -1212,6 +1212,8 @@
   "name": "sFlix",
   "nsfw": "false",
   "package": "sflix.to",
+  "status": "0",
+  "tags": "movie,english",
   "type": "bangumi",
   "url": "sflix.to.js",
   "version": "v0.0.3",
