@@ -1615,6 +1615,7 @@
   "name": "yugenanime",
   "nsfw": "false",
   "package": "yugenanime.tv",
+  "status": "1",
   "tags": "anime,english",
   "type": "bangumi",
   "url": "yugenanime.tv.js",
