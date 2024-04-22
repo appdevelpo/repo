@@ -10,11 +10,13 @@
 // @webSite      https://yugenanime.tv
 // @nsfw         false
 // @api          2
+// @status       1
 // @tags          anime,english
 // ==/MiruExtension==
 
 var search = async(kw, page) =>{
-    const res = await request(`/discover/?page=${page}&q=${kw}`);
+    Miru.snackbar("searching");
+    const res = await Miru.request(`/discover/?page=${page}&q=${kw}`);
     const {document:doc} = parseHTML(res);
     const bsxList = doc.querySelectorAll("a.anime-meta");
     const mangas = [];
@@ -32,7 +34,8 @@ var search = async(kw, page) =>{
 
 }
 var detail = async(url) =>{
-    const res = await request(`${url}watch`);
+    Miru.snackbar("This is detail");
+    const res = await Miru.request(`${url}watch`);
     const {document:doc} = parseHTML(res);
     const title = doc.querySelector(".content > .p-10-t").innerHTML;
     const cover = doc.querySelector("img.cover").getAttribute("src");
@@ -55,7 +58,8 @@ var detail = async(url) =>{
     }
 }
 var watch = async(url) =>{
-    const res = await request(url);
+    const res = await Miru.request(url);
+    Miru.snackbar("you are watching the video, please wait a moment");
     const {document:doc} = parseHTML(res);
     const embedSelector = doc.querySelector("#main-embed").getAttribute("src");
     console.log(embedSelector)
@@ -64,7 +68,7 @@ var watch = async(url) =>{
     const body = {
         id:id, ac: 0
     }
-    const apiRes = await request("", {
+    const apiRes = await Miru.request("", {
         method: "POST",
         data: body,
         headers: {
@@ -82,7 +86,20 @@ var watch = async(url) =>{
 
 }
 var latest = async(page) =>{
-    const res = await request(`/latest/?page=${page}`);
+    Miru.snackbar("Loading...");
+    const a = await Miru.saveData("test", "this saving test")
+    console.log(a)
+    const b = await Miru.getData("test")
+    console.log(b)
+    const re = await Miru.rawRequest(`https://yugenanime.tv/latest/?page=${page}`)
+    console.log(re.headers)
+    var  cookie = await Miru.listCookies();
+    console.log(cookie)
+    const result = await Miru.setCookie("csrftoken=NutCsth2Ma6yXMqQMZMJJIzYZSzlS0000ffff  ")
+    console.log(result)
+    var  cookie = await Miru.listCookies();
+    console.log(cookie)
+    const res = await Miru.request(`/latest/?page=${page}`);
     const {document:doc} = parseHTML(res);
     const bsxList = doc.querySelectorAll("li.ep-card"); 
     const mangas = [];
