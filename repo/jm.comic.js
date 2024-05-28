@@ -454,7 +454,18 @@ function getSegmentationNum(epsId, scramble_id, pictureName) {
 }
 function decodePic(num, w, h) {
     
-    
+    if(num ==0){
+        return [{
+            sx1: 0,
+            sy1: 0,
+            sx2: w,
+            sy2: h,
+            dx1: 0,
+            dy1: 0,
+            dx2: w,
+            dy2: h
+        }]
+    }
     // const block = []
     // let blockSize = Math.floor(h / num)
     // let remainder = h % num
