@@ -593,6 +593,20 @@
   "webSite": "https://jszyapi.com/api.php/provide/vod/?ac=videolist"
  },
  {
+  "api": "2",
+  "author": "appdevelpo",
+  "lang": "en",
+  "license": "MIT",
+  "name": "禁漫天堂",
+  "nsfw": "true",
+  "package": "jm.comic",
+  "tags": "18+,Adult,Comic,A漫,jm",
+  "type": "manga",
+  "url": "jm.comic.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.jmapinodeudzn.xyz"
+ },
+ {
   "author": "OshekharO",
   "icon": "https://www.juxiaoshuo.net/images/nocover.png",
   "lang": "zh-cn",
