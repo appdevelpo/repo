@@ -297,6 +297,7 @@ var search = async (kw, page,filter) => {
 
 }
 var detail = async (url) => {
+    const imgSetting = await Miru.getSetting('picMirror');
     const res = await jmReq(`/album?comicName=&id=${url}}`);
     const resJson = JSON.parse(res);
     console.log(resJson)
