@@ -160,7 +160,7 @@
   "package": "baozimh.com",
   "type": "manga",
   "url": "baozimh.com.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://www.baozimh.com"
  },
  {
@@ -512,7 +512,7 @@
   "package": "hianime.to",
   "type": "bangumi",
   "url": "hianime.to.js",
-  "version": "v0.0.7",
+  "version": "v0.0.8",
   "webSite": "https://hianime.to"
  },
  {
@@ -1212,6 +1212,8 @@
   "name": "sFlix",
   "nsfw": "false",
   "package": "sflix.to",
+  "status": "0",
+  "tags": "movie,english",
   "type": "bangumi",
   "url": "sflix.to.js",
   "version": "v0.0.3",
@@ -1607,13 +1609,16 @@
   "webSite": "https://yomovies.town"
  },
  {
+  "api": "2",
   "author": "appdevelpo",
   "icon": "https://yugenanime.tv/static/img/favicon-32x32.png",
   "lang": "en",
   "license": "MIT",
   "name": "yugenanime",
-  "nsfw": "true",
+  "nsfw": "false",
   "package": "yugenanime.tv",
+  "status": "1",
+  "tags": "anime,english",
   "type": "bangumi",
   "url": "yugenanime.tv.js",
   "version": "v0.0.1",
