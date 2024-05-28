@@ -279,6 +279,7 @@ var recomposeImage = (width, height,index) => {
 var search = async (kw, page,filter) => {
     const res = await jmReq(`/search?&search_query=${decodeURIComponent(kw)}&page=${page}`);
     // console.log(res)
+    const imgSetting = await Miru.getSetting('picMirror');
     const data = JSON.parse(res);
     console.log(data["content"])
     const a = await Miru.convert(data.content.map(e => { return e.name }), "latin1", "utf8");
@@ -289,7 +290,7 @@ var search = async (kw, page,filter) => {
         manga.push({
             title: name[i],
             url: id,
-            cover: `${imageUrls[0]}/media/albums/${id}_3x4.jpg`,
+            cover: `${imgSetting}/media/albums/${id}_3x4.jpg`,
         })
     }
     return manga;
@@ -304,7 +305,7 @@ var detail = async (url) => {
     console.log(resJson.series.length)
     return {
         title: utf8String[0],
-        cover: `${imageUrls[0]}/media/albums/${url}_3x4.jpg`,
+        cover: `${imgSetting}/media/albums/${url}_3x4.jpg`,
         desc: utf8String[1],
         episodes: [
             {
@@ -344,6 +345,8 @@ async function load(){
           return acc;
         }, {}),
     });
+   
+    
 }
 async function getScrambleId(id) {
     return "220980"
@@ -356,6 +359,7 @@ async function getScrambleId(id) {
 }
 var watch = async (url) => {
     console.log(url)
+    const imgSetting = await Miru.getSetting('picMirror');
     const res = await jmReq(`/chapter?&id=${url}`);
     const data = JSON.parse(res);
     console.log(data)
@@ -363,12 +367,13 @@ var watch = async (url) => {
     epsId = url
     picList = data.images
     return {
-        urls: data.images.map(e => { return `${imageUrls[0]}/media/photos/${url}/${e}` }),
+        urls: data.images.map(e => { return `${imgSetting}/media/photos/${url}/${e}` }),
         // reconstructKey:Array.from({length: data.images.length}, (_, k) => [[1,3],[4,2]])
         needReconstruct: true,
     }
 }
 var latest = async (page) => {
+    const imgSetting = await Miru.getSetting('picMirror');
     const res = await jmReq(`/latest/?page=${page}`);
     const data = JSON.parse(res);
     const a = await Miru.convert(data.map(e => { return e.name }), "latin1", "utf8");
@@ -379,7 +384,7 @@ var latest = async (page) => {
         mangas.push({
             title: name[i],
             url: id,
-            cover: `${imageUrls[0]}/media/albums/${id}_3x4.jpg`,
+            cover: `${imgSetting}/media/albums/${id}_3x4.jpg`,
         })
     }
     return mangas;
@@ -387,6 +392,9 @@ var latest = async (page) => {
 }
 
 const req = async (path,useByteToDecode=true,timeStamp = Math.floor(Date.now() / 1000)) => {
+    
+    const apiSetting = await Miru.getSetting('apiMirror');
+    console.log(apiSetting)
     const authKey = "18comicAPPContent"
     const jmVer = "1.6.7";
     const token = CryptoJS.MD5(`${authKey}${timeStamp}`).toString();
@@ -399,6 +407,7 @@ const req = async (path,useByteToDecode=true,timeStamp = Math.floor(Date.now() /
             "tokenparam": `${timeStamp},${jmVer}`,
             "accept-encoding": "gzip",
             "token": token,
+            "Miru-Url": apiSetting,
         }
     })
     const k = await fetch("https://www.jmapinodeudzn.xyz/api/v1/setting", {
@@ -422,8 +431,8 @@ const jmReq = async (path,useByteToDecode=true,timeStamp = Math.floor(Date.now()
 }
 function decodeRespData(data, ts, secret = "185Hcomic3PAPP7R") {
     // 1. Base64 decode
-    console.log(data)
-    console.log(ts)
+    // console.log(data)
+    // console.log(ts)
     let words = CryptoJS.enc.Base64.parse(data);
     let dataB64 = CryptoJS.enc.Hex.stringify(words);
 
