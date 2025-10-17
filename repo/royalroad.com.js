@@ -7,7 +7,6 @@
 // @package      royalroad.com
 // @type         fikushon
 // @webSite      https://www.royalroad.com
-// @icon         https://www.royalroad.com/icons/favicon.ico?v=20200125
 // @nsfw         false
 // ==/MiruExtension==
 

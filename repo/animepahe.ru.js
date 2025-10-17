@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         en
 // @license      MIT
-// @icon         https://animepahe.ru/web-app-manifest-512x512.png
 // @package      animepahe.ru
 // @type         bangumi
 // @webSite      https://animepahe.ru

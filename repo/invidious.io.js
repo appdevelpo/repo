@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         all
 // @license      MIT
-// @icon         https://invidious.io/apple-touch-icon.png
 // @package      invidious.io
 // @type         bangumi
 // @webSite      https://cal1.iv.ggtyler.dev/api/v1

@@ -5,7 +5,6 @@
 // @lang         zh-tw
 // @license      MIT
 // @type         manga
-// @icon         https://www.wnacg.com/favicon.ico
 // @package      wnacg.com
 // @webSite      https://www.wnacg.com
 // @nsfw         true

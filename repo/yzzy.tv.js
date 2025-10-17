@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://yzzy.tv/favicon.ico
 // @package      yzzy.tv
 // @type         bangumi
 // @webSite      https://yzzy.tv

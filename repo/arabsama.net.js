@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      arabsama.net
 // @type         bangumi
-// @icon         https://arabsama.net/wp-content/uploads/2023/09/svgexport-34.png
 // @webSite      https://arabsama.net
 // ==/MiruExtension==
 

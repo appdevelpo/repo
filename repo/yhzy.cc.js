@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://yhzy.cc/template/ziyuan2/images/logo.png
 // @package      yhzy.cc
 // @type         bangumi
 // @webSite      https://yhzy.cc

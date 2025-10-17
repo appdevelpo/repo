@@ -5,7 +5,6 @@
 // @lang         en
 // @license      MIT
 // @type         manga
-// @icon         https://manga18fx.com/images/favicon-96x96.jpg
 // @package      com.manga18fx
 // @webSite      https://manga18fx.com
 // @nsfw         true

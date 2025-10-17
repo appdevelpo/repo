@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      api.yinyuetai
 // @type         bangumi
-// @icon         https://www.yinyuetai.com/images/favicon.ico
 // @webSite      https://video-api.yinyuetai.com
 // @nsfw         false
 // ==/MiruExtension==

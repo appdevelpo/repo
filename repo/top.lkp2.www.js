@@ -4,7 +4,6 @@
 // @author       zj
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://www.lkp2.top/template/muban8/favicon.ico
 // @package      top.lkp2.www
 // @type         bangumi
 // @webSite      https://www.lkp2.top/

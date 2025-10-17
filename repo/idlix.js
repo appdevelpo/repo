@@ -5,7 +5,6 @@
 // @lang         id
 // @license      MIT
 // @type         bangumi
-// @icon         https://vip.idlixofficial.net/wp-content/uploads/2020/06/idlix.png
 // @package      idlix
 // @webSite      https://vip.idlixofficial.net
 // @nsfw         false

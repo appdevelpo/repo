@@ -4,7 +4,6 @@
 // @author       zj
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://caocao15.xyz/upload/site/20230913-1/bf5300cb13794e430bff80aa9d4701bb.png
 // @package      xyz.xdtv2
 // @type         bangumi
 // @webSite      https://caocao15.xyz

@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://asuracomic.net/images/logo.webp
+
 // @package      asuratoon.com
 // @type         manga
 // @webSite      https://asuracomic.net

@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      p7av.com
 // @type         bangumi
-// @icon         https://haha888.xyz/wp-content/uploads/2024/03/cropped-Screenshot-from-2024-03-02-10-42-19-192x192.png
 // @webSite      https://www.haha888.xyz
 // @nsfw         true
 // ==/MiruExtension==

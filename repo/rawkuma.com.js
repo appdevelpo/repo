@@ -5,7 +5,6 @@
 // @lang         jp
 // @license      MIT
 // @type         manga
-// @icon         https://rawkuma.com/wp-content/uploads/2020/01/cropped-Yuna.Kuma_.Kuma_.Kuma_.Bear_.full_.2385251-32x32.png
 // @package      rawkuma.com
 // @webSite      https://rawkuma.com
 // @nsfw         false

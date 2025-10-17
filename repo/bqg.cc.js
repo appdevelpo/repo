@@ -3,7 +3,6 @@
 // @version      v0.0.2
 // @author       yxxyun
 // @lang         zh-cn
-// @icon         https://m.bi17.cc/favicon.ico
 // @license      MIT
 // @package      bqg.cc
 // @type         fikushon

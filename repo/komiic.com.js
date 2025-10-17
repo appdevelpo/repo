@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-tw
 // @license      MIT
-// @icon         https://komiic.com/favicon.ico
 // @package      komiic.com
 // @type         manga
 // @webSite      https://komiic.com

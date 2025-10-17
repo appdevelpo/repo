@@ -4,7 +4,6 @@
 // @author       Moleys
 // @lang         vi
 // @license      MIT
-// @icon         https://truyen.tangthuvien.vn/images/icon-favico.png
 // @package      vn.tangthuvien
 // @type         fikushon
 // @webSite      https://truyen.tangthuvien.vn

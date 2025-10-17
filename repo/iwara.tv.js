@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         en
 // @license      MIT
-// @icon         https://www.iwara.tv/logo.png
 // @package      iwara.tv
 // @type         bangumi
 // @webSite      https://www.iwara.tv

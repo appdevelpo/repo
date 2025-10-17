@@ -4,7 +4,6 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://weebcentral.com/static/images/brand.png
 // @package      weebcentral.com
 // @type         manga
 // @webSite      https://weebcentral.com

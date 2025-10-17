@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://motherless.com/favicon.ico
 // @package      motherless.com
 // @type         bangumi
 // @webSite      https://motherless.com

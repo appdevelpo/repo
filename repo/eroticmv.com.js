@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      eroticmv.com
 // @type         bangumi
-// @icon         https://eroticmv.com/wp-content/uploads/2020/05/cropped-favicon-32x32-1-192x192.png
 // @webSite      https://eroticmv.com
 // @nsfw         true
 // ==/MiruExtension==

@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      draftsex.porn
 // @type         bangumi
-// @icon         https://draftsex.porn/templates/ds/images/draftsex.png
 // @webSite      https://draftsex.porn
 // @nsfw         true
 // ==/MiruExtension==

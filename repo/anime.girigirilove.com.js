@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         zh
 // @license      MIT
-// @icon         https://anime.girigirilove.com/upload/site/20230603-1/9e57505c4e140f30c70aac0cc93fa9ad.png
 // @package      anime.girigirilove.com
 // @type         bangumi
 // @webSite      https://anime.girigirilove.com

@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://dick.xfani.com/upload/site/20240308-1/813e41f81d6f85bfd7a44bf8a813f9e5.png
 // @package      xfani.com
 // @type         bangumi
 // @webSite      https://dick.xfani.com

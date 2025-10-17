@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://lyzy8.top/upload/site/20240405-1/0abc49d6b935f5ff17488568f99d2d52.png
 // @package      laoyazy.com
 // @type         bangumi
 // @webSite      https://laoyazy.com

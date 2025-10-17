@@ -7,7 +7,6 @@
 // @license      MIT
 // @package      iptv-org
 // @type         bangumi
-// @icon         https://avatars.githubusercontent.com/u/55937028?s=200&v=4
 // @webSite      https://iptv-org.github.io/iptv
 // @nsfw         false
 // ==/MiruExtension==

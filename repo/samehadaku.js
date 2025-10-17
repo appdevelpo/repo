@@ -5,7 +5,6 @@
 // @lang         id
 // @license      MIT
 // @type         bangumi
-// @icon         https://samehadaku.email/wp-content/uploads/2020/04/cropped-download-1-192x192.jpg
 // @package      samehadaku
 // @webSite      https://samehadaku.email
 // @nsfw         false

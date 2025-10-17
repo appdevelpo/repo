@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://wujinzy.com/template/ziyuan2/images/logo.jpg
 // @package      wujinzy.com
 // @type         bangumi
 // @webSite      https://wujinzy.com

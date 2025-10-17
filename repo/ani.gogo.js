@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://anilist.co/img/icons/apple-touch-icon.png
 // @package      ani.gogo
 // @type         bangumi
 // @webSite      https://api.amvstr.me/api/v2

@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://m.agedm.org/favicon.ico
 // @package      agedm.org
 // @type         bangumi
 // @webSite      https://api.agedm.org

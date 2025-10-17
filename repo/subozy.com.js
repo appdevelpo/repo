@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://www.subozy.com/upload/site/20230220-1/e632a403d903b831199109f99189f480.png
 // @package      subozy.com
 // @type         bangumi
 // @webSite      https://www.subozy.com

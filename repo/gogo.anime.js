@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://ww9.gogoanimes.fi/img/icon/logo.png
 // @package      gogo.anime
 // @type         bangumi
 // @webSite      https://consumet-leox-api.vercel.app/anime/gogoanime

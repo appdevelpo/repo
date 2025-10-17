@@ -5,7 +5,6 @@
 // @lang         en
 // @license      MIT
 // @type         bangumi
-// @icon         https://yugenanime.tv/static/img/favicon-32x32.png
 // @package      yugenanime.tv
 // @webSite      https://yugenanime.tv
 // @nsfw         true

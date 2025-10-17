@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         ar
 // @license      MIT
-// @icon         https://teamxnovel.com/assets/images/favicon.png
 // @package      teamxnovel.com
 // @type         manga
 // @webSite      https://teamxnovel.com

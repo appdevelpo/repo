@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://mangakomi.io/wp-content/uploads/2019/12/v-I-BhKu.jpeg
 // @package      mangakomi
 // @type         manga
 // @webSite      https://mangakomi.io

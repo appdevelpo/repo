@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://bestialitysextaboo.net/favicon.ico
 // @package      bestialitysextaboo.net
 // @type         bangumi
 // @webSite      https://bestialitysextaboo.net

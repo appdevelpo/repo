@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://lzizy2.com/favicon.ico
 // @package      lzzy.tv
 // @type         bangumi
 // @webSite      https://lzizy.com

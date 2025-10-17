@@ -4,7 +4,6 @@
 // @author       Nazz
 // @lang         id
 // @license      MIT
-// @icon         https://komiku.com/wp-content/uploads/2022/03/cropped-ico-komiku-180x180.jpg
 // @package      komiku.com
 // @type         manga
 // @webSite      https://komiku.com

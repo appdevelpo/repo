@@ -4,7 +4,7 @@
 // @author       MiaoMint
 // @lang         zh-cn
 // @license      MIT
-// @icon         http://r.photo.store.qq.com/psb?/V12tx9ch2GA3dz/FqLQBHE23P.c*XKPM4RI*6*aL0mdnoww*2zSjghMKn8!/r/dPIAAAAAAAAA
+
 // @package      rip.acg
 // @type         bangumi
 // @webSite      https://acg.rip

@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         all
 // @license      MIT
-// @icon         https://komikcast.lol/wp-content/uploads/2021/02/cropped-logo-kc-180x180.png
+
 // @package      komikcast.lol
 // @type         manga
 // @webSite      https://komikcast.lol

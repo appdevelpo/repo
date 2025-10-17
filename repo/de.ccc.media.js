@@ -4,7 +4,6 @@
 // @author       Christian Weiske
 // @lang         en
 // @license      AGPL
-// @icon         https://media.ccc.de/favicon-96x96.png
 // @package      de.ccc.media
 // @type         bangumi
 // @webSite      https://api.media.ccc.de

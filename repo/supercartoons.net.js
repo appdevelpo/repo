@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      supercartoons.net
 // @type         bangumi
-// @icon         https://www.supercartoons.net/wp-content/uploads/logo.png
 // @webSite      https://www.supercartoons.net
 // @nsfw         false
 // ==/MiruExtension==

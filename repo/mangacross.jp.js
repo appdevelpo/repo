@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         jp
 // @license      MIT
-// @icon         https://mangacross.jp/favicon.ico
 // @package      mangacross.jp
 // @type         manga
 // @webSite      https://mangacross.jp

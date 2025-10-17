@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         all
 // @license      MIT
-// @icon         https://comick.app/static/icons/unicorn-256_maskable.png
 // @package      comick.app
 // @type         manga
 // @webSite      https://api.comick.fun

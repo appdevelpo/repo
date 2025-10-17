@@ -5,7 +5,6 @@
 // @lang         all
 // @license      MIT
 // @type         manga
-// @icon         https://manga18.club/fav.png?v=1
 // @package      club.manga18
 // @webSite      https://manga18.club
 // @nsfw         true

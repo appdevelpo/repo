@@ -5,7 +5,6 @@
 // @lang         zh
 // @license      MIT
 // @type         manga
-// @icon         https://www.mhua5.com/template/pc/default/images/pic_nav_logo.png?v=0504b75
 // @package      manHuaWu
 // @webSite      https://www.mhua5.com
 // @nsfw         false

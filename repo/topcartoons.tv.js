@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      topcartoons.tv
 // @type         bangumi
-// @icon         https://www.topcartoons.tv/wp-content/uploads/logo.png
 // @webSite      https://www.topcartoons.tv
 // @nsfw         false
 // ==/MiruExtension==

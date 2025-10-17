@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://manganato.com/themes/hm/images/logo.png
 // @package      manganato
 // @type         manga
 // @webSite      https://manganato.com

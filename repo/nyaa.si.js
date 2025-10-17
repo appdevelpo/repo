@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         en
 // @license      MIT
-// @icon         https://nyaa.si/static/favicon.png
 // @package      nyaa.si
 // @type         bangumi
 // @webSite      https://nyaa.si

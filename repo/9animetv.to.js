@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         en
 // @license      MIT
-// @icon         https://9animetv.to/images/favicon.png
 // @package      9animetv.to
 // @type         bangumi
 // @webSite      https://9animetv.to

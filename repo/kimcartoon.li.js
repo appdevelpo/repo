@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      kimcartoon.li
 // @type         bangumi
-// @icon         https://kimcartoon.li/Content/images/favicon.ico
 // @webSite      https://kimcartoon.li
 // ==/MiruExtension==
 

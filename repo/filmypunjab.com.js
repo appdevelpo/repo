@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         hi
 // @license      MIT
-// @icon         https://111.90.140.97/wp-content/uploads/2022/09/Fliz-Hindi-Movie-Website-02.jpg
 // @package      filmypunjab.com
 // @type         bangumi
 // @webSite      https://111.90.140.97

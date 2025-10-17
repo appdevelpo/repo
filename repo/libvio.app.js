@@ -4,7 +4,6 @@
 // @author       appdevelpo & hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://libvio.art/statics/img/favicon.ico
 // @package      libvio.app
 // @type         bangumi
 // @webSite      https://www.libvio.app

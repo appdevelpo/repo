@@ -4,7 +4,7 @@
 // @author       jeylists
 // @lang         en
 // @license      MIT
-// @icon         https://rule34video.com/favicon-32x32.png
+
 // @package      rule34video.com
 // @type         bangumi
 // @webSite      https://rule34video.com

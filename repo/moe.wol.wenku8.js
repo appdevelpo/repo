@@ -3,7 +3,6 @@
 // @version      v0.0.1
 // @author       NPGamma
 // @lang         zh-cn
-// @icon         https://www.wenku8.net/favicon.ico
 // @license      AGPL-3.0
 // @package      moe.wol.wenku8
 // @type         fikushon

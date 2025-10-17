@@ -5,7 +5,6 @@
 // @lang         id
 // @license      MIT
 // @type         bangumi
-// @icon         https://otakudesu.cloud/wp-content/uploads/2017/06/Logo-1.png
 // @package      otakudesu
 // @webSite      https://otakudesu.cloud
 // @nsfw         false

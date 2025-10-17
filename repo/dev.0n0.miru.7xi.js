@@ -4,7 +4,6 @@
 // @author       MiaoMint
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://www.7xi.tv/upload/site/20220630-1/f0aa6861d2399c58f87faab0f1928b10.png
 // @package      dev.0n0.miru.7xi
 // @type         bangumi
 // @webSite       https://www.7xi.tv

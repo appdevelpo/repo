@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://cj.ffzyapi.com/favicon.ico
 // @package      ffzy.tv
 // @type         bangumi
 // @webSite      https://cj.ffzyapi.com

@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://s1.cdnimg.me:9000/hentaidexy/opengraph-image.png
 // @package      hentaidexy.net
 // @type         manga
 // @webSite      https://backend.hentaidexy.net

@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      nhentai.to
 // @type         manga
-// @icon         https://nhentai.to/favicon.ico
 // @webSite      https://nhentai.to
 // @nsfw         true
 // ==/MiruExtension==

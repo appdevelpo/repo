@@ -4,7 +4,6 @@
 // @author       SendHX & hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://www.jisuzy.com/template/default/images/site_logo.png
 // @package      jisuzy.com
 // @type         bangumi
 // @webSite      https://jisuzy.com

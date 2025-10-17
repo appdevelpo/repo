@@ -5,7 +5,6 @@
 // @lang         zh-tw
 // @license      MIT
 // @type         manga
-// @icon         http://mxsmh01.top/static/images/favicon.ico
 // @package      com.freexcomic
 // @webSite      http://
 // @nsfw         true

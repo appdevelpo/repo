@@ -4,7 +4,6 @@
 // @author       MiaoMint
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://static.olelive.com/upload/site/20201117-1/902e3851b6695ac661422b45483d694a.png
 // @package      com.olevod.www
 // @type         bangumi
 // @webSite      https://www.olevod.com

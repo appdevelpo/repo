@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      com.dmzj.www
 // @type         manga
-// @icon         https://www.dmzj.com/_nuxt/logo_dmzj.1c94014a.png
 // @webSite      https://www.dmzj.com
 // ==/MiruExtension==
 

@@ -4,7 +4,7 @@
 // @author       qizaru
 // @lang         all
 // @license      MIT
-// @icon         https://345movie.net/favicon.ico
+
 // @package      345movie.net
 // @type         bangumi
 // @webSite      https://345movie.net/movies

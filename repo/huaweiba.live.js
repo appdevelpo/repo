@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://tse3-mm.cn.bing.net/th/id/OIP-C.PrZFaCYKWBtyufV16WIxhQBRBQ
 // @package      huaweiba.live
 // @type         bangumi
 // @webSite      https://huaweiba.live

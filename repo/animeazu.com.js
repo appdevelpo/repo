@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      animeazu.com
 // @type         bangumi
-// @icon         https://animeazu.com/wp-content/uploads/2023/08/dada.png
 // @webSite      https://animeazu.com
 // ==/MiruExtension==
 

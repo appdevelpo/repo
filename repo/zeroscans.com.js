@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://zscans.com/favicon.ico
 // @package      zeroscans.com
 // @type         manga
 // @webSite      https://zscans.com

@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         ar
 // @license      MIT
-// @icon         https://swatmanhua.com/images/logo_light.png
+
 // @package      swatmanhua.com
 // @type         manga
 // @webSite      https://swatmanhua.com

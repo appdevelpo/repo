@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://s1.imagehub.cc/images/2024/07/18/4cd2cce8076bb8ffeb7c8f8b34c02a31.png
 // @package      nyadm.link
 // @type         bangumi
 // @webSite      https://www.nyadm.net

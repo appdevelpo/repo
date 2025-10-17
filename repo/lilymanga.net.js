@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://lilymanga.net/wp-content/uploads/2019/12/cropped-2Prancheta-1-192x192.png
+
 // @package      lilymanga.net
 // @type         manga
 // @webSite      https://lilymanga.net

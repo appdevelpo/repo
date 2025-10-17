@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://flamecomics.com/wp-content/uploads/2021/03/cropped-fds-1-192x192.png
+
 // @package      flamecomics.com
 // @type         manga
 // @webSite      https://flamecomics.com/

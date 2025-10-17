@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      nimegami.id
 // @type         bangumi
-// @icon         https://nimegami.id/wp-content/uploads/2018/07/Nimegami-anime.png
 // @webSite      https://nimegami.id
 // ==/MiruExtension==
 

@@ -4,7 +4,6 @@
 // @author       CakesTwix
 // @lang         uk
 // @license      GPL3
-// @icon         https://www.google.com/s2/favicons?domain=unimay.media&sz=256
 // @package      unimay.media
 // @type         bangumi
 // @webSite      https://api.unimay.media

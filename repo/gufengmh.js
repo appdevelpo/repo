@@ -5,7 +5,6 @@
 // @lang         zh
 // @license      MIT
 // @type         manga
-// @icon         https://www.gufengmh.com/favicon.ico
 // @package      gufengmh
 // @webSite      https://www.gufengmh.com
 // @nsfw         false

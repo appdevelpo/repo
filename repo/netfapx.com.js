@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      netfapx.com
 // @type         bangumi
-// @icon         https://netfapx.com/wp-content/uploads/2017/11/netfapx-lg-1_319381e1f227e13ae1201bfa30857622.png
 // @webSite      https://netfapx.com
 // @nsfw         true
 // ==/MiruExtension==

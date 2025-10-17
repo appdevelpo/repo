@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         hi-ta
 // @license      MIT
-// @icon         https://tamilyogi.plus/wp-content/uploads/2021/06/ty.png
 // @package      tamilyogi
 // @type         bangumi
 // @webSite      https://tamilyogi.plus

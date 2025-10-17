@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://i0.wp.com/ravenscans.com/wp-content/uploads/2022/12/cropped-33-192x192.png
+
 // @package      ravenscans.com
 // @type         manga
 // @webSite      https://ravenscans.com

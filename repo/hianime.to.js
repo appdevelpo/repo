@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://hianime.to/favicon.ico
 // @package      hianime.to
 // @type         bangumi
 // @webSite      https://hianime.to

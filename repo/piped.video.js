@@ -4,7 +4,6 @@
 // @author       bethro
 // @lang         all
 // @license      MIT
-// @icon         https://piped.video/img/icons/android-chrome-192x192.png
 // @package      piped.video
 // @type         bangumi
 // @webSite      https://piped.video

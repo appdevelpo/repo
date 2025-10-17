@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         en
 // @license      MIT
-// @icon         https://img.sflix.to/xxrz/100x100/100/a2/33/a233d4c4a1426ca77ec1d34deec62f71/a233d4c4a1426ca77ec1d34deec62f71.png
 // @package      sflix.to
 // @type         bangumi
 // @webSite      https://sflix.to

@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://yutuzy4.com/template/demo/img/logo.png
 // @package      yutuzy.com
 // @type         bangumi
 // @webSite      https://yutuzy.com

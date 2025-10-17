@@ -4,7 +4,6 @@
 // @author       Virus (viridius-hub)
 // @lang         ru
 // @license      MIT
-// @icon         https://anilibria.top/static/favicon-96x96.png
 // @package      aniliberty
 // @type         bangumi
 // @webSite      https://anilibria.top/api/v1

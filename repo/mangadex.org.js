@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         all
 // @license      MIT
-// @icon         https://mangadex.org/img/avatar.png
+
 // @package      mangadex.org
 // @type         manga
 // @webSite      https://api.mangadex.org

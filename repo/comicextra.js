@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://comicextra.me/favicon.ico
 // @package      comicextra
 // @type         manga
 // @webSite      https://comixextra.com

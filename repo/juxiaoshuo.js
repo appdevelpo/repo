@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      juxiaoshuo
 // @type         fikushon
-// @icon         https://www.juxiaoshuo.net/images/nocover.png
 // @webSite      https://www.juxiaoshuo.net
 // ==/MiruExtension==
 

@@ -5,7 +5,6 @@
 // @lang         zh
 // @license      MIT
 // @type         manga
-// @icon         https://www.manhuadb.com/assets/www/img/favicon.png
 // @package      manhuadb.com
 // @webSite      https://www.manhuadb.com
 // @nsfw         false

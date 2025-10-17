@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://mangaclash.com/wp-content/uploads/2020/03/cropped-22.jpg
+
 // @package      mangaclash.com
 // @type         manga
 // @webSite      https://mangaclash.com

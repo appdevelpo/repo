@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://senlinzy.com/template/demo/img/logo.gif
 // @package      senlinzy.com
 // @type         bangumi
 // @webSite      https://senlinzy.com

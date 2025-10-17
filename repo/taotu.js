@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      taotu
 // @type         manga
-// @icon         https://res.taotu.org/favicon.ico
 // @webSite      https://en.taotu.org
 // @nsfw         true
 // ==/MiruExtension==

@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://readcomicsonline.ru/images/banner.jpg
 // @package      readcomicsonline.ru
 // @type         manga
 // @webSite      https://readcomicsonline.ru

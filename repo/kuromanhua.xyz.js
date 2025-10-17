@@ -4,7 +4,6 @@
 // @author       ZenZEE
 // @lang         id
 // @license      MIT
-// @icon         https://kuromanhua.xyz/wp-content/uploads/Tanpa-Judul.png
 // @package      komiku.com
 // @type         manga
 // @webSite      https://kuromanhua.xyz

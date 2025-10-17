@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         zh
 // @license      MIT
-// @icon         https://gimy.su/favicon.ico
 // @package      gimy.su
 // @type         bangumi
 // @webSite      https://gimy.su

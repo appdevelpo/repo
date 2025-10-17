@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      filmycab
 // @type         bangumi
-// @icon         https://i.postimg.cc/SNhTmxT5/FilmyCab.png
 // @webSite      https://afilmyhub.mom
 // @nsfw         false
 // ==/MiruExtension==

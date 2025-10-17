@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         vi
 // @license      MIT
-// @icon         https://st.nettruyenus.com/data/logos/logo-nettruyen.png
 // @package      truyen.net
 // @type         manga
 // @webSite      https://comics-api.vercel.app

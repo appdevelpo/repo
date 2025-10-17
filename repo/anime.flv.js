@@ -4,7 +4,6 @@
 // @author Yako (koikiss-dev)
 // @lang es
 // @license      MIT
-// @icon https://animeflv.vc/static/img/icon/logo.png
 // @package anime.flv
 // @type bangumi
 // @webSite https://jimov-api.vercel.app/

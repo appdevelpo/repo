@@ -5,7 +5,6 @@
 // @lang         en
 // @license      MIT
 // @type         manga
-// @icon         https://www.manga4life.com/media/favicon.png
 // @package      manga4life.com
 // @webSite      https://www.manga4life.com
 // @nsfw         false

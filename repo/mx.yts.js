@@ -4,7 +4,6 @@
 // @author       MiaoMint
 // @lang         all
 // @license      MIT
-// @icon         https://yts.mx/assets/images/website/apple-touch-icon-144x144.png
 // @package      mx.yts
 // @type         bangumi
 // @webSite      https://yts.mx

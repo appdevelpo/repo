@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://moduzy.vip/favicon.ico
 // @package      moduzy.com
 // @type         bangumi
 // @webSite      https://moduzy.vip

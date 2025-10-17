@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://api.tiankongapi.com/template/v10012/images/logo.jpg
 // @package      tiankongzy.com
 // @type         bangumi
 // @webSite      https://tiankongzy.com

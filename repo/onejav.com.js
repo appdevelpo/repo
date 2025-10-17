@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      onejav.com
 // @type         bangumi
-// @icon         https://onejav.com/static/img/onejav.5468a5a7d373.png
 // @webSite      https://onejav.com
 // @nsfw         true
 // ==/MiruExtension==

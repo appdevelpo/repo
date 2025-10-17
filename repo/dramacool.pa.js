@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://proxy.techzbots1.workers.dev/?u=https://dramacool.bg/frontend/images/mobi/logo.png
 // @package      dramacool.pa
 // @type         bangumi
 // @webSite      https://proxy.techzbots1.workers.dev/?u=https://nontan-source-kgw9jch3s-imkryp70n.vercel.app/movies/dramacool

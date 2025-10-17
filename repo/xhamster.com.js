@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      xhamster.com
 // @type         bangumi
-// @icon         https://static-lvlt.xhcdn.com/xh-desktop/images/favicon/favicon-512x512.png?v=1
 // @webSite      https://xhamster.com
 // @nsfw         true
 // ==/MiruExtension==

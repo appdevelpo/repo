@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      monoschinos
 // @type         bangumi
-// @icon         https://monoschinos2.com/public/img/logo6.png
 // @webSite      https://monoschinos2.com
 // @nsfw         false
 // ==/MiruExtension==

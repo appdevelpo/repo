@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         ar
 // @license      MIT
-// @icon         https://i.ibb.co/XtNNVVT/AR-TH-WEB.png
+
 // @package      thunderscans.com
 // @type         manga
 // @webSite      https://thunderscans.com

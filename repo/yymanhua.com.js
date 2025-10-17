@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      yymanhua.com
 // @type         manga
-// @icon         https://www.yymanhua.com/favicon.ico
 // @webSite      https://www.yymanhua.com
 // ==/MiruExtension==
 export default class extends Extension {

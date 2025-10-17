@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://flixhq.vip/wp-content/uploads/2024/04/flixhq-logo-2.png
 // @package      flixhq
 // @type         bangumi
 // @webSite      https://consumet8.vercel.app/movies/flixhq

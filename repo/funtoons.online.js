@@ -4,7 +4,6 @@
 // @author       funtoons
 // @lang         th
 // @license      MIT
-// @icon         https://funtoons.online/wp-content/themes/mangareader/assets/images/android-chrome-192x192.png
 // @package      funtoons.online
 // @type         manga
 // @webSite      https://funtoons.online

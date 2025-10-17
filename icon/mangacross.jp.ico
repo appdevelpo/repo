@@ -1,0 +1,4282 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#"
+	lang="ja">
+<head>
+	
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    
+
+	
+	    <meta name="description" content="秋田書店が運営するWebマンガサイト・チャンピオンクロス。毎日更新、新作も読み逃した作品も続々登場！無料キャンペーンも多数開催！『僕の心のヤバイやつ』・『刃牙』シリーズ・『弱虫ペダル』・『魔入りました！入間くん』など話題作も目白押し!!">
+	    <meta name="keywords" content="チャンピオンクロス,マンガクロス,秋田書店">
+
+	    
+        <meta property="og:locale" content="ja_JP" />
+        
+            <meta property="og:title" content="チャンピオンクロス">
+            <meta property="og:description" content="秋田書店が運営するWebマンガサイト・チャンピオンクロス。毎日更新、新作も読み逃した作品も続々登場！無料キャンペーンも多数開催！『僕の心のヤバイやつ』・『刃牙』シリーズ・『弱虫ペダル』・『魔入りました！入間くん』など話題作も目白押し!!">
+        
+        
+            <meta property="og:image" content="http://cdn-public.comici.jp/content/20/ogpimages/202404150943479104BD077386B3647AD0768DA93E6866047.png" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+        
+	    
+	    
+        
+	        <meta name="twitter:card" content="summary_large_image" />
+	        <meta name="twitter:image" content="http://cdn-public.comici.jp/content/20/ogpimages/202404150943479104BD077386B3647AD0768DA93E6866047.png" />
+        
+    
+
+    
+        <meta name="_csrf" content="ToypRg7XWBcRjuFy59T8Drl76AdbOZMcsTRnciSpSdmUtsaQf-3Ndm21bnE879NKhPnIOY4ZxWVoWPEx1VJXQRfIeO6sgqSp" />
+        <meta name="_csrf_header" content="X-CSRF-TOKEN" />
+    
+
+    
+    <link rel="shortcut icon" href="//cdn-public.comici.jp/content/default/favicon/20240417215121654F50C73D00FDA2BD6D78CE4082E70F008.png">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="//cdn-public.comici.jp/content/default/appleIcon/20240417215127217F50C73D00FDA2BD6D78CE4082E70F008.png" />
+
+    <link rel="preload" href="https://championcross.jp/icons/twitter_g.svg" as="image" type="image/svg+xml">
+    <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"></noscript>
+
+	
+	
+	    
+
+
+<script>
+    /*<![CDATA[*/
+(function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})
+(window,document,'script','dataLayer','GTM-KH8JDCV');
+    /*]]>*/
+</script>
+
+
+
+
+
+    
+
+        
+        
+        
+            
+            <script>
+                /*<![CDATA[*/
+            (function(w,d,s,l,i){
+                w[l]=w[l]||[];
+                w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+                var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })
+            (window,document,'script','dataLayer',"GTM-PV5NST2T");
+                /*]]>*/
+            </script>
+        
+
+        
+        
+    
+
+
+    
+
+    
+    
+        <link rel="preload" href="/css/bootstrap-4e14e9ece3.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/css/bootstrap-4e14e9ece3.css" /></noscript>
+
+        <link rel="preload" href="/css/libs/jquery-ui-13156c220a.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/css/libs/jquery-ui-13156c220a.min.css" /></noscript>
+
+        <link rel="preload" href="/vendors/OverlayScrollbars/css/OverlayScrollbars.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/vendors/OverlayScrollbars/css/OverlayScrollbars.min.css" /></noscript>
+
+        <link rel="stylesheet" href="/css/style-d8dbea5c6f.css" /> <!-- do not use preload -->
+
+        <link rel="preload" href="/css/articles-45bd389509.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+        <noscript><link rel="stylesheet" href="/css/articles-45bd389509.css"></noscript>
+
+        <link rel="preload" href="/css/top-96b9783833.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+        <noscript><link rel="stylesheet" href="/css/top-96b9783833.css"></noscript>
+
+        <link rel="preload" href="/css/timeline-bcac3bcdce.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/css/timeline-bcac3bcdce.css" /></noscript>
+
+        <link rel="preload" href="/css/ranking-0c1a7cb453.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/css/ranking-0c1a7cb453.css" /></noscript>
+    
+
+    
+	
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- do not use defer -->
+		
+		<script src="/js/libs/purify-ba06987beb.min.js" defer="defer"></script>
+		
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+        <script src="/js/libs/jquery-ui-21bae0c6ca.min.js" defer></script>
+        <script src="/js/libs/jquery.ui-28b8987546.touch-punch.min.js" defer></script>
+        <script src="/js/libs/jquery-aeb160669d.cookie.js" defer="defer"></script>
+        <script src="/js/libs/nicetooltip-3b50bbf817.js" defer="defer"></script>
+        <script src="/js/libs/lazysizes-1ce7aa4182.min.js" defer="defer"></script>
+        <script src="/js/common/comici-1e087c3017.common.js"></script> <!-- do not use defer -->
+        <script src="/js/common/comici-ed2b963f7b.logging.js"></script> <!-- do not use defer -->
+        <script src="/js/comici-dfac8bfbbb.ajax.custom.js" defer></script>
+        <script src="/js/content/search-1a95a5eb6f.autocomplete.js" defer="defer"></script>
+        <script src="/js/storeitem/storeitem-ae65714568.info.js" defer="defer"></script>
+        <script src="/js/content-2da4633b88.js" defer></script>
+        <script src="/js/common/top-eea18420bf.slider.js" defer="defer"></script>
+        
+            <script src="/js/notification-000e8d6571.js" defer="defer"></script>
+        
+    
+
+    <meta id="is_content_id" name="comici-plus-id" value="20" />
+
+	
+    <link id="based-content-css" rel="stylesheet" href="/css/content/frontend.css?2025101722" /> <!-- do not use preload -->
+
+    <link rel="preload" href="/css/skin/championcross.css?2025101801" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="/css/skin/championcross.css?2025101801" /></noscript>
+
+    <style id="override-css">@media screen and (max-width: 767px){
+.plus-site .sidebar-top-features+.tutorial-link .tut-link-item  {
+    border: 1px solid #000;
+}
+}
+.embedded-link img {
+     width: 100%;
+ }
+
+.embedded-link {
+    margin: 1em 0em;
+}
+
+.series-h-warning {
+    display: none;
+}</style>
+
+	
+
+	
+
+	
+
+	
+
+    
+
+    
+  <link rel="preload" href="/css/libs/jquery-868fad89fd.datetimepicker.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+  <noscript><link rel="stylesheet" href="/css/libs/jquery-868fad89fd.datetimepicker.min.css"></noscript>
+
+  <script type="text/javascript" src="/js/libs/jquery.datetimepicker-6c2389733e.full.min.js" defer></script>
+  <script src="/vendors/OverlayScrollbars/js/jquery.overlayScrollbars.min.js" defer></script>
+  <script src="/js/common/crollmenu-fd4f457cba.js" defer></script>
+
+
+    <!-- Global -->
+	<script>
+        var contentId = 20;
+        var isRentalSite = true;
+        var comiciPlusId = 20;
+        var rootPath = "https:\/\/championcross.jp\/";
+        var appEnv = "production";
+        var appConst = window.appConst || {
+            cdn : "\/\/cdn.comici.jp\/",
+            cdnPubic : "\/\/cdn-public.comici.jp\/",
+            appName : "\u30B3\u30DF\u30C1",
+            spkTest : "pk_test_51QMi5G4Ej4UcxoCfVZf5MB9SfM7LU8BfnjEyKpZC5keWSycxmJCS1qgMCRaFaVTyvaQEKirsgFV6a8LwNXBqCwF500CjByQAh1",
+            spkLive : "pk_live_3oPsADXEg0vuhhrnI0BIv1sC00Br3n1tdx",
+        };
+    </script>
+    <!-- 構造化データ -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "チャンピオンクロス",
+			"url": "https://championcross.jp"
+		}
+	</script>
+
+
+	
+	<title>
+		
+			チャンピオンクロス | 秋田書店の新作マンガが無料で読める！
+		
+		
+	</title>
+	<link rel="preload" href="/css/libs/slick-theme-4b1aeed9b8.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+	<noscript><link rel="stylesheet" href="/css/libs/slick-theme-4b1aeed9b8.css" type="text/css"></noscript>
+	<link rel="preload" href="/css/libs/slick-f38b2db10e.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+	<noscript><link rel="stylesheet" href="/css/libs/slick-f38b2db10e.css" type="text/css"></noscript>
+	
+        <link rel="preload" href="/css/mission-9d70ad1435.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+        <noscript><link rel="stylesheet" href="/css/mission-9d70ad1435.css" type="text/css"></noscript>
+    
+    <link rel="preload" href="/css/popup-banner-1956595376.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+    <noscript><link rel="stylesheet" href="/css/popup-banner-1956595376.css" type="text/css"></noscript>
+    <script src="/js/libs/slick-8fd1cb6353.min.js" defer="defer"></script>
+    <script src="/js/common/top-eea18420bf.slider.js?20210825" defer="defer"></script>
+    <script type="text/javascript" src="/js/libs/purify-ba06987beb.min.js" defer="defer"></script>
+    <script type="text/javascript" src="/js/common/comici-19f2037275.bonuscoin.js" defer="defer"></script>
+    <script type="text/javascript" src="/js/common/comici-6378b1e836.top.js" defer="defer"></script>
+    <script type="text/javascript" src="/js/mission/comici-8804feb164.mission.js" defer="defer"></script>
+</head>
+
+<body class="top-page  plus-site championcross">
+	
+    
+
+    
+        
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH8JDCV"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+    
+
+    
+    
+    
+        
+        
+            
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV5NST2T"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            
+        
+    
+
+    <span id="recomendRequestId" class="hide-area2">2weoj0hnEax5FF7tsgLzdkJvXYOlzjFj</span>
+    <span id="recommendRequestId" class="hide-area2">DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0</span>
+    <span id="sessionId" class="hide-area2">af29f2f78f3de758500915e0fc5c67f9</span>
+    <span id="contentLink" class="hide-area2">championcross</span>
+
+
+
+	<div class="content-container">
+		<div class="content-flex">
+			
+	<span id="content_id" class="hide-area2">20</span>
+	
+	<span class="login_user_id hide-area2" id="login_user_id"></span>
+	<span class="is_logout hide-area2"></span>
+    <span id="isRimacomi" class="hide-area2">false</span>
+	<header class="h mode-top" id="xHeader">
+		<div class="incremental-search-overlay"></div>
+		<div class="h-main">
+
+			
+			<div class="flex-1-sp h-main-sitename">
+				
+				
+					<h1 class="h-main-logo-wrap">
+						<a href="https://championcross.jp/" class="h-main-logo-link">
+		        		  <picture >
+		                    <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/content/20/images/20250509104750201CFBADCBC3CC1BBBDEC11DB27DF7A9F1E.jpg"/>
+		                    <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/content/20/images/20250509104750201CFBADCBC3CC1BBBDEC11DB27DF7A9F1E.jpg"/>
+		                    <img class="h-main-pluslogo-img lazyload"
+		                        srcset="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7"
+		                        alt="チャンピオンクロス"
+								width="150"
+								height="29"
+		                    />
+		                  </picture>
+						</a>
+					</h1>
+
+					
+
+				
+			</div>
+
+
+			
+			<nav class="h-main-nav only-icon">
+				<a id="searchBtnOnlyIcon" href="https://championcross.jp/search" class="h-main-nav-link">
+					<i class="material-icons">search</i>
+				</a>
+				
+				
+				
+                    <a class="h-main-nav-link signin-btn" href="https://championcross.jp/signin">
+                        <span class="h-main-nav-link-label">ログイン</span>
+                    </a>
+                    <a class="h-main-nav-link mode-btn mode-no-icon mode-long-text signup-btn" href="https://championcross.jp/signup">
+                        <span class="h-main-nav-link-label">無料登録</span>
+                    </a>
+				
+
+
+
+				
+
+				
+				
+
+			</nav>
+		</div>
+
+		
+		<div
+			id="xHSub"
+			class="h-sub mode-plus mode-top disable-scroll-menu"
+			data-disable-scroll="maybe"
+		>
+			<div class="h-sub-content  mode-has-gacha mode-has-mission">
+				<nav class="h-sub-nav scroll-menu" id="xHSubNavMainContainer">
+					<ul id="xHSubNavMain" class="h-sub-nav-items">
+						
+						
+							
+								<li class="h-sub-nav-item">
+
+									
+
+										<!-- TEXT HEADER CASE -->
+										
+											
+												
+												
+												
+												
+												
+												<a class="h-sub-nav-link" href="https://championcross.jp/category/manga">
+													<span class="h-sub-nav-link-text">マンガ</span>
+												</a>
+												
+											
+										
+
+
+										<!-- IMAGE HEADER CASE -->
+										
+									
+								</li>
+							
+						
+							
+								<li class="h-sub-nav-item">
+
+									
+
+										<!-- TEXT HEADER CASE -->
+										
+											
+												
+												
+												
+												
+												
+												
+												<a class="h-sub-nav-link" href="https://championcross.jp/ranking/manga">
+													<span class="h-sub-nav-link-text">ランキング</span>
+												</a>
+											
+										
+
+
+										<!-- IMAGE HEADER CASE -->
+										
+									
+								</li>
+							
+						
+							
+								<li class="h-sub-nav-item">
+
+									
+
+										<!-- TEXT HEADER CASE -->
+										
+											
+												
+												
+												<a class="h-sub-nav-link" href="https://championcross.jp/store_items">
+													<span class="h-sub-nav-link-text">単行本</span>
+												</a>
+												
+												
+												
+												
+											
+										
+
+
+										<!-- IMAGE HEADER CASE -->
+										
+									
+								</li>
+							
+						
+					</ul>
+				</nav>
+
+				
+
+				
+					<a class="h-sub-extra-notification mode-mission" href="https://championcross.jp/mission">
+						
+							<img data-src="/images/content/championcross/mission.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" alt="mission-icon" class="lazyload mission-icon" />
+						
+						
+						
+						
+						
+						
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+						
+						
+						<div class="text">
+							<div>ミッション</div>
+						</div>
+						
+						
+						
+						
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <img data-src="/images/content/yanchan/warning.svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" alt="warning icon" class="lazyload notice-icon" />
+                        
+						
+						
+					</a>
+				
+			</div>
+		</div>
+	</header>
+	<script type="text/javascript" src="/js/object/user-8e03db3ec3.info.common.js" defer="defer"></script>
+	<script type="text/javascript" src="/js/mission/mission-686d484240.header.js" defer="defer"></script>
+	
+
+			
+			<main>
+				
+				
+    
+    
+        <br class="sp"/>
+        <br class="sp"/>
+    
+    <div class="top-hero">
+        <div class="top-hero-banners plus" id="xTopHeroBanners">
+            
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/35272a563acef/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7667817, &#39;caruselrecommend_0&#39;, 7792);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/202510141111385922C52282F7F60D7F05D16B9EF8B28C0F5.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/202510141111385922C52282F7F60D7F05D16B9EF8B28C0F5.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/202510141111385922C52282F7F60D7F05D16B9EF8B28C0F5-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/202510141111385922C52282F7F60D7F05D16B9EF8B28C0F5-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー0" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_0&#39;, null, null, null, 7792);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/bdd35ffda1920/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7495442, &#39;caruselrecommend_1&#39;, 7745);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251010100558922A307FBC6E00813C3C14F4525F3AD67ED.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251010100558922A307FBC6E00813C3C14F4525F3AD67ED.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251010100558922A307FBC6E00813C3C14F4525F3AD67ED-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251010100558922A307FBC6E00813C3C14F4525F3AD67ED-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー1" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_1&#39;, null, null, null, 7745);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/ce27c85b3cbd0/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7447113, &#39;caruselrecommend_2&#39;, 7653);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251007155813089EAE0D27F69ACF168C181BDEB574F59F7.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251007155813089EAE0D27F69ACF168C181BDEB574F59F7.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251007155813089EAE0D27F69ACF168C181BDEB574F59F7-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251007155813089EAE0D27F69ACF168C181BDEB574F59F7-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー2" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_2&#39;, null, null, null, 7653);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/afa7c3cbdd0ef/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7447112, &#39;caruselrecommend_3&#39;, 7654);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071557585750DD4C6F9FE9DEA585DB68FF55151F2CE.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071557585750DD4C6F9FE9DEA585DB68FF55151F2CE.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071557585750DD4C6F9FE9DEA585DB68FF55151F2CE-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071557585750DD4C6F9FE9DEA585DB68FF55151F2CE-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー3" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_3&#39;, null, null, null, 7654);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/2a2c53abfd026/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7447114, &#39;caruselrecommend_4&#39;, 7652);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100715582694029E605F9B5146D62970C10E05E9F87A9.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100715582694029E605F9B5146D62970C10E05E9F87A9.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100715582694029E605F9B5146D62970C10E05E9F87A9-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100715582694029E605F9B5146D62970C10E05E9F87A9-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー4" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_4&#39;, null, null, null, 7652);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/news/356583" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7453781, &#39;caruselrecommend_5&#39;, 7708);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510081513070135A2FB6DC80D8B60CDFC1DA239D695367.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510081513070135A2FB6DC80D8B60CDFC1DA239D695367.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510081513070135A2FB6DC80D8B60CDFC1DA239D695367-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510081513070135A2FB6DC80D8B60CDFC1DA239D695367-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー5" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_5&#39;, null, null, null, 7708);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/9e94d0a009714/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334368, &#39;caruselrecommend_6&#39;, 7618);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011426329369BA4A8E16E6BCAD00A1DE92F9DA78656.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011426329369BA4A8E16E6BCAD00A1DE92F9DA78656.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011426329369BA4A8E16E6BCAD00A1DE92F9DA78656-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011426329369BA4A8E16E6BCAD00A1DE92F9DA78656-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー6" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_6&#39;, null, null, null, 7618);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/1b99f7a177f06/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334367, &#39;caruselrecommend_7&#39;, 7619);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100114261824842BD38139F3785C0E58B4C9B59BC3E7A.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100114261824842BD38139F3785C0E58B4C9B59BC3E7A.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100114261824842BD38139F3785C0E58B4C9B59BC3E7A-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100114261824842BD38139F3785C0E58B4C9B59BC3E7A-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー7" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_7&#39;, null, null, null, 7619);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/3d003c4a32cf3/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334371, &#39;caruselrecommend_8&#39;, 7615);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142716859ACE93500C3148237346700B4CDAA30DF.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142716859ACE93500C3148237346700B4CDAA30DF.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142716859ACE93500C3148237346700B4CDAA30DF-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142716859ACE93500C3148237346700B4CDAA30DF-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー8" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_8&#39;, null, null, null, 7615);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/b78298fc37b87/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334366, &#39;caruselrecommend_9&#39;, 7620);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142558193CAFBF8650C9253E38AE01E89496D42FE.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142558193CAFBF8650C9253E38AE01E89496D42FE.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142558193CAFBF8650C9253E38AE01E89496D42FE-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142558193CAFBF8650C9253E38AE01E89496D42FE-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー9" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_9&#39;, null, null, null, 7620);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/9947a60ccaf64/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334365, &#39;caruselrecommend_10&#39;, 7621);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011425392823C96E4C39BC4F958D6762CF5EE392DCC.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011425392823C96E4C39BC4F958D6762CF5EE392DCC.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011425392823C96E4C39BC4F958D6762CF5EE392DCC-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011425392823C96E4C39BC4F958D6762CF5EE392DCC-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー10" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_10&#39;, null, null, null, 7621);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/e60a36ea1dcda/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334370, &#39;caruselrecommend_11&#39;, 7616);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100114270421063E83B7EE4A0B1C64318E771A985CBCA.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100114270421063E83B7EE4A0B1C64318E771A985CBCA.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100114270421063E83B7EE4A0B1C64318E771A985CBCA-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100114270421063E83B7EE4A0B1C64318E771A985CBCA-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー11" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_11&#39;, null, null, null, 7616);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/b62b13cb78533/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7334369, &#39;caruselrecommend_12&#39;, 7617);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011426476048E4F911EB931AD65C2125C94A84D86C2.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011426476048E4F911EB931AD65C2125C94A84D86C2.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011426476048E4F911EB931AD65C2125C94A84D86C2-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011426476048E4F911EB931AD65C2125C94A84D86C2-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー12" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_12&#39;, null, null, null, 7617);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/4c540e7f913c1/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7309898, &#39;caruselrecommend_13&#39;, 7581);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163353201EA21DC55980960F0071C414A71B2B74D.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163353201EA21DC55980960F0071C414A71B2B74D.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163353201EA21DC55980960F0071C414A71B2B74D-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163353201EA21DC55980960F0071C414A71B2B74D-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー13" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_13&#39;, null, null, null, 7581);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/episodes/544d5e47f5819" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7309897, &#39;caruselrecommend_14&#39;, 7582);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163339112A28B13D9AA7C682A0B71EA5DDF4732A8.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163339112A28B13D9AA7C682A0B71EA5DDF4732A8.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163339112A28B13D9AA7C682A0B71EA5DDF4732A8-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163339112A28B13D9AA7C682A0B71EA5DDF4732A8-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー14" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_14&#39;, null, null, null, 7582);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/news/345807" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7230330, &#39;caruselrecommend_15&#39;, 7416);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250918161210854373A9029D6117C6D00E6323A0E578ECB.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250918161210854373A9029D6117C6D00E6323A0E578ECB.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250918161210854373A9029D6117C6D00E6323A0E578ECB-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250918161210854373A9029D6117C6D00E6323A0E578ECB-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー15" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_15&#39;, null, null, null, 7416);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://championcross.jp/genre/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB?order=latest&amp;size=24" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 3944129, &#39;caruselrecommend_16&#39;, 2807);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240509170436714332129ABD03EEB079406CAAA34DEB0E4.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240509170436714332129ABD03EEB079406CAAA34DEB0E4.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240509170436714332129ABD03EEB079406CAAA34DEB0E4-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240509170436714332129ABD03EEB079406CAAA34DEB0E4-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー16" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_16&#39;, null, null, null, 2807);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="http://shop.akitashoten.co.jp/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 7229095, &#39;caruselrecommend_17&#39;, 5397);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202509181300353843B347DA9EB202E047622C628F56F40AA.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202509181300353843B347DA9EB202E047622C628F56F40AA.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202509181300353843B347DA9EB202E047622C628F56F40AA-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202509181300353843B347DA9EB202E047622C628F56F40AA-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー17" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_17&#39;, null, null, null, 5397);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+                
+    <div class="hide-area2">
+        <div class="article-img-box">
+            <div><a class="g-article-thumb c-ms-clk-article c-ms-mode-thumbnail click-link"
+                   href="https://bokuyaba-anime.com/" onclick="clickAnalizeTrackingEventCarousel(&#39;plus_top&#39;, null, 6500151, &#39;caruselrecommend_18&#39;, 6464);"
+                   >
+                <picture>
+                    <source media="(min-width: 640px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250627161902690131AAD01EEF490848B069A83BC4AEA22.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250627161902690131AAD01EEF490848B069A83BC4AEA22.webp 1x"/>
+                    <source media="(max-width: 639px)"
+                            data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250627161902690131AAD01EEF490848B069A83BC4AEA22-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250627161902690131AAD01EEF490848B069A83BC4AEA22-lg.webp 1x"/>
+                    <img class="g-article-thumb-img mode-force-cover mode-narrow lazyload"
+                    	src="//cdn-public.comici.jp/img/1x1dot.webp"
+                        alt="キャンペーンバナー18" onload="loadImpTrackingEx3(&#39;plus_top&#39;, &#39;carousel&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, null, &#39;caruselrecommend_18&#39;, null, null, null, 6464);"/>
+                </picture>
+            </a></div>
+        </div>
+    </div>
+
+            
+        </div>
+    </div>
+
+				<div class="main-content-wrap">
+					<div class="main-content">
+						
+    
+    <div>
+<style>
+	.top-modal-missionuser-header {
+		margin: 0 auto;
+		position: relative;
+    text-align: center;
+	}
+	.modal-mission-title {
+		display: inline-block;
+        content: url(/images/mission/mission_main_title.svg);
+	}
+	.top-modal-missionuser-body {
+		height: 80%;
+	}
+	.modal-mission-item-container {
+    width:100%;
+	}
+	.modal-mission-item {
+    display: flex;
+    gap: 12px;
+		width:100%;
+		height:100%;
+		background: var(--common-white, #FFF);
+		box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.10);
+	}
+	.modal-mission-item-left {
+		width: 15%;
+    display: inline;
+		justify-content: center;
+		align-items: center;
+		vertical-align: middle;
+		.modal-mission-ticket-active {
+			box-sizing:border-box;
+			max-width: 100%;
+			content: url(/images/mission/mission_ticket_active.svg);
+		}
+	}
+	.modal-mission-item-right {
+		width: 85%;
+    display: inline;
+		.modal-mission-item-name{
+			padding: auto;
+		}
+		.modal-mission-item-progress {
+      display: flex;
+			font-size: -3;
+		}
+		.modal-mission-item-limit {
+      color: red;
+			font-size: -3;
+		}
+		.modal-mission-item-button {
+			box-sizing:border-box;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+			content: url(/images/mission/mission_go_button.svg);
+		}
+	}
+</style>
+	
+	<div class="modal" id="top-missionuser-return" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="mission-modal">
+			<button type="button" class="mission-modal-close" data-dismiss="modal">
+				<span class="mission-modal-close-icon" aria-hidden="true">&#215;</span><span class="sr-only">閉じる</span>
+			</button>
+			<div class="mission-modal-content-wrap">
+				<div class="mission-modal-content">
+					<div class="mission-h">
+						<h2 class="mission-h-h mission-popup"><span class="mission-h-text">ミッション</span></h2>
+						<p class="mission-h-desc">条件を達成して<br>「すぐ無料チケット」をGET!</p>
+					</div>
+					<div class="mission-list-container" id="top-modal-missionuser-body">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div>
+	
+	<div class="modal" id="top-popup-banner" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<input type="hidden" id="end-date" name="end-date"/>
+			<input type="hidden" id="top-popup-banner-id" name="top-popup-banner-id"/>
+			<div>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="top-popup-img" id="top-popup-banner-img" width="320" height="427" />
+			</div>
+			<div class="not-show-check-area">
+				<label>
+					<input type="checkbox" id="no-show-next" name="no-show-next" class="hidden-text"/>
+					<span class="not-show-check"></span>
+					<label class="check-label">次回から表示しない</label>
+				</label>
+			</div>
+			<div class="close-button-area" data-dismiss="modal">
+				<span aria-hidden="true" data-dismiss="modal">
+					<img class="lazyload" data-src="/images/icons/close_circle.png" width="40" height="40" />
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+    <div>
+	
+	<div class="modal" id="top-popup-comici-recommend" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header top-modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&#215;</span><span class="sr-only">閉じる</span>
+					</button>
+					<div class="modal-title" id="top-popup-title"></div>
+				</div><!-- /modal-header -->
+				<div class="modal-body top-modal-body">
+					<img src="" class="top-popup-img" id="top-popup-img" />
+					<div class="top-popup-msg-area">
+						おめでとうございます！<br />
+						<div id="top-popup-message">
+						</div>
+					</div>
+					<div class="top-popup-link-area">
+						<a href="#" id="top-popup-link">確認する</a>
+					</div>
+				</div>
+				<div class="modal-footer top-modal-footer">
+					<button type="button" class="btn top-btn-close" data-dismiss="modal">閉じる</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div>
+	
+	<div class="modal" id="top-waitfree-return" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header top-modal-waitfree-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&#215;</span><span class="sr-only">閉じる</span>
+					</button>
+					<div class="modal-title" >「待つと無料」購読中作品の<br />チャージが完了しました。</div>
+				</div><!-- /modal-header -->
+				<div class="modal-body top-modal-waitfree-body" id="top-modal-waitfree-body">
+				
+
+				</div>
+				<div class="modal-footer top-modal-footer">
+					<button type="button" class="btn top-btn-close" data-dismiss="modal">閉じる</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div>
+	
+    <div class="comici-toast" id="top-dailybonus-toast" style="display: none;">
+    	<div class="header">
+    		ログインボーナス
+    	</div>
+    	<div class="body">
+			
+				<img class="ticket-img lazyload" data-src="//cdn-public.comici.jp/common/img/icon_free_ticket_ja.svg" width="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" onload="loadActiveUserTracking(&#39;championcross&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;,-1);"
+					 />
+					 すぐ無料チケットを
+					 <span id="loginBonusValue"></span>枚獲得しました
+			
+			
+    	</div>
+    </div>
+	
+	
+	
+</div>
+    <div>
+	
+	<div class="modal" id="top-new-article-popup" tabindex="-1"
+		role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true"
+		data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header top-modal-header">
+					<div class="modal-title" id="top-popup-new-article-title">
+					</div>
+				</div>
+				<!-- /modal-header -->
+				<div class="modal-body" id="top-modal-new-article-body">
+
+				</div>
+				<div class="modal-footer top-modal-footer">
+					<button type="button" class="btn top-btn-close"
+						data-dismiss="modal">閉じる</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    
+    <div>
+	
+	<div class="modal" id="top-popup-comici-mailstop" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header top-modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&#215;</span><span class="sr-only">閉じる</span>
+					</button>
+					<div class="modal-title" id="top-popup-mailstop-title"></div>
+				</div><!-- /modal-header -->
+				<div class="modal-body top-modal-body">
+					<div class="top-popup-msg-area">
+						<div id="top-popup-mailstop-message"></div>
+					</div>
+				</div>
+				<div class="modal-footer top-modal-footer">
+					<button type="button" class="btn top-btn-close" data-dismiss="modal">閉じる</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    
+    
+    <div>
+	<input type="hidden" id="display-flag" name="displayFlag" value="0">
+	<div class="comici-toast-mission" id="mission-complete-toast" style="display: none;">
+		<div class="header">
+			<div class="title">ミッション達成</div>
+		</div>
+		<div class="body">
+			<div class="message">
+				<div class="reward">
+					<div class="reward-ticket-icon">
+						<img class="ticket-icon">
+					</div>
+					<div class="reward-ticket-number">
+						<span class="f-size-12"><span id="ticketNum"></span></span>
+						<span>枚</span>
+					</div>
+				</div>
+				<div class="mission-name">
+					<span id="missionName" class="mission-title"></span>
+					<span id="missionName2"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div class="plus-container background-wrap">
+        <section class="plus-content-section">
+            
+    
+        
+    <a class="gacha-top-link" href="https://championcross.jp/gacha" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, null, &#39;gachanull&#39;);">
+        <div class="gacha-icon feature-icon">
+        	
+
+           
+			 <!-- comic-growl -->
+			 
+             <!-- manga-zegra -->
+             
+             <!-- ComicPASH! neo -->
+             
+             <!-- Asacomi -->
+             
+			 <!-- mangalt -->
+			 
+             <!-- younganimal -->
+             
+             <!-- comicmedu -->
+             
+             <!-- comicride -->
+             
+             <!-- magkan -->
+             
+             <!-- hayacomic -->
+             
+             <!-- jnbooks -->
+             
+             <!-- mangabang -->
+             
+             <!-- booklista -->
+             
+             <!-- corkstudio -->
+             
+             <!-- comici comics -->
+             
+             <!-- bigcomics -->
+             
+             <!-- YoungChampion / ChampionCross -->
+             
+              <img data-src="/images/content/yanchan/gacha_ticket.svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="lazyload" width="26" height="26" alt="ガチャ" onload="loadImpTrackingSuperLight(&#39;plus_top&#39;, &#39;gacha&#39;, null);"
+              />
+             
+			 <!-- kimicomi -->
+			 
+			 <!-- nikkan-spa -->
+			 
+           
+        </div>
+        
+            <span class="feature-text gacha-text">
+                <span>毎日引ける!&nbsp;</span>
+                <span>すぐ無料ガチャ</span>
+            </span>
+        
+        
+        <span class="material-icons navigate-icon">
+            navigate_next
+        </span>
+    </a>
+
+    
+
+
+
+            
+
+            
+
+            
+            
+                
+
+	            
+                <div class="main-box preparing recently-episodes order-section" data-index="3">
+                    <div class="g-h">
+                        <h2 class="menu-title">最近読んだ作品</h2>
+                    </div>
+                    <div class="main-series-list" id="reading-series-list">
+	                    
+                    </div>
+                </div>
+
+            
+
+            
+
+            
+                <article class="top-news news-top order-section" data-index="4">
+                    <h2 class="top-news-h">
+                        <a class="top-news-h-text" href="https://championcross.jp/news?page=0">
+                            新着情報
+                            <span class="top-news-h-text-more">
+                                もっと見る
+                            </span>
+                        </a>
+                    </h2>
+                    
+                    
+                        <div class="top-news-item">
+                            <span class="top-news-item-date news-date">
+                                2025/10/17
+                            </span>
+                            <h3 class="top-news-item-h">
+                                <a href="./news/365114" class="news-title-link">
+                                    『ただいまPayPay決済が不具合のため、ご利用できません』
+                                </a>
+                            </h3>
+                        </div>
+                    
+                        <div class="top-news-item">
+                            <span class="top-news-item-date news-date">
+                                2025/10/16
+                            </span>
+                            <h3 class="top-news-item-h">
+                                <a href="./news/356532" class="news-title-link">
+                                    【20話完全無料】『しあわせは食べて寝て待て』最新6巻発売記念！
+                                </a>
+                            </h3>
+                        </div>
+                    
+                        <div class="top-news-item">
+                            <span class="top-news-item-date news-date">
+                                2025/10/16
+                            </span>
+                            <h3 class="top-news-item-h">
+                                <a href="./news/360444" class="news-title-link">
+                                    【5巻完全無料】『茉莉花官吏伝～後宮女官、気まぐれ皇帝に見初められ～』最新12巻発売記念！
+                                </a>
+                            </h3>
+                        </div>
+                    
+                </article>
+            
+
+
+            
+                <article class="feature_top c-padding order-section" data-index="5">
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                
+                            </h2>
+                            <div class="feature-list large">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/news/356583"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7453783, &#39;specialfeature0&#39;, 4374);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100815135009915DC518182E3215234BA5AB56359D76E.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100815135009915DC518182E3215234BA5AB56359D76E.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025100815135009915DC518182E3215234BA5AB56359D76E.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025100815135009915DC518182E3215234BA5AB56359D76E-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="760"
+              height="400" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7453783, &#39;specialfeature0&#39;, null, null, 4374);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/news/345807"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7230334, &#39;specialfeature1&#39;, 4214);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025091816215162206885686EEBE3B9FB5A21888B5B097E3.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025091816215162206885686EEBE3B9FB5A21888B5B097E3.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025091816215162206885686EEBE3B9FB5A21888B5B097E3.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025091816215162206885686EEBE3B9FB5A21888B5B097E3-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="760"
+              height="400" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7230334, &#39;specialfeature1&#39;, null, null, 4214);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://bokuyaba-anime.com/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 6498928, &#39;specialfeature2&#39;, 3687);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250627162026738BA140D9DE308BBD6D5ED07E5FAB6F174.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250627162026738BA140D9DE308BBD6D5ED07E5FAB6F174.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250627150532632575ABFB13C19DBB9B53C74D56EEB87E6.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250627150532632575ABFB13C19DBB9B53C74D56EEB87E6-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="760"
+              height="400" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 6498928, &#39;specialfeature2&#39;, null, null, 3687);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                プリンセス創刊50周年記念キャンペーン！
+                            </h2>
+                            <div class="feature-list medium">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/4c540e7f913c1/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7309932, &#39;specialfeature0&#39;, 4315);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163442390C8961A8BE2036577F9DC03271E686566-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163442390C8961A8BE2036577F9DC03271E686566-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20250929163442390C8961A8BE2036577F9DC03271E686566.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20250929163442390C8961A8BE2036577F9DC03271E686566-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="プリンセス創刊50周年記念キャンペーン！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7309932, &#39;specialfeature0&#39;, null, null, 4315);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/544d5e47f5819"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7309930, &#39;specialfeature1&#39;, 4316);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025092916342926075221689B8AB1B3D78FA803C71961A72-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025092916342926075221689B8AB1B3D78FA803C71961A72-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/2025092916342926075221689B8AB1B3D78FA803C71961A72.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/2025092916342926075221689B8AB1B3D78FA803C71961A72-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="プリンセス創刊50周年記念キャンペーン！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7309930, &#39;specialfeature1&#39;, null, null, 4316);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                今だけ無料キャンペーン実施中！
+                            </h2>
+                            <div class="feature-list small">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/bdd35ffda1920/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7495460, &#39;specialfeature0&#39;, 4393);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251010100639967481B813B970AE3AA9FBB7A3BFDEAC0E2-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251010100639967481B813B970AE3AA9FBB7A3BFDEAC0E2-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251010100639967481B813B970AE3AA9FBB7A3BFDEAC0E2-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251010100639967481B813B970AE3AA9FBB7A3BFDEAC0E2-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7495460, &#39;specialfeature0&#39;, null, null, 4393);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/2a2c53abfd026/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7447122, &#39;specialfeature1&#39;, 4348);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071559318526C99D8449E2E525482409D566374E057-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071559318526C99D8449E2E525482409D566374E057-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071559318526C99D8449E2E525482409D566374E057-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071559318526C99D8449E2E525482409D566374E057-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7447122, &#39;specialfeature1&#39;, null, null, 4348);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/35272a563acef/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7667816, &#39;specialfeature2&#39;, 4422);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20251014110837849536F8C82CFAC7FF75414978335A2B651-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20251014110837849536F8C82CFAC7FF75414978335A2B651-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20251014110837849536F8C82CFAC7FF75414978335A2B651-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20251014110837849536F8C82CFAC7FF75414978335A2B651-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7667816, &#39;specialfeature2&#39;, null, null, 4422);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/afa7c3cbdd0ef/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7447115, &#39;specialfeature3&#39;, 4350);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251007155906618F35EB04C212067A097B8CBC730FA3846-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251007155906618F35EB04C212067A097B8CBC730FA3846-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251007155906618F35EB04C212067A097B8CBC730FA3846-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251007155906618F35EB04C212067A097B8CBC730FA3846-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7447115, &#39;specialfeature3&#39;, null, null, 4350);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/ce27c85b3cbd0/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7447121, &#39;specialfeature4&#39;, 4349);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071559187641887EC571D6F7D9B971244D4D2E82ECC-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071559187641887EC571D6F7D9B971244D4D2E82ECC-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510071559187641887EC571D6F7D9B971244D4D2E82ECC-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510071559187641887EC571D6F7D9B971244D4D2E82ECC-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7447121, &#39;specialfeature4&#39;, null, null, 4349);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/b78298fc37b87/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334382, &#39;specialfeature5&#39;, 4336);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142914371244801974DF76D1C340B3B690C1BD07A-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142914371244801974DF76D1C340B3B690C1BD07A-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142914371244801974DF76D1C340B3B690C1BD07A-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142914371244801974DF76D1C340B3B690C1BD07A-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334382, &#39;specialfeature5&#39;, null, null, 4336);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/3d003c4a32cf3/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334387, &#39;specialfeature6&#39;, 4331);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001143022381E037819377F58417B63928A3ED722C28-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001143022381E037819377F58417B63928A3ED722C28-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001143022381E037819377F58417B63928A3ED722C28-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001143022381E037819377F58417B63928A3ED722C28-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334387, &#39;specialfeature6&#39;, null, null, 4331);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/e60a36ea1dcda/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334386, &#39;specialfeature7&#39;, 4332);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001143012231797D3238A4DFD9ECAFD52FC88F2FF8D5-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001143012231797D3238A4DFD9ECAFD52FC88F2FF8D5-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001143012231797D3238A4DFD9ECAFD52FC88F2FF8D5-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001143012231797D3238A4DFD9ECAFD52FC88F2FF8D5-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334386, &#39;specialfeature7&#39;, null, null, 4332);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/b62b13cb78533/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334385, &#39;specialfeature8&#39;, 4333);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142954831FB5BDBDA2AEDFBB6F8525B3579C44987-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142954831FB5BDBDA2AEDFBB6F8525B3579C44987-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142954831FB5BDBDA2AEDFBB6F8525B3579C44987-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142954831FB5BDBDA2AEDFBB6F8525B3579C44987-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334385, &#39;specialfeature8&#39;, null, null, 4333);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/9e94d0a009714/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334384, &#39;specialfeature9&#39;, 4334);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011429448152B539F1C1FAB17F6F463C33CB1485C30-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011429448152B539F1C1FAB17F6F463C33CB1485C30-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/202510011429448152B539F1C1FAB17F6F463C33CB1485C30-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/202510011429448152B539F1C1FAB17F6F463C33CB1485C30-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334384, &#39;specialfeature9&#39;, null, null, 4334);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/1b99f7a177f06/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334383, &#39;specialfeature10&#39;, 4335);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142928081B25983EBC67F7DBB174484EBFBD782E9-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142928081B25983EBC67F7DBB174484EBFBD782E9-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142928081B25983EBC67F7DBB174484EBFBD782E9-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142928081B25983EBC67F7DBB174484EBFBD782E9-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334383, &#39;specialfeature10&#39;, null, null, 4335);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/9947a60ccaf64/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7334381, &#39;specialfeature11&#39;, 4337);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142901183A0C54BE17A442E040DBE58F78BB22E6D-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142901183A0C54BE17A442E040DBE58F78BB22E6D-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2188854/default/20251001142901183A0C54BE17A442E040DBE58F78BB22E6D-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2188854/default/20251001142901183A0C54BE17A442E040DBE58F78BB22E6D-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7334381, &#39;specialfeature11&#39;, null, null, 4337);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/ac03f95d5b938/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 7232300, &#39;specialfeature12&#39;, 4215);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250918173147864D7C154E2A9B31115641BCC04A89FA6A1-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250918173147864D7C154E2A9B31115641BCC04A89FA6A1-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250918173147864D7C154E2A9B31115641BCC04A89FA6A1-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250918173147864D7C154E2A9B31115641BCC04A89FA6A1-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="今だけ無料キャンペーン実施中！"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 7232300, &#39;specialfeature12&#39;, null, null, 4215);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                最新話無料！ チャンピオンクロスオリジナル作品
+                            </h2>
+                            <div class="feature-list large">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/genre/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB?order=latest&amp;size=24"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3945180, &#39;specialfeature0&#39;, 1422);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202405092041543299ACD550F1976B078BB7FDFC3A0855C34.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202405092041543299ACD550F1976B078BB7FDFC3A0855C34.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202405092041543299ACD550F1976B078BB7FDFC3A0855C34.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202405092041543299ACD550F1976B078BB7FDFC3A0855C34-lg.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="最新話無料！ チャンピオンクロスオリジナル作品"
+              width="760"
+              height="400" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3945180, &#39;specialfeature0&#39;, null, null, 1422);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                
+                            </h2>
+                            <div class="feature-list small">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/00575e7bd00b2/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 4017351, &#39;specialfeature0&#39;, 1555);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240528183612380496B48AB6272B6F90E7CA145E1C2AEE6-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240528183612380496B48AB6272B6F90E7CA145E1C2AEE6-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240528183612380496B48AB6272B6F90E7CA145E1C2AEE6-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240528183612380496B48AB6272B6F90E7CA145E1C2AEE6-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 4017351, &#39;specialfeature0&#39;, null, null, 1555);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/ea98f1a847f9d/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 4017348, &#39;specialfeature1&#39;, 1550);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240528183054238B1587F489AB457831D14125FE816D179-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240528183054238B1587F489AB457831D14125FE816D179-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240528183054238B1587F489AB457831D14125FE816D179-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240528183054238B1587F489AB457831D14125FE816D179-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 4017348, &#39;specialfeature1&#39;, null, null, 1550);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/4e6f2f6713f77/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 4012260, &#39;specialfeature2&#39;, 1504);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/2024052816221382059856728CE2A28D2FA596773471635F7-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/2024052816221382059856728CE2A28D2FA596773471635F7-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/2024052816221382059856728CE2A28D2FA596773471635F7-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/2024052816221382059856728CE2A28D2FA596773471635F7-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 4012260, &#39;specialfeature2&#39;, null, null, 1504);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/f3708ac000a6b/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 4017332, &#39;specialfeature3&#39;, 1545);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202405281809590373E10193CED5FB475DC33D2D1E6A5076A-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202405281809590373E10193CED5FB475DC33D2D1E6A5076A-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202405281809590373E10193CED5FB475DC33D2D1E6A5076A-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202405281809590373E10193CED5FB475DC33D2D1E6A5076A-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="特集"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 4017332, &#39;specialfeature3&#39;, null, null, 1545);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                        
+                            <h2 class="menu-title">
+                                
+                                
+                                「刃牙」シリーズ全作品配信中!!
+                            </h2>
+                            <div class="feature-list small">
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/0246b43eb87c2/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764685, &#39;specialfeature0&#39;, 1307);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415093642801F3809DB019AEF950617EDD6FBE6CFFFF-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415093642801F3809DB019AEF950617EDD6FBE6CFFFF-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415093642801F3809DB019AEF950617EDD6FBE6CFFFF-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415093642801F3809DB019AEF950617EDD6FBE6CFFFF-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ1作目】グラップラー刃牙"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764685, &#39;specialfeature0&#39;, null, null, 1307);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ1作目】グラップラー刃牙
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/2b1178e6e4747/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764686, &#39;specialfeature1&#39;, 1308);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415093954587F0936902AD6F04E554C78A7A4DF22863-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415093954587F0936902AD6F04E554C78A7A4DF22863-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415093954587F0936902AD6F04E554C78A7A4DF22863-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415093954587F0936902AD6F04E554C78A7A4DF22863-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ2作目】バキ"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764686, &#39;specialfeature1&#39;, null, null, 1308);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ2作目】バキ
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/1a5d2288287aa/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764687, &#39;specialfeature2&#39;, 1309);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202404150940194858D9B19797113E9EE22E8A8FCD1B2A5EE-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202404150940194858D9B19797113E9EE22E8A8FCD1B2A5EE-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202404150940194858D9B19797113E9EE22E8A8FCD1B2A5EE-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202404150940194858D9B19797113E9EE22E8A8FCD1B2A5EE-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ3作目】範馬刃牙"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764687, &#39;specialfeature2&#39;, null, null, 1309);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ3作目】範馬刃牙
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/11417326de1c5/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764688, &#39;specialfeature3&#39;, 1310);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202404150940309805A507C0097978AA65467FEEECE1829EF-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202404150940309805A507C0097978AA65467FEEECE1829EF-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/202404150940309805A507C0097978AA65467FEEECE1829EF-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/202404150940309805A507C0097978AA65467FEEECE1829EF-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ4作目】刃牙道"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764688, &#39;specialfeature3&#39;, null, null, 1310);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ4作目】刃牙道
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/b185bc692d31d/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764707, &#39;specialfeature4&#39;, 1311);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415094049097097782E868592BA97AC6243160454297-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415094049097097782E868592BA97AC6243160454297-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415094049097097782E868592BA97AC6243160454297-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415094049097097782E868592BA97AC6243160454297-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ5作目】バキ道"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764707, &#39;specialfeature4&#39;, null, null, 1311);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ5作目】バキ道
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                                <div class="feature-item">
+                                    
+  
+    <a
+        href="https://championcross.jp/episodes/8c25ddec44399/"
+        class="click-link" onclick="clickAnalizeTrackingEventFeatureItem(&#39;plus_top&#39;, null, 3764708, &#39;specialfeature5&#39;, 1312);"
+    >
+        <picture>
+            <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415094057855FE5BC151246BBC3E548E4954665F2BF7-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415094057855FE5BC151246BBC3E548E4954665F2BF7-lg.webp 1x" /> 
+            <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240415094057855FE5BC151246BBC3E548E4954665F2BF7-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240415094057855FE5BC151246BBC3E548E4954665F2BF7-sm.webp 1x" />	    
+            <img class="feature_img lazyload"
+              srcset="//cdn-public.comici.jp/img/loading.svg"
+              alt="【シリーズ最新作】刃牙らへん"
+              width="362"
+              height="192" onload="loadImpTrackingEx2(&#39;plus_top&#39;, &#39;specialfeature&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, null, null, 3764708, &#39;specialfeature5&#39;, null, null, 1312);"
+            />
+        </picture>
+        <h3 class="item-title">
+	        【シリーズ最新作】刃牙らへん
+	    </h3>
+    </a>
+    
+
+  
+
+                                </div>
+                            </div>
+
+                        
+
+                    
+                </article>
+            
+
+            
+
+            
+            
+                <article class="ranking-top c-padding order-section" data-index="2">
+                    <div class="column-center-content">
+                        <h2 class="rank-icon menu-title">
+                            
+                            
+                                
+                                
+                                    <img data-src="/images/icons/ranking_icon.svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="drawer-menu rank-icon-icon lazyload" alt="ランキング" width="22" height="22" />
+                                
+                                ランキング
+                            
+                        </h2>
+                        <div class="mb-10">
+                            
+                        </div>
+                    </div>
+                    <div class="top-ranking-category" id="top-ranking-category-manga">
+                        <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=" style="display:none;" onload="loadImpTracking(&#39;plus_top&#39;, &#39;category&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, &#39;9895,10406,10536,9912,10118,14164,10117,9913,9911,10394,9925&#39;, null, &#39;3484275,3968033,3726787,6427743,3484197,5989575,3484463,3484296,3484434,3484194,3484437&#39;, &#39;categorymanga0,categorymanga1,categorymanga2,categorymanga3,categorymanga4,categorymanga5,categorymanga6,categorymanga7,categorymanga8,categorymanga9,categorymanga10&#39;);" />
+                        <div >
+                            
+                            <div class="ranking-list grid-ranking-template-2 plus-top">
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical-top2">
+
+		<a href="https://championcross.jp/series/bc400958eef71" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9895, 3484275, &#39;categorymanga0&#39;);">
+	    <div class="article-img-box">
+		    
+		    <div class="ranking-counter has-image ranking-no-1" >
+				
+					<img data-src="/images/content/icon/rimacomiplus/icon_ranking1.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="drawer-menu lazyload" alt="ランキング" />
+				
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240325123221094CA451EB192CFCD4DE459AD1B269876CB-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325123221094CA451EB192CFCD4DE459AD1B269876CB-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240325123221094CA451EB192CFCD4DE459AD1B269876CB-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325123221094CA451EB192CFCD4DE459AD1B269876CB-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="刃牙道【「刃牙」シリーズ4作品目】"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/bc400958eef71" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9895, 3484275, &#39;categorymanga0&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          刃牙道【「刃牙」シリーズ4作品目】
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/971" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 971, 3484275, &#39;author0&#39;);">
+						板垣恵介 &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical-top2">
+
+		<a href="https://championcross.jp/series/899dda204c3f2" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10406, 3968033, &#39;categorymanga1&#39;);">
+	    <div class="article-img-box">
+		    
+		    <div class="ranking-counter has-image ranking-no-2" >
+				
+					<img data-src="/images/content/icon/rimacomiplus/icon_ranking2.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="drawer-menu lazyload" alt="ランキング" />
+				
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240514165016604FC0B8E1EB60C6CC81C01AEC9EDC89401-lg.webp 2x, //cdn-public.comici.jp/series/2/20240514165016604FC0B8E1EB60C6CC81C01AEC9EDC89401-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240514165016604FC0B8E1EB60C6CC81C01AEC9EDC89401-lg.webp 2x, //cdn-public.comici.jp/series/2/20240514165016604FC0B8E1EB60C6CC81C01AEC9EDC89401-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="僕の心のヤバイやつ【最新話無料】"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/899dda204c3f2" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10406, 3968033, &#39;categorymanga1&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          僕の心のヤバイやつ【最新話無料】
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/122" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 122, 3968033, &#39;author0&#39;);">
+						桜井のりお &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                            </div>
+                            
+                            <div class="ranking-list grid-ranking-template-3 ranking-margin-top-20 plus-top">
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/e283ee0e2f007" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10536, 3726787, &#39;categorymanga2&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter has-image ranking-no-3" >
+				
+					<img data-src="/images/content/icon/rimacomiplus/icon_ranking3.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="drawer-menu lazyload" alt="ランキング" />
+				
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240412105846941CD06E5F802B78F981791876D54BABC3D-lg.webp 2x, //cdn-public.comici.jp/series/2/20240412105846941CD06E5F802B78F981791876D54BABC3D-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240412105846941CD06E5F802B78F981791876D54BABC3D-lg.webp 2x, //cdn-public.comici.jp/series/2/20240412105846941CD06E5F802B78F981791876D54BABC3D-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="刃牙らへん【「刃牙」シリーズ6作品目】"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/e283ee0e2f007" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10536, 3726787, &#39;categorymanga2&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          刃牙らへん【「刃牙」シリーズ6作品目】
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/971" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 971, 3726787, &#39;author0&#39;);">
+						板垣恵介 &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/6da7720d69fcc" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9912, 6427743, &#39;categorymanga3&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					4
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1077668/20250625165018026375DF2491449B7CC7EC62E129710D173-lg.webp 2x, //cdn-public.comici.jp/series/1077668/20250625165018026375DF2491449B7CC7EC62E129710D173-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1077668/20250625165018026375DF2491449B7CC7EC62E129710D173-lg.webp 2x, //cdn-public.comici.jp/series/1077668/20250625165018026375DF2491449B7CC7EC62E129710D173-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="弱虫ペダル【TVアニメ配信中】"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/6da7720d69fcc" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9912, 6427743, &#39;categorymanga3&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          弱虫ペダル【TVアニメ配信中】
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1079" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1079, 6427743, &#39;author0&#39;);">
+						渡辺航 &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/f902e34463596" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10118, 3484197, &#39;categorymanga4&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					5
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240325120759391E5660AF49FDF04D0F416974C0A6EC337-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325120759391E5660AF49FDF04D0F416974C0A6EC337-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240325120759391E5660AF49FDF04D0F416974C0A6EC337-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325120759391E5660AF49FDF04D0F416974C0A6EC337-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="バキ外伝　烈海王は異世界転生しても一向にかまわんッッ"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/f902e34463596" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10118, 3484197, &#39;categorymanga4&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          バキ外伝　烈海王は異世界転生しても一向にかまわんッッ
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/972" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 972, 3484197, &#39;author0&#39;);">
+						板垣恵介（原案）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/978" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 978, 3484197, &#39;author1&#39;);">
+						猪原賽（原作）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/979" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 979, 3484197, &#39;author2&#39;);">
+						陸井栄史（漫画）  &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/ff893ea281500" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 14164, 5989575, &#39;categorymanga5&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					6
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1604039/2025041814014563501309AF138787ECAF6A8F9B80B70F9E2-lg.webp 2x, //cdn-public.comici.jp/series/1604039/2025041814014563501309AF138787ECAF6A8F9B80B70F9E2-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1604039/2025041814014563501309AF138787ECAF6A8F9B80B70F9E2-lg.webp 2x, //cdn-public.comici.jp/series/1604039/2025041814014563501309AF138787ECAF6A8F9B80B70F9E2-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="少女は異世界で『殺戮の才能』に目覚める"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/ff893ea281500" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 14164, 5989575, &#39;categorymanga5&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          少女は異世界で『殺戮の才能』に目覚める
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/2365" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 2365, 5989575, &#39;author0&#39;);">
+						岸馬きらく（原作）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/2366" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 2366, 5989575, &#39;author1&#39;);">
+						小﨑基広（作画）  &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical">
+
+		<a href="https://championcross.jp/series/00035a2f357be" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10117, 3484463, &#39;categorymanga6&#39;);">
+	    <div class="article-img-box">
+		    
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					7
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240325124622076BFACA07405A9C35C64F0628456688620-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325124622076BFACA07405A9C35C64F0628456688620-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240325124622076BFACA07405A9C35C64F0628456688620-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325124622076BFACA07405A9C35C64F0628456688620-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="茉莉花官吏伝～後宮女官、気まぐれ皇帝に見初められ～"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/00035a2f357be" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10117, 3484463, &#39;categorymanga6&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          茉莉花官吏伝～後宮女官、気まぐれ皇帝に見初められ～
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					<span class="manga-free" >キャンペーンにつき108話分無料</span>
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1096" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1096, 3484463, &#39;author0&#39;);">
+						石田リンネ（原作）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1112" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1112, 3484463, &#39;author1&#39;);">
+						高瀬わか（漫画）  &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/a7ac62cce68f6" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9913, 3484296, &#39;categorymanga7&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					8
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240325123723139BAAA96C9B2786937933A984F68C730C2-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325123723139BAAA96C9B2786937933A984F68C730C2-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240325123723139BAAA96C9B2786937933A984F68C730C2-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325123723139BAAA96C9B2786937933A984F68C730C2-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="桃源暗鬼"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/a7ac62cce68f6" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9913, 3484296, &#39;categorymanga7&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          桃源暗鬼
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1066" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1066, 3484296, &#39;author0&#39;);">
+						漆原侑来 &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/8016373c7a6b3" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9911, 3484434, &#39;categorymanga8&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					9
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="魔入りました！入間くん【TVアニメ配信中】"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/8016373c7a6b3" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9911, 3484434, &#39;categorymanga8&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          魔入りました！入間くん【TVアニメ配信中】
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1017" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1017, 3484434, &#39;author0&#39;);">
+						西修 &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/e76cd5db52ef2" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10394, 3484194, &#39;categorymanga9&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					10
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512065348269E08E1313699D8FB03D03D3752F62C6-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512065348269E08E1313699D8FB03D03D3752F62C6-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512065348269E08E1313699D8FB03D03D3752F62C6-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512065348269E08E1313699D8FB03D03D3752F62C6-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="バキ外伝 ガイアとシコルスキー ～ときどきノムラ 二人だけど三人暮らし～"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/e76cd5db52ef2" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10394, 3484194, &#39;categorymanga9&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          バキ外伝 ガイアとシコルスキー ～ときどきノムラ 二人だけど三人暮らし～
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/972" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 972, 3484194, &#39;author0&#39;);">
+						板垣恵介（原案）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/973" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 973, 3484194, &#39;author1&#39;);">
+						林たかあき（漫画）  &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                                    
+                                        
+	<div>
+	  <div class="ranking-item top-ranking-box-vertical mark-item">
+
+		<a href="https://championcross.jp/series/8a3b23bd8c6ce" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9925, 3484437, &#39;categorymanga10&#39;);">
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+		    <div class="ranking-counter ranking-no" >
+				
+				
+					11
+				
+			</div>
+
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240325124344354010B0009D560CBA3574885F79AEB5A9C-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325124344354010B0009D560CBA3574885F79AEB5A9C-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240325124344354010B0009D560CBA3574885F79AEB5A9C-lg.webp 2x, //cdn-public.comici.jp/series/2/20240325124344354010B0009D560CBA3574885F79AEB5A9C-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+				alt="漫画 ゆうえんち‐バキ外伝‐"
+				width="242"
+				height="130" />
+			</picture>
+
+	    </div>
+		</a>
+
+	    <div class="series-main-info over-truncate">
+			<a href="https://championcross.jp/series/8a3b23bd8c6ce" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9925, 3484437, &#39;categorymanga10&#39;);">
+		      <div class="title">
+		        <div class="title-text">
+		          漫画 ゆうえんち‐バキ外伝‐
+		        </div>
+		      </div>
+			</a>
+
+			<div class="manga-author-box">
+				
+					
+					
+				
+			</div>
+
+			<div class="author" >
+			
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/972" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 972, 3484437, &#39;author0&#39;);">
+						板垣恵介（原案）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1021" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1021, 3484437, &#39;author1&#39;);">
+						夢枕獏（原作）  &nbsp;
+					</a>
+					
+				</span>
+			
+				<span class="author-link">
+					<a href="https://championcross.jp/authors/1022" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top-author&#39;, 1022, 3484437, &#39;author2&#39;);">
+						藤田勇利亜（漫画）  &nbsp;
+					</a>
+					
+				</span>
+			
+		    </div>
+		 </div>
+		</div>
+	 </div>
+
+                                    
+                                
+                            </div>
+                            <div class="column-center-content">
+                                <a href="https://championcross.jp/ranking/manga">
+                                    <div class="ranking-read-more">
+                                        もっと見る
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            
+            
+
+            
+                <article class="series-top c-padding order-section" data-index="1">
+                    <div class="column-center-content">
+                        <h2 class="rank-icon today-manga menu-title">
+                            <span class="manga-update-status">
+		                        <span class="mode-up today-manga">UP!</span>
+		                    </span>
+                            本日更新のマンガ
+                        </h2>
+                    </div>
+                    <div >
+                        <div class="series-list1 today-manga ranking-margin-top-20 plus-top">
+                            
+                                
+	<a
+	href="/series/8016373c7a6b3?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 9911, 3484434, &#39;updated_today1&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-lg.webp 2x, //cdn-public.comici.jp/series/2/2024032512423556399A7DD27FCAEEAE1F280EF3FB57E5B3C-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="魔入りました！入間くん【TVアニメ配信中】" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 9911, null, 3484434, &#39;updated_today1&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  魔入りました！入間くん【TVアニメ配信中】
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1017">
+							西修 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/3c97db5b5ca81?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10485, 3726939, &#39;updated_today2&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/2024041211413074482E6BB55F9C926FB54309135C9BDF032-lg.webp 2x, //cdn-public.comici.jp/series/2/2024041211413074482E6BB55F9C926FB54309135C9BDF032-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/2024041211413074482E6BB55F9C926FB54309135C9BDF032-lg.webp 2x, //cdn-public.comici.jp/series/2/2024041211413074482E6BB55F9C926FB54309135C9BDF032-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="魔入りました！入間くん if Episode of 魔フィア" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 10485, null, 3726939, &#39;updated_today2&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  魔入りました！入間くん if Episode of 魔フィア
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          <span class="manga-free" >キャンペーンにつき63話分無料</span>
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1019">
+							西修（原案）  &nbsp;
+					</a>
+				</object>
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1326">
+							hiro者（漫画）  &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/32c373f59c58c?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 11245, 4099228, &#39;updated_today3&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240624115022497C4215B6ABAA96767E79CFE8B17E7002C-lg.webp 2x, //cdn-public.comici.jp/series/2/20240624115022497C4215B6ABAA96767E79CFE8B17E7002C-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240624115022497C4215B6ABAA96767E79CFE8B17E7002C-lg.webp 2x, //cdn-public.comici.jp/series/2/20240624115022497C4215B6ABAA96767E79CFE8B17E7002C-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="まりも兄弟の茶飯事" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 11245, null, 4099228, &#39;updated_today3&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  まりも兄弟の茶飯事
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          <span class="manga-free" >キャンペーンにつき61話分無料</span>
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/136">
+							蔵人幸明（原作）  &nbsp;
+					</a>
+				</object>
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1433">
+							イトノコ（漫画）  &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/b71e065e55581?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 12811, 5389661, &#39;updated_today4&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/21480/20250121113243099379EF419580112AAFDF7639ED423DCF1-lg.webp 2x, //cdn-public.comici.jp/series/21480/20250121113243099379EF419580112AAFDF7639ED423DCF1-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/21480/20250121113243099379EF419580112AAFDF7639ED423DCF1-lg.webp 2x, //cdn-public.comici.jp/series/21480/20250121113243099379EF419580112AAFDF7639ED423DCF1-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="タイカの理性" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 12811, null, 5389661, &#39;updated_today4&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  タイカの理性
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/981">
+							板垣巴留 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/5424068a938fc?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10595, 3856450, &#39;updated_today5&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/20240419123000589C224FC4D7BC21AC05153CA9C89B4E0F6-lg.webp 2x, //cdn-public.comici.jp/series/2/20240419123000589C224FC4D7BC21AC05153CA9C89B4E0F6-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/20240419123000589C224FC4D7BC21AC05153CA9C89B4E0F6-lg.webp 2x, //cdn-public.comici.jp/series/2/20240419123000589C224FC4D7BC21AC05153CA9C89B4E0F6-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="今朝も揺られてます" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 10595, null, 3856450, &#39;updated_today5&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  今朝も揺られてます
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          <span class="manga-free" >キャンペーンにつき31話分無料</span>
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1207">
+							増田英二 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/e5f0de6f60162?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10158, 3484270, &#39;updated_today6&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/202403251229456727A4840FE3CDD981718BBF01AB5CB680C-lg.webp 2x, //cdn-public.comici.jp/series/2/202403251229456727A4840FE3CDD981718BBF01AB5CB680C-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/202403251229456727A4840FE3CDD981718BBF01AB5CB680C-lg.webp 2x, //cdn-public.comici.jp/series/2/202403251229456727A4840FE3CDD981718BBF01AB5CB680C-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="弱虫ペダル SPARE BIKE" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 10158, null, 3484270, &#39;updated_today6&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  弱虫ペダル SPARE BIKE
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1079">
+							渡辺航 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/4b0957d9fc768?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10125, 3484266, &#39;updated_today7&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/202403251227499664E04A385F31B91838220F8E6C0A4E682-lg.webp 2x, //cdn-public.comici.jp/series/2/202403251227499664E04A385F31B91838220F8E6C0A4E682-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/202403251227499664E04A385F31B91838220F8E6C0A4E682-lg.webp 2x, //cdn-public.comici.jp/series/2/202403251227499664E04A385F31B91838220F8E6C0A4E682-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="斎藤義龍に生まれ変わったので、織田信長に国譲りして長生きするのを目指します！" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 10125, null, 3484266, &#39;updated_today7&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  斎藤義龍に生まれ変わったので、織田信長に国譲りして長生きするのを目指します！
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1043">
+							巽未頼（原作）  &nbsp;
+					</a>
+				</object>
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1044">
+							田村ゆうき（漫画）  &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/76e94bec068ba?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 11404, 4367165, &#39;updated_today8&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1077668/202408021553131668813FD54E678A9C07895D8E8582B0AC9-lg.webp 2x, //cdn-public.comici.jp/series/1077668/202408021553131668813FD54E678A9C07895D8E8582B0AC9-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1077668/202408021553131668813FD54E678A9C07895D8E8582B0AC9-lg.webp 2x, //cdn-public.comici.jp/series/1077668/202408021553131668813FD54E678A9C07895D8E8582B0AC9-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="ブラザー仁義" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 11404, null, 4367165, &#39;updated_today8&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  ブラザー仁義
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1236">
+							小沢としお &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/c834fd7471bd8?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 10470, 3726800, &#39;updated_today9&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/2/202404121103112242CC843A30A118E37A6A1C29F1B5A7693-lg.webp 2x, //cdn-public.comici.jp/series/2/202404121103112242CC843A30A118E37A6A1C29F1B5A7693-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/2/202404121103112242CC843A30A118E37A6A1C29F1B5A7693-lg.webp 2x, //cdn-public.comici.jp/series/2/202404121103112242CC843A30A118E37A6A1C29F1B5A7693-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="木曜日のフルット" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 10470, null, 3726800, &#39;updated_today9&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  木曜日のフルット
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1024">
+							石黒正数 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/12f7a77754ba3?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 11503, 4305009, &#39;updated_today10&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/21480/20240723125138368E766685D37B3E524BE4D127DDF8835F4-lg.webp 2x, //cdn-public.comici.jp/series/21480/20240723125138368E766685D37B3E524BE4D127DDF8835F4-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/21480/20240723125138368E766685D37B3E524BE4D127DDF8835F4-lg.webp 2x, //cdn-public.comici.jp/series/21480/20240723125138368E766685D37B3E524BE4D127DDF8835F4-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="MOGAKU" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 11503, null, 4305009, &#39;updated_today10&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  MOGAKU
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1484">
+							グミマル &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/ca823d5eec63e?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 14461, 6141591, &#39;updated_today11&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/21480/20250516153900921BA0348915789A46C390D4FF9EE637204-lg.webp 2x, //cdn-public.comici.jp/series/21480/20250516153900921BA0348915789A46C390D4FF9EE637204-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/21480/20250516153900921BA0348915789A46C390D4FF9EE637204-lg.webp 2x, //cdn-public.comici.jp/series/21480/20250516153900921BA0348915789A46C390D4FF9EE637204-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="ソナタはいったい誰なんだ" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 14461, null, 6141591, &#39;updated_today11&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  ソナタはいったい誰なんだ
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/2420">
+							猪ノ谷言葉 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/fd732fd1d32ed?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 14926, 6597562, &#39;updated_today12&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1604039/2025070916580079191F6799BAD869E4189760E009A9B88A8-lg.webp 2x, //cdn-public.comici.jp/series/1604039/2025070916580079191F6799BAD869E4189760E009A9B88A8-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1604039/2025070916580079191F6799BAD869E4189760E009A9B88A8-lg.webp 2x, //cdn-public.comici.jp/series/1604039/2025070916580079191F6799BAD869E4189760E009A9B88A8-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="アマノジャクな除霊稼業" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 14926, null, 6597562, &#39;updated_today12&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  アマノジャクな除霊稼業
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/2834">
+							寺田亜太朗 &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/6dc33299776a8?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 11541, 4467458, &#39;updated_today13&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1077668/20240904172231082C32F36AB2167FA4A6BC531BC43443C45-lg.webp 2x, //cdn-public.comici.jp/series/1077668/20240904172231082C32F36AB2167FA4A6BC531BC43443C45-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1077668/20240904172231082C32F36AB2167FA4A6BC531BC43443C45-lg.webp 2x, //cdn-public.comici.jp/series/1077668/20240904172231082C32F36AB2167FA4A6BC531BC43443C45-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="天使と悪魔メシ" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 11541, null, 4467458, &#39;updated_today13&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  天使と悪魔メシ
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1542">
+							こにすけ &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/b3499d623c163?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 15305, 7103886, &#39;updated_today14&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/1604039/20250829181243549ADA7CB8C80A07116CD5C4B739F24DB5F-lg.webp 2x, //cdn-public.comici.jp/series/1604039/20250829181243549ADA7CB8C80A07116CD5C4B739F24DB5F-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/1604039/20250829181243549ADA7CB8C80A07116CD5C4B739F24DB5F-lg.webp 2x, //cdn-public.comici.jp/series/1604039/20250829181243549ADA7CB8C80A07116CD5C4B739F24DB5F-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="傷痕恋愛～ときめく胸がないとしても～" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 15305, null, 7103886, &#39;updated_today14&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  傷痕恋愛～ときめく胸がないとしても～
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/3252">
+							藤木みかん &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                                
+	<a
+	href="/series/7168c8506c84f?s=1" onclick="clickAnalizeTrackingEventSeries(&#39;plus_top&#39;, 12316, 5190715, &#39;updated_today15&#39;);"
+	>
+	  <div class="mark-item">
+	
+	    <div class="article-img-box">
+		    <div class="g-mark-wrap">
+		      <div class="g-mark mark-is-up">
+		        更新
+		      </div>
+		    </div>
+	        <picture>
+	          <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/series/21480/2024121115195410753C4EE50C17316E28D1B3B069F66874E-lg.webp 2x, //cdn-public.comici.jp/series/21480/2024121115195410753C4EE50C17316E28D1B3B069F66874E-lg.webp 1x" />
+	          <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/series/21480/2024121115195410753C4EE50C17316E28D1B3B069F66874E-lg.webp 2x, //cdn-public.comici.jp/series/21480/2024121115195410753C4EE50C17316E28D1B3B069F66874E-sm.webp 1x" />
+	          <img class="feature_img lazyload" srcset="//cdn-public.comici.jp/img/loading.svg"
+	          	width="242" height="130"
+				alt="うちのごましおさんは完璧すぎる" onload="loadImpTracking(&#39;plus_top&#39;, &#39;updated_today&#39;, &#39;DlPBsU9rB5gtCTQVObLX18JeLX4ckgT0&#39;, &#39;af29f2f78f3de758500915e0fc5c67f9&#39;, null, 12316, null, 5190715, &#39;updated_today15&#39;);" />
+	        </picture>
+	      
+	    </div>
+	
+	    <div class="series-main-info over-truncate">
+	      <div class="title">
+			  <h3 class="h3-manga-title title-text">
+				  うちのごましおさんは完璧すぎる
+			  </h3>
+	      </div>
+		  
+		  <div class="manga-author-box">
+		      
+		          
+		          
+		      
+		  </div>
+		  
+	      <div class="author" >
+
+			
+			  
+				<object class="author-object">
+					<a href="https://championcross.jp/authors/1146">
+							遊佐ハルカ &nbsp;
+					</a>
+				</object>
+			
+
+		  </div>
+	    </div>
+	  </div>
+	</a>
+
+                            
+                        </div>
+                    </div>
+                    <div class="column-center-content">
+                        <a class="mangaUpd" href="https://championcross.jp/series/list">
+                            <div class="mangaUpd-read-more">
+                                作品一覧
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            
+            
+                <article class="books-top c-padding order-section" data-index="7">
+                    <div>
+				<!-- モーダルダイアログ -->
+				<div class="modal " id="storeitem-buy-dialog" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-show="true" data-keyboard="true" data-backdrop="true">
+				<div class="modal-dialog storeitem-buy-dialog">
+				  <div class="modal-content storeitem-dialog-content">
+				    <div class="modal-body modal-body-support">
+
+					    <div id="storeitem-buy-dialog-form">
+					    	<span class="note-text" id="storeitem-buy-note">データ取得中..</span>
+					    	<div class="storeitem-dialog-wrapper hide-area storeitem-buy-info">
+					    		<div class="storeitem-dialog-side"><img src="" id="storeitem-buy-imageUrl" class="manga-img2" /></div>
+					    		
+								
+									<div class="storeitem-dialog-main mode-sp">
+										<div id="storeitem-buy-title" class="storeitem-dialog-title"></div>
+										<div class="storeitem-dialog-info" >
+											<div class="storeitem-dialog-info-h">発売日</div>
+											<div class="storeitem-dialog-info-d" id="storeitem-buy-release-date"></div>
+										</div>
+										<div class="storeitem-dialog-info">
+											<div class="storeitem-dialog-info-h">価格</div>
+											<div class="storeitem-dialog-info-d">各販売サイトでご確認ください</div>
+										</div>
+
+									</div>
+									<br/>
+								
+					    	</div>
+
+							<div class="row row2-line hide-area storeitem-buy-info" id="storeitem-buy-ebook-box">
+								<div class="col-xs-12">
+									
+									<div class="h2" data-ebook-title="電子書籍・アプリでさがす"></div>
+								</div>
+								<div class="col-xs-12" style="padding: 10px 6px;">
+									<ul  class="store-item-dialog-links" id="storeitem-buy-ebook-list">
+									</ul>
+								</div>
+							</div>
+
+							<div class="row row2-line hide-area storeitem-buy-info" id="storeitem-buy-paper-box">
+								<div class="col-xs-12">
+									<div class="h2" data-paper-title="書籍（紙）を購入する"></div>
+								</div>
+								<div class="col-xs-12" style="padding: 10px 6px;">
+									<ul  class="store-item-dialog-links" id="storeitem-buy-paper-list">
+									</ul>
+								</div>
+							</div>
+					    </div>
+
+				    </div>
+				    <div class="modal-footer-sm mode-center">
+				    	<a class="btn btn-close-sm" data-dismiss="modal" onclick="clickedStoreItemBuyDailogCloseButton();">閉じる</a>
+				    </div>
+				 </div> <!-- /.modal-content -->
+				</div> <!-- /.modal-dialog -->
+			</div> <!-- /.modal -->
+		</div>
+                    <h2 class="menu-title">
+                        
+                        <a href="https://championcross.jp/store_items">最新コミックス</a>
+                    </h2>
+                    <div
+                        class="store-items flex-layout layout-6-items"
+                    >
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/6IyJ6I6J6Iqx5a6Y5ZCP5Lyd772e5b6M5a6u5aWz5a6Y44CB5rCX44G-44GQ44KM55qH5bid44Gr6KaL5Yid44KB44KJ44KM772e/6IyJ6I6J6Iqx5a6Y5ZCP5Lyd772e5b6M5a6u5aWz5a6Y44CB5rCX44G-44GQ44KM55qH5bid44Gr6KaL5Yid44KB44KJ44KM772eIDEy" title="茉莉花官吏伝～後宮女官、気まぐれ皇帝に見初められ～ 12" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400225, &#39;store_item0&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//m.media-amazon.com/images/I/81KByUH5qjL._SL1500_.jpg" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="茉莉花官吏伝～後宮女官、気まぐれ皇帝に見初められ～ 12"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400225, &#39;store_item0&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/55Ww5LiW55WM5bCP5p6X5bm45a2Q44Cc44Op44K544Oc44K56ZmN6IeoIeOAnA==/55Ww5LiW55WM5bCP5p6X5bm45a2Q44Cc44Op44K544Oc44K56ZmN6IeoIeOAnDM=" title="異世界小林幸子〜ラスボス降臨!〜3" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400231, &#39;store_item1&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//m.media-amazon.com/images/I/81zEiVfCE6L._SL1500_.jpg" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="異世界小林幸子〜ラスボス降臨!〜3"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400231, &#39;store_item1&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/55KD5a-b55qH5Zu944Gy44GN44GT44KC44KK55Ge5YWG5aaD5LydIOaXpeOAheW-jOWuruOCkuaKnOOBkeWHuuOBl-OAgeacieiDveWumOWQj-OChOOBo-OBpuOBvuOBmeOAgg==/55KD5a-b55qH5Zu944Gy44GN44GT44KC44KK55Ge5YWG5aaD5LydIOaXpeOAheW-jOWuruOCkuaKnOOBkeWHuuOBl-OAgeacieiDveWumOWQj-OChOOBo-OBpuOBvuOBmeOAgiAz" title="璃寛皇国ひきこもり瑞兆妃伝 日々後宮を抜け出し、有能官吏やってます。 3" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400230, &#39;store_item2&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//m.media-amazon.com/images/I/81dA6EEhvGL._SL1500_.jpg" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="璃寛皇国ひきこもり瑞兆妃伝 日々後宮を抜け出し、有能官吏やってます。 3"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400230, &#39;store_item2&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/5aaW57K-5Zu944Gu6aiO5aOrQmFsbGFkIOOAnOe2meOBkOimluOBruWuiOitt-iAheOAnA==/5aaW57K-5Zu944Gu6aiO5aOrQmFsbGFkIOOAnOe2meOBkOimluOBruWuiOitt-iAheOAnCAxMA==" title="妖精国の騎士Ballad 〜継ぐ視の守護者〜 10" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400227, &#39;store_item3&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//m.media-amazon.com/images/I/819eBOCPPLL._SL1500_.jpg" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="妖精国の騎士Ballad 〜継ぐ視の守護者〜 10"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400227, &#39;store_item3&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/5aWz55S354i144Gu5bqt5bir/5aWz55S354i144Gu5bqt5birIDE=" title="女男爵の庭師 1" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400233, &#39;store_item4&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//m.media-amazon.com/images/I/81XEM2IqJrL._SL1500_.jpg" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="女男爵の庭師 1"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400233, &#39;store_item4&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                            
+    <div class="store-item2 g-store-item"
+    >
+	    <a href="https://championcross.jp/store_items/5ZmC44Gu5b2844Go44CB5oGL44Gu44OS44Of44OE44CC/5ZmC44Gu5b2844Go44CB5oGL44Gu44OS44Of44OE44CCIDQ=" title="噂の彼と、恋のヒミツ。 4" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 7400259, &#39;store_item5&#39;);">
+	        <div class="books-store-item">
+	                <img data-src="//cdn-public.comici.jp/storeitem/601945/202510061323183186A7D25F9D9FAC5F645CBAEAB46BAC212.webp" src="//cdn.comici.jp/img/now_printing.jpg" class="books-item-thumb-img lazyload" alt="噂の彼と、恋のヒミツ。 4"
+	                	height="150" width="105" onload="loadImpTrackingLight(&#39;plus_top&#39;, &#39;store_item&#39;, null, null, 7400259, &#39;store_item5&#39;);" />
+
+	        </div>
+        </a>
+    </div>
+
+                        
+                    </div>
+                    
+                        <div class="store-items-grid top-book-button ">
+                            <a href="https://championcross.jp/store_items?page=0">
+                                <button class="optional-item this-month fixed-width">今月の新刊</button>
+                            </a>
+                            
+
+                        </div>
+                    
+                </article>
+            
+
+        </section>
+
+        <section class="sns-section c-padding">
+            
+            
+
+
+            
+            <div class="sidebar-top-features">
+                <div class="sidebar-feature">
+                    
+    <a class="gacha-top-link hide-desktop square-style" href="https://championcross.jp/gacha" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, null, &#39;gachanull&#39;);">
+        <div class="gacha-icon feature-icon">
+        	
+
+           
+			 <!-- comic-growl -->
+			 
+             <!-- manga-zegra -->
+             
+             <!-- ComicPASH! neo -->
+             
+             <!-- Asacomi -->
+             
+			 <!-- mangalt -->
+			 
+             <!-- younganimal -->
+             
+             <!-- comicmedu -->
+             
+             <!-- comicride -->
+             
+             <!-- magkan -->
+             
+             <!-- hayacomic -->
+             
+             <!-- jnbooks -->
+             
+             <!-- mangabang -->
+             
+             <!-- booklista -->
+             
+             <!-- corkstudio -->
+             
+             <!-- comici comics -->
+             
+             <!-- bigcomics -->
+             
+             <!-- YoungChampion / ChampionCross -->
+             
+              <img data-src="/images/content/yanchan/gacha_ticket.svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" class="lazyload" width="26" height="26" alt="ガチャ" onload="loadImpTrackingSuperLight(&#39;plus_top&#39;, &#39;gacha&#39;, null);"
+              />
+             
+			 <!-- kimicomi -->
+			 
+			 <!-- nikkan-spa -->
+			 
+           
+        </div>
+        
+            <span class="feature-text gacha-text">
+                <span>毎日引ける!&nbsp;</span>
+                <span>すぐ無料ガチャ</span>
+            </span>
+        
+        
+        
+    </a>
+
+                </div>
+            </div>
+            
+            
+            
+  
+
+
+            
+	<div class="tutorial-link">
+		
+		<a href="/tutorial" class="button-item tut-link-item" title="はじめての方へ">
+	        <div class="tut-link-icon feature-icon">
+				
+				
+	            	<img height="44" width="47" data-src="/images/content/tutorial/championcross/tutorial.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" alt="チュートリアル" />
+				
+	        </div>
+	        <div class="feature-text link-text">
+	            はじめての方へ
+	        </div>
+	    </a>
+	</div>
+
+
+            <div class="external-link">
+                
+                    
+    <div class="external-link-img-box" >
+      <a class="click-link"
+	        data-event-detail="clk-thumb"
+	        data-image-id="6842857"
+	        data-position="external_link"
+	        href="https://www.akitashoten.co.jp/"
+            target="_blank" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 6842857, &#39;external_link0&#39;);">
+        <picture>
+          <source media="(min-width: 640px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/473271/default/202508130959402050FACAD7AF64F60151B00D8BDA84AAF01.webp 2x, //cdn-public.comici.jp/articlevisual/473271/default/202508130959402050FACAD7AF64F60151B00D8BDA84AAF01-lg.webp 1x"/>
+          <source media="(max-width: 639px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/473271/default/202508130959402050FACAD7AF64F60151B00D8BDA84AAF01-lg.webp 2x, //cdn-public.comici.jp/articlevisual/473271/default/202508130959402050FACAD7AF64F60151B00D8BDA84AAF01-sm.webp 1x"/>
+          <img class="external-link-img lazyload"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII="
+               alt="https://www.akitashoten.co.jp/"
+               width="320"
+               height="100" onload="loadImpTracking(&#39;plus_top&#39;, &#39;external_link&#39;, &#39;null&#39;, &#39;null&#39;, null, null, null, 6842857, &#39;external_link0&#39;);" />
+        </picture>
+      </a>
+    </div>
+
+                
+                    
+    <div class="external-link-img-box" >
+      <a class="click-link"
+	        data-event-detail="clk-thumb"
+	        data-image-id="3780465"
+	        data-position="external_link"
+	        href="https://championcross.jp/genre/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB?size=24&amp;isShowMore=0&amp;isShowMore=1"
+            onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 3780465, &#39;external_link1&#39;);">
+        <picture>
+          <source media="(min-width: 640px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240416193808939D7FB3903709DE847DD2CD0589BADC14E.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240416193808939D7FB3903709DE847DD2CD0589BADC14E-lg.webp 1x"/>
+          <source media="(max-width: 639px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240416193808939D7FB3903709DE847DD2CD0589BADC14E-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240416193808939D7FB3903709DE847DD2CD0589BADC14E-sm.webp 1x"/>
+          <img class="external-link-img lazyload"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII="
+               alt="https://championcross.jp/genre/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB?size=24&amp;isShowMore=0&amp;isShowMore=1"
+               width="320"
+               height="100" onload="loadImpTracking(&#39;plus_top&#39;, &#39;external_link&#39;, &#39;null&#39;, &#39;null&#39;, null, null, null, 3780465, &#39;external_link1&#39;);" />
+        </picture>
+      </a>
+    </div>
+
+                
+                    
+    <div class="external-link-img-box" >
+      <a class="click-link"
+	        data-event-detail="clk-thumb"
+	        data-image-id="6954689"
+	        data-position="external_link"
+	        href="https://youngchampion.jp/"
+            target="_blank" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 6954689, &#39;external_link2&#39;);">
+        <picture>
+          <source media="(min-width: 640px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250825172121174AE16E83CE1044F273FEAECE0555CA7E0.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250825172121174AE16E83CE1044F273FEAECE0555CA7E0-lg.webp 1x"/>
+          <source media="(max-width: 639px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/1077668/default/20250825172121174AE16E83CE1044F273FEAECE0555CA7E0-lg.webp 2x, //cdn-public.comici.jp/articlevisual/1077668/default/20250825172121174AE16E83CE1044F273FEAECE0555CA7E0-sm.webp 1x"/>
+          <img class="external-link-img lazyload"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII="
+               alt="https://youngchampion.jp/"
+               width="320"
+               height="100" onload="loadImpTracking(&#39;plus_top&#39;, &#39;external_link&#39;, &#39;null&#39;, &#39;null&#39;, null, null, null, 6954689, &#39;external_link2&#39;);" />
+        </picture>
+      </a>
+    </div>
+
+                
+                    
+    <div class="external-link-img-box" >
+      <a class="click-link"
+	        data-event-detail="clk-thumb"
+	        data-image-id="3779759"
+	        data-position="external_link"
+	        href="https://souffle.life/"
+            target="_blank" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 3779759, &#39;external_link3&#39;);">
+        <picture>
+          <source media="(min-width: 640px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/2024041615132080131A329FF5F1EE8A61F5CB6275EC26636.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/2024041615132080131A329FF5F1EE8A61F5CB6275EC26636-lg.webp 1x"/>
+          <source media="(max-width: 639px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/2024041615132080131A329FF5F1EE8A61F5CB6275EC26636-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/2024041615132080131A329FF5F1EE8A61F5CB6275EC26636-sm.webp 1x"/>
+          <img class="external-link-img lazyload"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII="
+               alt="https://souffle.life/"
+               width="320"
+               height="100" onload="loadImpTracking(&#39;plus_top&#39;, &#39;external_link&#39;, &#39;null&#39;, &#39;null&#39;, null, null, null, 3779759, &#39;external_link3&#39;);" />
+        </picture>
+      </a>
+    </div>
+
+                
+                    
+    <div class="external-link-img-box" >
+      <a class="click-link"
+	        data-event-detail="clk-thumb"
+	        data-image-id="3780466"
+	        data-position="external_link"
+	        href="https://mochikomi.akitashoten.jp/championcross"
+            target="_blank" onclick="clickAnalizeTrackingEventSpecial(&#39;plus_top&#39;, 3780466, &#39;external_link4&#39;);">
+        <picture>
+          <source media="(min-width: 640px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240416193818743F200AD4B32D1C974A15B68F5A9B5EFBA.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240416193818743F200AD4B32D1C974A15B68F5A9B5EFBA-lg.webp 1x"/>
+          <source media="(max-width: 639px)"
+                  data-srcset="//cdn-public.comici.jp/articlevisual/2/default/20240416193818743F200AD4B32D1C974A15B68F5A9B5EFBA-lg.webp 2x, //cdn-public.comici.jp/articlevisual/2/default/20240416193818743F200AD4B32D1C974A15B68F5A9B5EFBA-sm.webp 1x"/>
+          <img class="external-link-img lazyload"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII="
+               alt="https://mochikomi.akitashoten.jp/championcross"
+               width="320"
+               height="100" onload="loadImpTracking(&#39;plus_top&#39;, &#39;external_link&#39;, &#39;null&#39;, &#39;null&#39;, null, null, null, 3780466, &#39;external_link4&#39;);" />
+        </picture>
+      </a>
+    </div>
+
+                
+            </div>
+            
+            
+            
+  
+
+
+            
+        </section>
+    </div>
+
+    <script>
+        var noUserType = null;
+        var userType = null;
+        var topNewArticlePopup = null;
+    </script>
+
+					</div>
+				</div>
+			</main>
+		</div>
+
+		
+    
+        
+    
+
+
+    
+
+    <footer class="footer footer-box footer-info">
+        <div class="container footer-area">
+            <div class="gotoTopArea">
+                <div id="pageTop">
+                    <a class="pageTop btn" href="#">
+                        <img
+							data-src="//cdn-public.comici.jp/img/icons/btn-PageTop.svg"
+							class="pageTop-img lazyload" alt="page top"
+							height="23"
+							width="32"
+							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-block">
+            	<div class="child">
+					<a href="https://championcross.jp/">
+						<picture >
+		                    <source media="(min-width: 768px)" data-srcset="//cdn-public.comici.jp/content/20/images/2024041113515789299FC20B8528A540E4CBD1F82938E4713.png" width="152" height="48"/>
+		                    <source media="(max-width: 767px)" data-srcset="//cdn-public.comici.jp/content/20/images/2024041113515789299FC20B8528A540E4CBD1F82938E4713.png" width="152" height="48"/>
+		                    <img class="lazyload h-main-pluslogo-img" srcset="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7"
+		                        alt="チャンピオンクロス"
+								height="150"
+								width="29"
+							/>
+						</picture>
+					</a>
+					<a href="https://championcross.jp/">
+						<div class="top-text">
+							<i class="material-icons">home</i>
+							<span>トップ</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="child border-top">
+					<div class="head">マンガ</div>
+					<a class="link" href="https://championcross.jp/category/manga">マンガトップ</a>
+					<a class="link" href="https://championcross.jp/ranking/manga">ランキング</a>
+				</div>
+				
+				<div class="child border-top">
+					<a class="link" href="https://championcross.jp/store_items">単行本</a>
+					<a class="link" href="https://championcross.jp/series/list">作品一覧</a>
+                    
+                    <a class="link" href="https://championcross.jp/news">新着情報</a>
+					<a class="link" href="https://championcross.jp/tutorial">はじめての方へ</a>
+					<a class="link" href="https://championcross.jp/category/column">記事</a>
+            	</div>
+				
+
+	            <ul class="list child last-sp" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	                
+	                <li itemprop="name"><a class="link-bold" href="https://akitashoten-web.zendesk.com"
+	                        itemprop="url" target="_blank">お問い合わせ</a></li>
+	                <li itemprop="name"><a class="link-bold" href="https://comici.co.jp/terms"
+	                        itemprop="url" target="_blank">ご利用規約</a></li>
+	                <li itemprop="name"><a class="link-bold" href="https://comici.co.jp/privacy"
+	                        itemprop="url" target="_blank">プライバシーポリシー</a></li>
+	                <li itemprop="name"><a class="link-bold" href="https://comici.co.jp/tokushohou"
+	                        itemprop="url" target="_blank">特商法表記</a></li>
+	            </ul>
+            </div>
+
+
+            <div class="row text-center">
+                <div class="footer-abj-text">
+                    <div class="abj-wrapper">
+                     <img data-src="//cdn-public.comici.jp/abj/2/20/20240527114347774C4A3A8A4CD707D8A2853588B093F6CC9.png" class="img lazyload" alt="ABJマーク" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" width="85" height="85" />
+                    </div>
+                    <div class="footer-description">
+                        <div class="text text-padding-bottom">
+                            ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号
+                            第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。</div>
+                        <a class="text-link" href="https://aebs.or.jp/" target="_blank">https://aebs.or.jp/</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                
+            </div>
+			
+            <div class="footer-copyright">
+                <span class="text-copyright">©︎AKITA PUBLISHING CO.,LTD. このサイトのデータの著作権は秋田書店が保有します。無断複製転載放送等は禁止します。</span>
+                <div class="footer-powered-by-area footer-copy-text">
+                    <span class="text-powered-by">POWERED BY</span>&nbsp;&nbsp;
+                    <a href="https://comici.co.jp">
+                    	<img  data-src="https://cdn-public.comici.jp/img/logo_footer.svg" width="61" height="22" alt="コミチ" class="lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+        
+    
+
+    
+    <script src="/js/content/rimacomi-76632f31bc.shueisya.link.js"></script>
+
+	</div>
+
+	
+
+
+
+	<script src="/js/comici-auth-bundle-86a850d1a0.js"></script>
+</body>
+</html>

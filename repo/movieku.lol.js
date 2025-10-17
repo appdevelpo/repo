@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         id
 // @license      MIT
-// @icon         https://i2.wp.com/107.152.37.223/wp-content/uploads/2020/12/cropped-Movieku-2-32x32.jpg
 // @package      movieku.lol
 // @type         bangumi
 // @webSite      https://movieku.lol

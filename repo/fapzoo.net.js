@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://i0.wp.com/fapzoo.net/wp-content/uploads/2024/04/favicon.png?fit=80,80&ssl=1
 // @package      fapzoo.net
 // @type         bangumi
 // @webSite      https://fapzoo.net

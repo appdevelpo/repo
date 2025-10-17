@@ -4,7 +4,6 @@
 // @author       anishi7
 // @lang         en
 // @license      MIT
-// @icon         https://bestlightnovel.com/themes/home/images/favicon.png
 // @package      best.light.novel
 // @type         fikushon
 // @webSite      https://bestlightnovel.com

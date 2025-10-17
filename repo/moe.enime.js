@@ -4,7 +4,6 @@
 // @author       MiaoMint
 // @lang         all
 // @license      MIT
-// @icon         https://avatars.githubusercontent.com/u/74993083?s=200&v=4
 // @package      moe.enime
 // @type         bangumi
 // @webSite      https://api.enime.moe

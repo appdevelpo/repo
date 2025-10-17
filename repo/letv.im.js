@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         zh
 // @license      MIT
-// @icon         https://letv.im/template/letv/asset/img/favicon.png
 // @package      letv.im
 // @type         bangumi
 // @webSite      https://letv.im

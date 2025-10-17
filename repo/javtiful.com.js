@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://javtiful.com/favicon.ico
 // @package      javtiful.com
 // @type         bangumi
 // @webSite      https://javtiful.com

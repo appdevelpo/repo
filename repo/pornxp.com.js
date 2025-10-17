@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      pornxp.com
 // @type         bangumi
-// @icon         https://www.pornxp.com/logo2.png
 // @webSite      https://www.pornxp.com
 // @nsfw         true
 // ==/MiruExtension==

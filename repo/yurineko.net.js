@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         vi
 // @license      MIT
-// @icon         https://yurineko.net/img/logo-footer.png
 // @package      yurineko.net
 // @type         manga
 // @webSite      https://api.yurineko.net

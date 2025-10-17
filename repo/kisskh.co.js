@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         all
 // @license      MIT
-// @icon         https://kisskh.co/assets/icons/icon-192x192.png
 // @package      kisskh.co
 // @type         bangumi
 // @webSite      https://kisskh.co

@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         en
 // @license      MIT
-// @icon         https://wnmtl.com/logo.png
 // @package      wnmtl.org
 // @type         fikushon
 // @webSite      https://api.mystorywave.com/story-wave-backend/api/v1/content

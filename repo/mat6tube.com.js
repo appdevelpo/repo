@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://cdn.nmcorp.video/static/extend/dark/favicon-96x96.png
 // @package      mat6tube.com
 // @type         bangumi
 // @webSite      https://mat6tube.com

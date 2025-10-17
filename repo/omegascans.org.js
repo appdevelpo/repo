@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://omegascans.org/icon.png
+
 // @package      omegascans.org
 // @type         manga
 // @webSite      https://api.omegascans.org

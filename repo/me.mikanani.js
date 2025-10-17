@@ -4,7 +4,6 @@
 // @author       MiaoMint
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://mikanani.me/images/mikan-pic.png
 // @package      me.mikanani
 // @type         bangumi
 // @webSite      https://mikanani.me

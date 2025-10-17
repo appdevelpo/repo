@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         all
 // @license      MIT
-// @icon         https://bato.to/amsta/img/batoto/favicon.ico?v0
+
 // @package      bato.to
 // @type         manga
 // @webSite      https://bato.to

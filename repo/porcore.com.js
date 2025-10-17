@@ -4,7 +4,6 @@
 // @author       ijs77
 // @lang         en
 // @license      MIT
-// @icon         https://porcore.com/favicon-96x96.png
 // @package      porcore.com
 // @type         bangumi
 // @webSite      https://porcore.com

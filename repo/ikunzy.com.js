@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://ikunzy.org/favicon.ico
 // @package      ikunzy.com
 // @type         bangumi
 // @webSite      https://ikunzy.org

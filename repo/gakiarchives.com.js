@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      gakiarchives.com
 // @type         bangumi
-// @icon         https://gakiarchives.com/images/logo.png
 // @webSite      https://gakiarchives.com
 // @nsfw         false
 // ==/MiruExtension==

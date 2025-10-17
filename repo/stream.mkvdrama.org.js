@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      stream.mkvdrama.org
 // @type         bangumi
-// @icon         https://mkvdrama.org/wp-content/uploads/2023/03/474a064744e1d9fe02e1124b2b071c70.png
 // @webSite      https://stream.mkvdrama.org
 // @nsfw         false
 // ==/MiruExtension==

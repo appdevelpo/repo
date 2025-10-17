@@ -4,7 +4,6 @@
 // @author       shashankx86
 // @lang         en
 // @license      MIT
-// @icon         https://mangakatana.com/static/img/fav.png
 // @package      mangakatana.com
 // @type         manga
 // @webSite      https://mangakatana.com/

@@ -3,7 +3,6 @@
 // @version      v0.1.0
 // @author       hualiong
 // @lang         zh-cn
-// @icon         https://www.bilinovel.com/favicon.ico
 // @license      MIT
 // @package      bilinovel.com
 // @type         fikushon

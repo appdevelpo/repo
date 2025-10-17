@@ -4,7 +4,6 @@
 // @author       OshekharO
 // @lang         all
 // @license      MIT
-// @icon         https://www.simply-hentai.com/favicon.ico
 // @package      simplyhentai.com
 // @type         manga
 // @webSite      https://cors.notesnook.com/https://api.simply-hentai.com/v3

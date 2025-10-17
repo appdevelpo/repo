@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      windmill
 // @type         bangumi
-// @icon         https://www.dm530w.org/tpsf/fc_pic/favicon.ico
 // @webSite      https://www.dm530w.org
 // ==/MiruExtension==
 

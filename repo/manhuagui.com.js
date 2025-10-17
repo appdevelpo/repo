@@ -5,7 +5,6 @@
 // @lang         zh-cn
 // @license      MIT
 // @type         manga
-// @icon         https://www.manhuagui.com/favicon.ico
 // @package      manhuagui.com
 // @webSite      https://api-manhuagui.aoihosizora.top/v1
 // @nsfw         false

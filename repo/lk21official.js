@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      lk21official
 // @type         bangumi
-// @icon         https://s8.lk21static.xyz/wp-content/themes/dunia21/images/favicon-set/apple-icon-144x144.png
 // @webSite      https://tv3.lk21official.wiki
 // @nsfw         false
 // ==/MiruExtension==

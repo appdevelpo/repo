@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://heimuer.tv/favicon.ico
 // @package      heimuer.tv
 // @type         bangumi
 // @webSite      https://heimuer.tv

@@ -5,7 +5,6 @@
 // @lang         zh
 // @license      MIT
 // @type         manga
-// @icon         https://www.baozimh.com/favicon.ico
 // @package      baozimh.com
 // @webSite      https://www.baozimh.com
 // @nsfw         false

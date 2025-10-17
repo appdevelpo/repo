@@ -4,7 +4,6 @@
 // @author       hualiong
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://ukuzy3.com/template/vipzy/images/logo.gif
 // @package      ukuzy.com
 // @type         bangumi
 // @webSite      https://ukuzy.com

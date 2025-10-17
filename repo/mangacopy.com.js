@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      mangacopy.com
 // @type         manga
-// @icon         https://tse1-mm.cn.bing.net/th/id/OIP-C.KCerrBL9dq9e8ydGaiyy2QAAAA
 // @webSite      https://www.mangacopy.com
 // ==/MiruExtension==
 // 旧版图标：https://hi77-overseas.mangafuna.xyz/static/free.ico

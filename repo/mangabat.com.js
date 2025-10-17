@@ -4,7 +4,7 @@
 // @author       bethro
 // @lang         en
 // @license      MIT
-// @icon         https://h.mangabat.com/favicon-96x96.png
+
 // @package      mangabat.com
 // @type         manga
 // @webSite      https://h.mangabat.com

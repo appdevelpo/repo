@@ -5,7 +5,6 @@
 // @lang         zh
 // @license      MIT
 // @type         manga
-// @icon         https://m.g-mh.org/assets/images/Logo.png
 // @package      gzhanmh
 // @webSite      https://m.g-mh.org
 // @nsfw         false

@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      xvideos.com
 // @type         bangumi
-// @icon         https://static-ss.xvideos-cdn.com/v3/img/skins/default/logo/xv.white.180.png
 // @webSite      https://www.xvideos.com
 // @nsfw         true
 // ==/MiruExtension==

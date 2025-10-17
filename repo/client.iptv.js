@@ -7,7 +7,6 @@
 // @license      MIT
 // @package      client.iptv
 // @type         bangumi
-// @icon         https://s11.ax1x.com/2024/01/11/pFCMKit.png
 // @webSite      https://live.fanmingming.com
 // @nsfw         false
 // ==/MiruExtension==

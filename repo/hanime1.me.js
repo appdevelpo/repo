@@ -4,7 +4,6 @@
 // @author       appdevelpo
 // @lang         zh
 // @license      MIT
-// @icon         https://img4.qy0.ru/data/2205/36/tab_logo.png
 // @package      hanime1.me
 // @type         bangumi
 // @webSite      https://hanime1.me

@@ -5,7 +5,6 @@
 // @lang         it
 // @license      MIT
 // @type         bangumi
-// @icon         https://static.animeworld.so/assets/images/favicon/android-icon-192x192.png?4
 // @package      animeworld
 // @webSite      https://www.animeworld.so
 // @nsfw         false

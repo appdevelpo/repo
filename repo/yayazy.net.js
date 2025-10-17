@@ -4,7 +4,6 @@
 // @author       jason
 // @lang         zh-cn
 // @license      MIT
-// @icon         https://yayazy3.com/template/yayazy/statics/img/logo.png
 // @package      yayazy.net
 // @type         bangumi
 // @webSite      https://yayazy.net

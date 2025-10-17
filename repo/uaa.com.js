@@ -6,7 +6,6 @@
 // @license      MIT
 // @package      uaa.com
 // @type         bangumi
-// @icon         https://www.uaa.com/assets/uaalogo.7acb1f90.svg
 // @webSite      https://www.uaa.com/api/video/app/video
 // @nsfw         true
 // ==/MiruExtension==
