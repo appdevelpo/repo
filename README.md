@@ -45,6 +45,7 @@ Miru extensions repository | [Miru App Download](https://github.com/miru-project
 | Draftsex | draftsex.porn | v0.0.2 | bachig26 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/draftsex.porn.js) |
 | DramaCool | dramacool.pa | v0.0.4 | OshekharO | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/dramacool.pa.js) |
 | EroticMV | eroticmv.com | v0.0.1 | OshekharO | all | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/eroticmv.com.js) |
+| Example Library(V1) | example.v1 | v0.0.1 | appdevelpo | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/example.v1.js) |
 | FapZoo | fapzoo.net | v0.0.2 | ijs77 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/fapzoo.net.js) |
 | 非凡资源 | ffzy.tv | v0.0.2 | hualiong | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/ffzy.tv.js) |
 | FilmyCab | filmycab | v0.0.2 | OshekharO | hi | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/filmycab.js) |
