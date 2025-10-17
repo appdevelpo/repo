@@ -7,6 +7,7 @@
 // @package      mangakatana.com
 // @type         manga
 // @webSite      https://mangakatana.com/
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangakatana.com.png
 // ==/MiruExtension==
 
 export default class extends Extension {

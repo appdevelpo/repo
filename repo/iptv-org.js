@@ -8,6 +8,7 @@
 // @package      iptv-org
 // @type         bangumi
 // @webSite      https://iptv-org.github.io/iptv
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/iptv-org.png
 // @nsfw         false
 // ==/MiruExtension==
 

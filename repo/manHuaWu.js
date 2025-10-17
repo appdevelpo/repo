@@ -7,6 +7,7 @@
 // @type         manga
 // @package      manHuaWu
 // @webSite      https://www.mhua5.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/manHuaWu.png
 // @nsfw         false
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      royalroad.com
 // @type         fikushon
 // @webSite      https://www.royalroad.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/royalroad.com.ico
 // @nsfw         false
 // ==/MiruExtension==
 

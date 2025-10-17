@@ -7,6 +7,7 @@
 // @package      xvideos.com
 // @type         bangumi
 // @webSite      https://www.xvideos.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/xvideos.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

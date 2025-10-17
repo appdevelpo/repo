@@ -7,6 +7,7 @@
 // @package      me.mikanani
 // @type         bangumi
 // @webSite      https://mikanani.me
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/me.mikanani.png
 // @description  蜜柑计划：新一代的动漫下载站
 // ==/MiruExtension==
 

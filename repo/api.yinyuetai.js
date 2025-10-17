@@ -7,6 +7,7 @@
 // @package      api.yinyuetai
 // @type         bangumi
 // @webSite      https://video-api.yinyuetai.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/api.yinyuetai.ico
 // @nsfw         false
 // ==/MiruExtension==
 

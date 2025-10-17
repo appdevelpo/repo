@@ -7,6 +7,7 @@
 // @package      javhd.icu
 // @type         bangumi
 // @webSite      https://javhd.icu
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/javhd.icu.png
 // @nsfw         true
 // ==/MiruExtension==
 

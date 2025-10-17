@@ -7,6 +7,7 @@
 // @package      vn.tangthuvien
 // @type         fikushon
 // @webSite      https://truyen.tangthuvien.vn
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/vn.tangthuvien.png
 // @nsfw         false
 // ==/MiruExtension==
 

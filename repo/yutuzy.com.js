@@ -7,6 +7,7 @@
 // @package      yutuzy.com
 // @type         bangumi
 // @webSite      https://yutuzy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/yutuzy.com.png
 // @nsfw         true
 // ==/MiruExtension==
 export default class extends Extension {

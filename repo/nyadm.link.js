@@ -7,6 +7,7 @@
 // @package      nyadm.link
 // @type         bangumi
 // @webSite      https://www.nyadm.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/nyadm.link.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @package      moe.enime
 // @type         bangumi
 // @webSite      https://api.enime.moe
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/moe.enime.png
 // @description  Enime API is an open source API service for developers to access anime info (as well as their video sources) https://github.com/Enime-Project/api.enime.moe
 // ==/MiruExtension==
 

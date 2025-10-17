@@ -7,6 +7,7 @@
 // @package      kisskh.co
 // @type         bangumi
 // @webSite      https://kisskh.co
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/kisskh.co.png
 // ==/MiruExtension==
 
 export default class extends Extension {

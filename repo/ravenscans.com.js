@@ -8,6 +8,7 @@
 // @package      ravenscans.com
 // @type         manga
 // @webSite      https://ravenscans.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/ravenscans.com.png
 // ==/MiruExtension==
 
 export default class extends Extension {

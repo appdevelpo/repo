@@ -7,6 +7,7 @@
 // @package      supercartoons.net
 // @type         bangumi
 // @webSite      https://www.supercartoons.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/supercartoons.net.png
 // @nsfw         false
 // ==/MiruExtension==
 

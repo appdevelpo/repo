@@ -7,6 +7,7 @@
 // @package      bfzy.tv
 // @type         bangumi
 // @webSite      https://bfzy.tv
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bfzy.tv.ico
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

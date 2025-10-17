@@ -62,22 +62,71 @@ func readRepoExtensions() []map[string]string {
 			log.Println("error:", err)
 			continue
 		}
+
+		// Extract MiruExtension block
 		r, _ := regexp.Compile(`MiruExtension([\s\S]+?)/MiruExtension`)
 		data := r.FindAllString(string(b), -1)
 		if len(data) < 1 {
 			log.Println("error: not extension")
 			continue
 		}
-		lines := strings.Split(data[0], "\n")
-		extension := make(map[string]string)
-		for _, v := range lines {
-			if v[:4] == "// @" {
-				s := strings.Split(v[4:], " ")
-				extension[s[0]] = strings.Trim(s[len(s)-1], "\r")
-			}
+
+		// Parse metadata from the content
+		extension := parseExtensionMetadata(data[0], de2.Name())
+		if extension != nil {
+			extension["url"] = de2.Name()
+			extensions = append(extensions, extension)
 		}
-		extension["url"] = de2.Name()
-		extensions = append(extensions, extension)
 	}
 	return extensions
+}
+
+func parseExtensionMetadata(content string, fileName string) map[string]string {
+	extension := make(map[string]string)
+
+	// Regex to match @key value pattern
+	re := regexp.MustCompile(`@(\w+)\s+(.*)`)
+	matches := re.FindAllStringSubmatch(content, -1)
+
+	for _, match := range matches {
+		key := match[1]
+		value := strings.TrimSpace(match[2])
+
+		switch key {
+		case "name":
+			extension["name"] = value
+		case "version":
+			extension["version"] = value
+		case "author":
+			extension["author"] = value
+		case "license":
+			extension["license"] = value
+		case "lang":
+			extension["lang"] = value
+		case "icon":
+			extension["icon"] = value
+		case "package":
+			extension["package"] = value
+		case "webSite":
+			extension["webSite"] = value
+		case "description":
+			extension["description"] = value
+		case "api":
+			extension["api"] = value
+		case "type":
+			extension["type"] = value
+		case "tags":
+			// Split tags by comma and trim whitespace
+			extension["tags"] = value
+		}
+	}
+
+	// Validate package name matches file name
+	pkg, exists := extension["package"]
+	if !exists || pkg+".js" != fileName {
+		log.Printf("warning: package name does not match file name | file: %s | package: %s\n", fileName, pkg)
+		return nil
+	}
+
+	return extension
 }

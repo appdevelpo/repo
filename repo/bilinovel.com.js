@@ -7,6 +7,7 @@
 // @package      bilinovel.com
 // @type         fikushon
 // @webSite      https://www.bilinovel.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bilinovel.com.ico
 // ==/MiruExtension==
 export default class extends Extension {
   dict = {

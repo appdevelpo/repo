@@ -7,6 +7,7 @@
 // @package      flixhq
 // @type         bangumi
 // @webSite      https://consumet8.vercel.app/movies/flixhq
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/flixhq.png
 // ==/MiruExtension==
 
 export default class extends Extension {

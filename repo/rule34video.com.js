@@ -8,6 +8,7 @@
 // @package      rule34video.com
 // @type         bangumi
 // @webSite      https://rule34video.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rule34video.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

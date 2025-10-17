@@ -8,6 +8,7 @@
 // @package      mangadex.org
 // @type         manga
 // @webSite      https://api.mangadex.org
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangadex.org.png
 // ==/MiruExtension==
 
 export default class extends Extension {

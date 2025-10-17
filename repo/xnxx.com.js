@@ -7,6 +7,7 @@
 // @package      xnxx.com
 // @type         bangumi
 // @webSite      https://www.xnxx.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/xnxx.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

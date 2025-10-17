@@ -7,6 +7,7 @@
 // @package      yayazy.net
 // @type         bangumi
 // @webSite      https://yayazy.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/yayazy.net.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

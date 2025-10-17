@@ -8,6 +8,7 @@
 // @package      rip.acg
 // @type         bangumi
 // @webSite      https://acg.rip
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rip.acg.png
 // ==/MiruExtension==
 
 export default class extends Extension {

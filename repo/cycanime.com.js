@@ -7,6 +7,7 @@
 // @package      cycanime.com
 // @type         bangumi
 // @webSite      https://www.cyc-anime.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/cycanime.com.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

@@ -8,6 +8,7 @@
 // @package      asuratoon.com
 // @type         manga
 // @webSite      https://asuracomic.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/asuratoon.com.webp
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -8,6 +8,7 @@
 // @package      bato.to
 // @type         manga
 // @webSite      https://bato.to
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bato.to.ico
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @package      mat6tube.com
 // @type         bangumi
 // @webSite      https://mat6tube.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mat6tube.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

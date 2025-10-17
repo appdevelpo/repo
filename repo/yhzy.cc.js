@@ -7,6 +7,7 @@
 // @package      yhzy.cc
 // @type         bangumi
 // @webSite      https://yhzy.cc
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/yhzy.cc.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

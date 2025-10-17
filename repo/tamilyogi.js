@@ -7,6 +7,7 @@
 // @package      tamilyogi
 // @type         bangumi
 // @webSite      https://tamilyogi.plus
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/tamilyogi.png
 // @nsfw         false
 // ==/MiruExtension==
 

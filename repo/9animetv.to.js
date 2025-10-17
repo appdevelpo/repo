@@ -7,6 +7,7 @@
 // @package      9animetv.to
 // @type         bangumi
 // @webSite      https://9animetv.to
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/9animetv.to.png
 // @nsfw         false
 // ==/MiruExtension==
 

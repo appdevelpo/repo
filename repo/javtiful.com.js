@@ -7,6 +7,7 @@
 // @package      javtiful.com
 // @type         bangumi
 // @webSite      https://javtiful.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/javtiful.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 

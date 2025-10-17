@@ -7,6 +7,7 @@
 // @package      netfapx.com
 // @type         bangumi
 // @webSite      https://netfapx.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/netfapx.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

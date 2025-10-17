@@ -7,6 +7,7 @@
 // @package      ikunzy.com
 // @type         bangumi
 // @webSite      https://ikunzy.org
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/ikunzy.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 export default class extends Extension {

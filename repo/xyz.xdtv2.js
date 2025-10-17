@@ -7,6 +7,7 @@
 // @package      xyz.xdtv2
 // @type         bangumi
 // @webSite      https://caocao15.xyz
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/xyz.xdtv2.png
 // @nsfw         true
 // ==/MiruExtension==
 

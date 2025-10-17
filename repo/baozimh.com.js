@@ -7,6 +7,7 @@
 // @type         manga
 // @package      baozimh.com
 // @webSite      https://www.baozimh.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/baozimh.com.ico
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

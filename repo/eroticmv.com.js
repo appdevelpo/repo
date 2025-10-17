@@ -7,6 +7,7 @@
 // @package      eroticmv.com
 // @type         bangumi
 // @webSite      https://eroticmv.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/eroticmv.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      movieku.lol
 // @type         bangumi
 // @webSite      https://movieku.lol
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/movieku.lol.jpg
 // @nsfw         false
 // ==/MiruExtension==
 

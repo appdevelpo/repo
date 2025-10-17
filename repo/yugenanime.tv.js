@@ -7,6 +7,7 @@
 // @type         bangumi
 // @package      yugenanime.tv
 // @webSite      https://yugenanime.tv
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/yugenanime.tv.png
 // @nsfw         true
 // ==/MiruExtension==
 

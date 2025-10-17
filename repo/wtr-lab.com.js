@@ -7,6 +7,7 @@
 // @package      wtr-lab.com
 // @type         fikushon
 // @webSite      https://wtr-lab.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/wtr-lab.com.png
 // ==/MiruExtension==
 
 export default class extends Extension {

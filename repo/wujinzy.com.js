@@ -7,6 +7,7 @@
 // @package      wujinzy.com
 // @type         bangumi
 // @webSite      https://wujinzy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/wujinzy.com.jpg
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

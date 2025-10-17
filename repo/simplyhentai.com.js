@@ -7,6 +7,7 @@
 // @package      simplyhentai.com
 // @type         manga
 // @webSite      https://cors.notesnook.com/https://api.simply-hentai.com/v3
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/simplyhentai.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 

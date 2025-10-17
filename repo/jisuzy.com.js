@@ -7,6 +7,7 @@
 // @package      jisuzy.com
 // @type         bangumi
 // @webSite      https://jisuzy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/jisuzy.com.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

@@ -8,6 +8,7 @@
 // @package      345movie.net
 // @type         bangumi
 // @webSite      https://345movie.net/movies
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/345movie.net.ico
 // @description  Extension for accessing 345movie.net content
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      pornxp.com
 // @type         bangumi
 // @webSite      https://www.pornxp.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/pornxp.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      piped.video
 // @type         bangumi
 // @webSite      https://piped.video
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/piped.video.png
 // ==/MiruExtension==
 
 export default class extends Extension {

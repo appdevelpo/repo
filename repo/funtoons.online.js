@@ -7,6 +7,7 @@
 // @package      funtoons.online
 // @type         manga
 // @webSite      https://funtoons.online
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/funtoons.online.png
 // ==/MiruExtension==
 
 export default class extends Extension {

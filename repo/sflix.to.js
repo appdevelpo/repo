@@ -7,6 +7,7 @@
 // @package      sflix.to
 // @type         bangumi
 // @webSite      https://sflix.to
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/sflix.to.png
 // @nsfw         false
 // ==/MiruExtension==
 

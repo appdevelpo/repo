@@ -7,6 +7,7 @@
 // @package      de.ccc.media
 // @type         bangumi
 // @webSite      https://api.media.ccc.de
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/de.ccc.media.png
 // @description  Video material provided by the Chaos Computer Club
 // @nsfw         false
 // ==/MiruExtension==

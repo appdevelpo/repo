@@ -7,6 +7,7 @@
 // @package      taotu
 // @type         manga
 // @webSite      https://en.taotu.org
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/taotu.ico
 // @nsfw         true
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      moduzy.com
 // @type         bangumi
 // @webSite      https://moduzy.vip
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/moduzy.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 export default class extends Extension {

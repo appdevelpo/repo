@@ -7,6 +7,7 @@
 // @package      unimay.media
 // @type         bangumi
 // @webSite      https://api.unimay.media
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/unimay.media.png
 // ==/MiruExtension==
 
 export default class extends Extension {

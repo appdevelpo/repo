@@ -8,6 +8,7 @@
 // @package      client.iptv
 // @type         bangumi
 // @webSite      https://live.fanmingming.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/client.iptv.png
 // @nsfw         false
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      gakiarchives.com
 // @type         bangumi
 // @webSite      https://gakiarchives.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/gakiarchives.com.png
 // @nsfw         false
 // ==/MiruExtension==
 

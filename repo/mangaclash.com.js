@@ -8,6 +8,7 @@
 // @package      mangaclash.com
 // @type         manga
 // @webSite      https://mangaclash.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangaclash.com.jpg
 // ==/MiruExtension==
 
 

@@ -7,6 +7,7 @@
 // @package      sakura
 // @type         bangumi
 // @webSite      https://www.vdm8.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/sakura.ico
 // ==/MiruExtension==
 
 

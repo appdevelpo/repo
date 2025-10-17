@@ -7,6 +7,7 @@
 // @package      senlinzy.com
 // @type         bangumi
 // @webSite      https://senlinzy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/senlinzy.com.gif
 // @nsfw         true
 // ==/MiruExtension==
 export default class extends Extension {

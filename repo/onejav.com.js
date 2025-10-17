@@ -7,6 +7,7 @@
 // @package      onejav.com
 // @type         bangumi
 // @webSite      https://onejav.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/onejav.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      mx.yts
 // @type         bangumi
 // @webSite      https://yts.mx
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mx.yts.png
 // @description  YTS.mx API is an open source API service for developers to access torrent info
 // ==/MiruExtension==
 

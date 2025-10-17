@@ -7,6 +7,7 @@
 // @package      yymanhua.com
 // @type         manga
 // @webSite      https://www.yymanhua.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/yymanhua.com.ico
 // ==/MiruExtension==
 export default class extends Extension {
   async asyncPool(limit, items, f) {

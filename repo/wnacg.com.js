@@ -7,6 +7,7 @@
 // @type         manga
 // @package      wnacg.com
 // @webSite      https://www.wnacg.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/wnacg.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 

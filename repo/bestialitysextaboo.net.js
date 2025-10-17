@@ -7,6 +7,7 @@
 // @package      bestialitysextaboo.net
 // @type         bangumi
 // @webSite      https://bestialitysextaboo.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bestialitysextaboo.net.ico
 // @nsfw         true
 // ==/MiruExtension==
 

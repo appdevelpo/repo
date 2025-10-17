@@ -7,6 +7,7 @@
 // @package      360zy.com
 // @type         bangumi
 // @webSite      https://360zy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/360zy.com.ico
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

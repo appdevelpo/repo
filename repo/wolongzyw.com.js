@@ -7,6 +7,7 @@
 // @package      wolongzyw.com
 // @type         bangumi
 // @webSite      https://wolongzyw.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/wolongzyw.com.png
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

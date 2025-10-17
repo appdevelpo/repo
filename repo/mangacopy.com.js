@@ -7,6 +7,7 @@
 // @package      mangacopy.com
 // @type         manga
 // @webSite      https://www.mangacopy.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangacopy.com.KCerrBL9dq9e8ydGaiyy2QAAAA
 // ==/MiruExtension==
 // 旧版图标：https://hi77-overseas.mangafuna.xyz/static/free.ico
 export default class extends Extension {

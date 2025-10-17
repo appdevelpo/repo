@@ -7,6 +7,7 @@
 // @type         bangumi
 // @package      samehadaku
 // @webSite      https://samehadaku.email
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/samehadaku.jpg
 // @nsfw         false
 // @tags         anime,indonesia
 // ==/MiruExtension==

@@ -7,6 +7,7 @@
 // @package      topcartoons.tv
 // @type         bangumi
 // @webSite      https://www.topcartoons.tv
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/topcartoons.tv.png
 // @nsfw         false
 // ==/MiruExtension==
 

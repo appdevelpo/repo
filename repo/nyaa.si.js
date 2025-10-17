@@ -7,6 +7,7 @@
 // @package      nyaa.si
 // @type         bangumi
 // @webSite      https://nyaa.si
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/nyaa.si.png
 // @description  A BitTorrent community focused on Eastern Asian media including anime, manga, music, and more.
 // ==/MiruExtension==
 

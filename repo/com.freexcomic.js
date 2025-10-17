@@ -7,6 +7,7 @@
 // @type         manga
 // @package      com.freexcomic
 // @webSite      http://
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/com.freexcomic.ico
 // @nsfw         true
 // ==/MiruExtension==
 

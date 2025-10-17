@@ -7,6 +7,7 @@
 // @package      manganato
 // @type         manga
 // @webSite      https://manganato.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/manganato.png
 // ==/MiruExtension==
 
 export default class extends Extension {

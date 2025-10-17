@@ -8,6 +8,7 @@
 // @package      mangabat.com
 // @type         manga
 // @webSite      https://h.mangabat.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangabat.com.png
 // ==/MiruExtension==
 
 export default class extends Extension {

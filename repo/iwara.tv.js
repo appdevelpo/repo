@@ -7,6 +7,7 @@
 // @package      iwara.tv
 // @type         bangumi
 // @webSite      https://www.iwara.tv
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/iwara.tv.png
 // @nsfw         true
 // ==/MiruExtension==
 export default class extends Extension {

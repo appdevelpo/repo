@@ -7,6 +7,7 @@
 // @package      draftsex.porn
 // @type         bangumi
 // @webSite      https://draftsex.porn
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/draftsex.porn.png
 // @nsfw         true
 // ==/MiruExtension==
 

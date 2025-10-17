@@ -7,6 +7,7 @@
 // @type         manga
 // @package      club.everia
 // @webSite      https://everia.club
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/club.everia.jpg
 // @nsfw         true
 // ==/MiruExtension==
 

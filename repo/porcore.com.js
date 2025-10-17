@@ -7,6 +7,7 @@
 // @package      porcore.com
 // @type         bangumi
 // @webSite      https://porcore.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/porcore.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

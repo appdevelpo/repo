@@ -7,6 +7,7 @@
 // @package      zeroscans.com
 // @type         manga
 // @webSite      https://zscans.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/zeroscans.com.ico
 // ==/MiruExtension==
 
 export default class extends Extension {

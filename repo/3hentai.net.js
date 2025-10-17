@@ -7,6 +7,7 @@
 // @package      3hentai.net
 // @type         manga
 // @webSite      https://3hentai.net
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/3hentai.net.ico
 // @nsfw         true
 // ==/MiruExtension==
 

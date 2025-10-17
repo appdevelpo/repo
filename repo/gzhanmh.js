@@ -7,6 +7,7 @@
 // @type         manga
 // @package      gzhanmh
 // @webSite      https://m.g-mh.org
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/gzhanmh.png
 // @nsfw         false
 // ==/MiruExtension==
 

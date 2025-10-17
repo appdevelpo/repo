@@ -7,6 +7,7 @@
 // @package      libvio.app
 // @type         bangumi
 // @webSite      https://www.libvio.app
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/libvio.app.ico
 // ==/MiruExtension==
 export default class extends Extension {
   base64decode(str) {

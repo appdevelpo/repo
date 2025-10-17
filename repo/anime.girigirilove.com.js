@@ -7,6 +7,7 @@
 // @package      anime.girigirilove.com
 // @type         bangumi
 // @webSite      https://anime.girigirilove.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/anime.girigirilove.com.png
 // @nsfw         false
 // ==/MiruExtension==
 

@@ -7,6 +7,7 @@
 // @package      mangacross.jp
 // @type         manga
 // @webSite      https://mangacross.jp
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/mangacross.jp.ico
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @package      motherless.com
 // @type         bangumi
 // @webSite      https://motherless.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/motherless.com.ico
 // @nsfw         true
 // ==/MiruExtension==
 

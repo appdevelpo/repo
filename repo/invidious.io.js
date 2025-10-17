@@ -7,6 +7,7 @@
 // @package      invidious.io
 // @type         bangumi
 // @webSite      https://cal1.iv.ggtyler.dev/api/v1
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/invidious.io.png
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @package      ani.gogo
 // @type         bangumi
 // @webSite      https://api.amvstr.me/api/v2
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/ani.gogo.png
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @type         manga
 // @package      manhuagui.com
 // @webSite      https://api-manhuagui.aoihosizora.top/v1
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/manhuagui.com.ico
 // @nsfw         false
 // ==/MiruExtension==
 export default class extends Extension {

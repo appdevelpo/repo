@@ -8,6 +8,7 @@
 // @package      omegascans.org
 // @type         manga
 // @webSite      https://api.omegascans.org
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/omegascans.org.png
 // @nsfw         true
 // ==/MiruExtension==
 

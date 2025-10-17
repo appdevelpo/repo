@@ -7,6 +7,7 @@
 // @type         manga
 // @package      com.manga18fx
 // @webSite      https://manga18fx.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/com.manga18fx.jpg
 // @nsfw         true
 // ==/MiruExtension==
 

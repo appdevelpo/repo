@@ -7,6 +7,7 @@
 // @package      komiku.com
 // @type         manga
 // @webSite      https://komiku.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/komiku.com.png
 // @nsfw         false
 // @tags         manhwa, manhua, manga, indonesia
 // ==/MiruExtension==

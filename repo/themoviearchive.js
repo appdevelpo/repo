@@ -7,6 +7,7 @@
 // @package      themoviearchive
 // @type         bangumi
 // @webSite      https://api.themoviedb.org/3
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/themoviearchive.jpg
 // ==/MiruExtension==
 
 export default class extends Extension {

@@ -7,6 +7,7 @@
 // @package      xhamster.com
 // @type         bangumi
 // @webSite      https://xhamster.com
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/xhamster.com.png
 // @nsfw         true
 // ==/MiruExtension==
 

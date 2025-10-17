@@ -7,6 +7,7 @@
 // @package      hianime.to
 // @type         bangumi
 // @webSite      https://hianime.to
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/hianime.to.ico
 // ==/MiruExtension==
 
 export default class extends Extension {

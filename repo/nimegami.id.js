@@ -7,6 +7,7 @@
 // @package      nimegami.id
 // @type         bangumi
 // @webSite      https://nimegami.id
+// @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/nimegami.id.png
 // ==/MiruExtension==
 
 //Current issue: Doesn't work on older animes such as spy x family since it's using video.nimegami.id instead of berkasdrive.com
