@@ -103,8 +103,8 @@
   "package": "anime.girigirilove.com",
   "type": "bangumi",
   "url": "anime.girigirilove.com.js",
-  "version": "v0.0.3",
-  "webSite": "https://anime.girigirilove.com"
+  "version": "v0.0.4",
+  "webSite": "https://bgm.girigirilove.com"
  },
  {
   "author": "JerukPurut404",
@@ -119,14 +119,15 @@
  },
  {
   "author": "appdevelpo",
+  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/animepahe.ru.png",
   "lang": "en",
   "license": "MIT",
   "name": "Animepahe",
   "package": "animepahe.ru",
   "type": "bangumi",
   "url": "animepahe.ru.js",
-  "version": "v0.0.3",
-  "webSite": "https://animepahe.ru"
+  "version": "v0.0.4",
+  "webSite": "https://animepahe.si"
  },
  {
   "author": "Nazz",
