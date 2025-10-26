@@ -1,12 +1,12 @@
 // ==MiruExtension==
 // @name         girigiri爱动漫
-// @version      v0.0.3
+// @version      v0.0.4
 // @author       appdevelpo
 // @lang         zh
 // @license      MIT
 // @package      anime.girigirilove.com
 // @type         bangumi
-// @webSite      https://anime.girigirilove.com
+// @webSite      https://bgm.girigirilove.com
 // @icon        https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/anime.girigirilove.com.png
 // @nsfw         false
 // ==/MiruExtension==
@@ -62,11 +62,12 @@ export default class extends Extension {
   }
 
   async search(kw, page, filter) {
-    const search_str = `/search/${kw}----------${page}---/`
+    const search_str = `/search/${kw}----------${page}---/`;
     const res = await this.request(search_str);
-    const bsxList = res.match(/public-list-box search-box flex rel[\s\S]+?<\/div><\/div><\/div>/g);
-
-    if (bsxList === null) {
+    // console.log(res)
+    const bsxList = await this.querySelectorAll(res, "div.rel.flex.search-box.public-list-box");
+    console.log(bsxList)
+    if (bsxList.length == 0) {
       // Handle the case when no content is found
       return [];
     }
@@ -80,7 +81,7 @@ export default class extends Extension {
         title,
         url,
         cover,
-        headers: {}
+        headers: {},
       });
     });
     return videos;
