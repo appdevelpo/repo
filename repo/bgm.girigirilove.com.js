@@ -93,9 +93,10 @@ var detail = async (url) => {
             document.querySelector("#height_limit")?.textContent.trim() ||
             document.querySelector(".detail-intro-all")?.textContent.trim() ||
             document.querySelector(".selected.check")?.textContent.trim();
-        const cover = document.querySelector(".detail-pic > img")?.getAttribute(
-            "data-src",
-        ) ||
+        const cover = "https://bgm.girigirilove.com" +
+                document.querySelector(".detail-pic > img")?.getAttribute(
+                    "data-src",
+                ) ||
             document.querySelector(".detail-pic > img")?.getAttribute("src");
 
         const sources = Array.from(

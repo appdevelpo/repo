@@ -1,164 +1,186 @@
 // ==MiruExtension==
 // @name         rawkuma
-// @version      v0.0.2
+// @version      v0.0.4
 // @author       appdevelpo
 // @lang         jp
 // @license      MIT
 // @type         manga
 // @package      rawkuma.com
-// @webSite      https://rawkuma.com
+// @webSite      https://rawkuma.net
 // @nsfw         false
+// @apiVersion   2
+// @icon         https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.com.png
 // ==/MiruExtension==
 
-export default class Mangafx extends Extension {
-  filter_jsons = {};
-  async get_filter(res) {
-    const filter_list = res.match(/filter dropdown[\s\S]+?<\/div>/g);
-    const filter_type = res.match(/<button.+<span/g).map((element) => {
-      const element_match = element.match(/>(.+?)</)[1].replaceAll(" ", "");
-      return element_match;
-    })
+var baseUrl = "https://rawkuma.net";
 
-    filter_list.forEach((element, index) => {
-      const filt = filter_type[index] === "Genre"?{}:{ all: "all" };
-      element.match(/value="(.+?)"/g).forEach((val) => {
-        const name = val.match(/"(.+?)"/)[1];
-        filt[name] = name;
+var latest = async () => {
+  try {
+    const res = await fetch(baseUrl);
+    const text = await res.text();
+    const { document } = parseHTML(text);
 
-      })
-      const max_num = filter_type[index] === "Genre" ? 5 : 1;
-      const default_option = filter_type[index] === "Genre" ? "action" : "all";
-      const filter_full = {
-        title: filter_type[index],
-        max: max_num,
-        min: 1,
-        default: default_option,
-        options: filt,
-      };
-      this.filter_jsons[filter_type[index]] = filter_full;
-    })
-    
-  }
-  async latest(page) {
-    const res = await this.request(`/manga/?page=${page}&status=&type=&order=update`);
-    const bsxList = res.match(/<div class="bs">([\s\S]+?)a>[\s\S]+?<\/div>/gm);
-    if (page == "1") {
-      await this.get_filter(res);
+    const h2s = Array.from(document.querySelectorAll("h2"));
+    const latestUpdateHeader = h2s.find((h) =>
+      h.textContent.includes("Latest Update")
+    );
+    if (!latestUpdateHeader) return [];
+
+    const container = latestUpdateHeader.closest(".project") ||
+      latestUpdateHeader.parentElement.parentElement;
+    let items = container.querySelectorAll(".p-2.5 .flex.gap-3");
+    if (items.length === 0) {
+      items = container.querySelectorAll(".grid > div");
     }
-    const mangas = [];
-    bsxList.forEach((element) => {
-      const url = element.match(/href="https:\/\/rawkuma.com\/manga(.+?)"/)[1];
-      const title = element.match(/<div class="tt">\s*([^<>\s]+[^<]*)\s*<\/div>/)[1];
-      const cover = element.match(/img src="(.+?)" class="ts-post-image/)[1];
-      mangas.push({
-        title,
-        url,
-        cover,
-      });
-    });
-    return mangas;
-  }
-  async createFilter(filter) {
-    return this.filter_jsons
-  }
-  async get_search_url(page,filter) {
-    
-    var base_url = `/manga/?page=${page}&`;
-    for (const [key, value] of Object.entries(filter)) {
-      if (key === "Genre") {
-        value.forEach((item) => {
-          base_url += `genre[]=${item}&`;
-        })
-      } else {
-        base_url += `${key.toLowerCase()}=${value[0]}&`;
-      }
-    }
-    const url = base_url.replaceAll("all", "").substring(0, base_url.length - 1);
-    
-    return url
-  }
-  async search(kw, page, filter) {
-    var url = `/page/${page}/?s=${kw}`;
-    if (!kw) {
-      
-      var url = await this.get_search_url(page,filter)
-      console.log(url)
-    }
-    const res = await this.request(url);
-    const bsxList = res.match(/<div class="bs">([\s\S]+?)a>[\s\S]+?<\/div>/gm);
-    const mangas = [];
-    bsxList.forEach((element) => {
-      const url = element.match(/href="https:\/\/rawkuma.com\/manga(.+?)"/)[1];
-      const title = element.match(/<div class="tt">\s*([^<>\s]+[^<]*)\s*<\/div>/)[1];
-      const cover = element.match(/img src="(.+?)"/)[1];
-      mangas.push({
-        title,
-        url,
-        cover,
-      });
-    });
-    return mangas;
-  }
 
-  async detail(url) {
-    const res = await this.request(url);
-    const titleRegex = /<h1 class="entry-title" itemprop="name">(.+?)<\/h1>/;
-    const titleMatch = res.match(titleRegex);
-    const title = titleMatch ? titleMatch[1] : null;
-    const coverRegex = /img src="(.+?)" class/;
-    const coverMatch = "https:" + res.match(coverRegex)[1];
-    const cover = coverMatch ? coverMatch : null;
-    const descriptionRegex = /<p>([\s\S^]+?)<\/p>/;
-    const descriptionMatch = res.match(descriptionRegex);
-    const desc = descriptionMatch ? descriptionMatch[1] : null;
+    return Array.from(items).map((element) => {
+      const urlEl = element.querySelector('a[href*="/manga/"]');
+      const url = urlEl?.getAttribute("href")?.replace(baseUrl, "");
+      const img = element.querySelector("img");
+      const cover = img?.getAttribute("src");
+      const title = element.querySelector("h4")?.textContent.trim() ||
+        element.querySelector("h3")?.textContent.trim() ||
+        element.querySelector("h1")?.textContent.trim() ||
+        urlEl?.getAttribute("title") ||
+        urlEl?.textContent.trim();
+      const description = element.querySelector("li")?.textContent.trim() ||
+        "";
 
+      return { url, cover, title, description };
+    }).filter((item) => item.url && item.title);
+  } catch (error) {
+    console.error("Error in latest:", error);
+    return [];
+  }
+};
 
-    const liListRegex = /<li data-num=([\s\S]+?)<\/li>/g;
-    const liListMatch = res.match(liListRegex);
-    const episodes = [];
-    if (liListMatch) {
-      liListMatch.forEach((element) => {
-        const chapterNumRegex = /"(.+?)"/;
-        const chapterNumMatch = element.match(chapterNumRegex);
-        const name = chapterNumMatch ? chapterNumMatch[1] : null;
-        const chapterUrlRegex = /href="(.+?)"/;
-        const chapterUrlMatch = element.match(chapterUrlRegex);
-        url = chapterUrlMatch ? chapterUrlMatch[1] : null;
-        url = url.slice(20, -1);
-        if (name && url) {
-          episodes.push({
-            name,
-            url,
-          });
+var search = async (kw, page) => {
+  try {
+    const url = page > 1
+      ? `${baseUrl}/manga/page/${page}/?title=${kw}`
+      : `${baseUrl}/manga/?title=${kw}`;
+    const res = await fetch(url);
+    const text = await res.text();
+    const { document } = parseHTML(text);
+
+    const items = document.querySelectorAll(".grid > div");
+
+    return Array.from(items).map((element) => {
+      const urlEl = element.querySelector('a[href*="/manga/"]');
+      const url = urlEl?.getAttribute("href")?.replace(baseUrl, "");
+      const img = element.querySelector("img");
+      const cover = img?.getAttribute("src");
+      const title = element.querySelector("h1")?.textContent.trim() ||
+        element.querySelector("h2")?.textContent.trim() ||
+        element.querySelector("h3")?.textContent.trim() ||
+        element.querySelector("h4")?.textContent.trim() ||
+        element.querySelector(".font-medium")?.textContent.trim() ||
+        urlEl?.getAttribute("title") ||
+        urlEl?.textContent.trim();
+
+      const description = "";
+
+      return { url, cover, title, description };
+    }).filter((item) => item.url && item.title);
+  } catch (error) {
+    console.error("Error in search:", error);
+    return [];
+  }
+};
+
+var detail = async (url) => {
+  try {
+    const fullUrl = url.startsWith("http") ? url : `${baseUrl}${url}`;
+    const res = await fetch(fullUrl);
+    const text = await res.text();
+    const { document } = parseHTML(text);
+
+    const title = document.querySelector('h1[itemprop="name"]')?.textContent
+      .trim();
+    const cover = document.querySelector("img.wp-post-image")?.getAttribute(
+      "src",
+    );
+    const desc = document.querySelector('meta[name="description"]')
+      ?.getAttribute("content") ||
+      document.querySelector(".entry-content")?.textContent.trim() || "";
+
+    const chapterListEl = document.querySelector("#chapter-list");
+    const hxGet = chapterListEl?.getAttribute("hx-get");
+    const mangaIdMatch = hxGet?.match(/manga_id=(\d+)/);
+
+    let episodes = [];
+    if (mangaIdMatch) {
+      const mangaId = mangaIdMatch[1];
+      const chaptersRes = await fetch(
+        `${baseUrl}/wp-admin/admin-ajax.php?manga_id=${mangaId}&page=1&action=chapter_list`,
+      );
+      const chaptersText = await chaptersRes.text();
+      const { document: chaptersDoc } = parseHTML(chaptersText);
+
+      const chapterLinks = Array.from(chaptersDoc.querySelectorAll("a"))
+        .filter(
+          (a) => a.getAttribute("href")?.includes("/chapter-"),
+        );
+
+      const urls = chapterLinks.map((a) => {
+        const name = a.querySelector("span")?.textContent.trim() ||
+          a.textContent.trim().split("\n")[0].trim();
+        const updateStr = a.querySelector("time")?.getAttribute(
+          "datetime",
+        );
+        let update = null;
+        if (updateStr) {
+          try {
+            update = new Date(updateStr).toISOString();
+          } catch (e) {}
         }
+        const description = a.querySelector(".text-gray-400")
+          ?.textContent.trim();
+
+        return {
+          name,
+          url: a.getAttribute("href"),
+          update,
+          description,
+        };
       });
+
+      episodes = [{
+        title: "Chapters",
+        urls: urls,
+      }];
     }
+
     return {
-      title: title || "Unknown Title",
-      cover: cover || "",
-      desc: desc || "No description available.",
-      episodes: [
-        {
-          title: "Directory",
-          urls: episodes.reverse(),
-        },
-      ],
+      title,
+      desc,
+      cover,
+      episodes,
     };
+  } catch (error) {
+    console.error("Error in detail:", error);
+    return null;
   }
+};
 
-  async watch(url) {
-    const res = await this.request(`/${url}`);
-    const contentRegex = /"images":([\s\S]*?)(])/;
-    const contentMatch = res.match(contentRegex);
+var watch = async (url) => {
+  try {
+    const res = await fetch(url);
+    const text = await res.text();
+    const { document } = parseHTML(text);
 
-    const content = contentMatch ? contentMatch[1] : null;
-    const imgMatches = JSON.parse(content + "]");
-    
-    let urls = imgMatches
-    
+    const images = Array.from(
+      document.querySelectorAll('img[src*="rcdn.kyut.dev"]'),
+    )
+      .map((img) => img.getAttribute("src"))
+      .filter((src) => src);
+
     return {
-      urls,
+      type: "manga",
+      urls: images,
     };
+  } catch (error) {
+    console.error("Error in watch:", error);
+    return null;
   }
-}
-
+};
