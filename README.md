@@ -27,6 +27,7 @@ Miru extensions repository | [Miru App Download](https://github.com/miru-project
 | BestLightNovel | best.light.novel | v0.0.1 | anishi7 | en | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/best.light.novel.js) |
 | BestialitySexTaboo | bestialitysextaboo.net | v0.0.6 | ijs77 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/bestialitysextaboo.net.js) |
 | 暴风资源[高清无水印] | bfzy.tv | v0.0.2 | jason | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/bfzy.tv.js) |
+| ギリギリ愛 | bgm.girigirilove.com | v0.0.1 | appdevelpo | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/bgm.girigirilove.com.js) |
 | 哔哩轻小说 | bilinovel.com | v0.1.0 | hualiong | zh-cn | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/bilinovel.com.js) |
 | 笔趣阁 | bqg.cc | v0.0.2 | yxxyun | zh-cn | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/bqg.cc.js) |
 | MyIPTV | client.iptv | v0.0.6 | vvsolo | all | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/client.iptv.js) |
@@ -118,7 +119,7 @@ Miru extensions repository | [Miru App Download](https://github.com/miru-project
 | PorCore | porcore.com | v0.0.4 | ijs77 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/porcore.com.js) |
 | PornXP | pornxp.com | v0.0.1 | bachig26 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/pornxp.com.js) |
 | Ravenscans | ravenscans.com | v0.0.1 | bethro | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/ravenscans.com.js) |
-| rawkuma | rawkuma.com | v0.0.2 | appdevelpo | jp | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rawkuma.com.js) |
+| rawkuma | rawkuma.com | v0.0.4 | appdevelpo | jp | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rawkuma.com.js) |
 | ReadComicsOnline | readcomicsonline.ru | v0.0.1 | OshekharO | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/readcomicsonline.ru.js) |
 | 免费小说网 | ren.0u0.miru.mfxs | v0.0.1 | MiaoMint | zh-cn | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/ren.0u0.miru.mfxs.js) |
 | ACG.RIP | rip.acg | v0.0.1 | MiaoMint | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rip.acg.js) |

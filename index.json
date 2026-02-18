@@ -247,6 +247,18 @@
   "webSite": "https://bfzy.tv"
  },
  {
+  "author": "appdevelpo",
+  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bgm.girigirilove.com.png",
+  "lang": "zh-cn",
+  "license": "MIT",
+  "name": "ギリギリ愛",
+  "package": "bgm.girigirilove.com",
+  "type": "bangumi",
+  "url": "bgm.girigirilove.com.js",
+  "version": "v0.0.1",
+  "webSite": "https://bgm.girigirilove.com/"
+ },
+ {
   "author": "hualiong",
   "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/bilinovel.com.ico",
   "lang": "zh-cn",
@@ -1314,14 +1326,15 @@
  },
  {
   "author": "appdevelpo",
+  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.com.png",
   "lang": "jp",
   "license": "MIT",
   "name": "rawkuma",
   "package": "rawkuma.com",
   "type": "manga",
   "url": "rawkuma.com.js",
-  "version": "v0.0.2",
-  "webSite": "https://rawkuma.com"
+  "version": "v0.0.4",
+  "webSite": "https://rawkuma.net"
  },
  {
   "author": "OshekharO",
