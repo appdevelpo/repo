@@ -126,7 +126,7 @@
   "package": "animepahe.ru",
   "type": "bangumi",
   "url": "animepahe.ru.js",
-  "version": "v0.0.4",
+  "version": "v0.0.5",
   "webSite": "https://animepahe.si"
  },
  {
@@ -255,7 +255,7 @@
   "package": "bgm.girigirilove.com",
   "type": "bangumi",
   "url": "bgm.girigirilove.com.js",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "webSite": "https://bgm.girigirilove.com/"
  },
  {
@@ -479,6 +479,17 @@
   "url": "example.v1.js",
   "version": "v0.0.1",
   "webSite": "https://www.agedm.io/"
+ },
+ {
+  "author": "appdevelpo",
+  "lang": "langcode",
+  "license": "MIT",
+  "name": "Example Library(V2)",
+  "package": "example.v2",
+  "type": "bangumi",
+  "url": "example.v2.js",
+  "version": "v0.0.1",
+  "webSite": "https://www.example.com"
  },
  {
   "author": "ijs77",
@@ -1326,14 +1337,14 @@
  },
  {
   "author": "appdevelpo",
-  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.com.png",
+  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.png",
   "lang": "jp",
   "license": "MIT",
   "name": "rawkuma",
   "package": "rawkuma.com",
   "type": "manga",
   "url": "rawkuma.com.js",
-  "version": "v0.0.4",
+  "version": "v0.0.5",
   "webSite": "https://rawkuma.net"
  },
  {
