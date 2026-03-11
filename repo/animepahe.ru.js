@@ -1,6 +1,6 @@
 // ==MiruExtension==
 // @name         Animepahe
-// @version      v0.0.4
+// @version      v0.0.5
 // @author       appdevelpo
 // @lang         en
 // @license      MIT
@@ -25,12 +25,14 @@ export default class extends Extension {
   async latest(page) {
     try {
       const res = await this.request(`/api?m=airing&page=${page}`);
+      console.log(res);
       return res.data.map((item) => ({
         title: item.anime_title,
         url: item.anime_session.toString(),
         cover: item.snapshot,
       }));
     } catch (e) {
+      console.log(e.toString());
       const bangumi = [{
         title: "error",
         url: "/",
@@ -48,14 +50,15 @@ export default class extends Extension {
         desc: "Please use webview to enter the website then close the webview window.",
       }
     }
+    const {parseHTML} = require("linkedom")
     const res = await this.request(`/anime/${url}`);
     const select = await this.querySelector(res, '.user-select-none > span');
-
     const { document } = parseHTML(res);
     const c = document.querySelector('.anime-poster > * > img');
     const cover = c ? c.getAttribute('data-src') : null;
 
     const title = select.innerHTML;
+    console.log(title)
     // const imgselect = this.querySelector(res, '.poster-image');
     // console.log(imgselect.text);
     // const cover = imgselect.getAttributeText('herf');

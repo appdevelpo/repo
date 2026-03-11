@@ -1,6 +1,6 @@
 // ==MiruExtension==
 // @name         rawkuma
-// @version      v0.0.4
+// @version      v0.0.5
 // @author       appdevelpo
 // @lang         jp
 // @license      MIT
@@ -9,14 +9,16 @@
 // @webSite      https://rawkuma.net
 // @nsfw         false
 // @apiVersion   2
-// @icon         https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.com.png
+// @icon         https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/rawkuma.png
 // ==/MiruExtension==
 
 var baseUrl = "https://rawkuma.net";
 
 var latest = async () => {
   try {
+    var {parseHTML} = require("linkedom")
     const res = await fetch(baseUrl);
+    console.log(res)
     const text = await res.text();
     const { document } = parseHTML(text);
 
@@ -50,11 +52,12 @@ var latest = async () => {
     }).filter((item) => item.url && item.title);
   } catch (error) {
     console.error("Error in latest:", error);
-    return [];
+    throw error;
   }
 };
 
 var search = async (kw, page) => {
+  var {parseHTML} = require("linkedom")
   try {
     const url = page > 1
       ? `${baseUrl}/manga/page/${page}/?title=${kw}`
@@ -89,6 +92,7 @@ var search = async (kw, page) => {
 };
 
 var detail = async (url) => {
+  var {parseHTML} = require("linkedom")
   try {
     const fullUrl = url.startsWith("http") ? url : `${baseUrl}${url}`;
     const res = await fetch(fullUrl);
@@ -164,6 +168,7 @@ var detail = async (url) => {
 };
 
 var watch = async (url) => {
+  var {parseHTML} = require("linkedom")
   try {
     const res = await fetch(url);
     const text = await res.text();

@@ -1,6 +1,6 @@
 // ==MiruExtension==
 // @name         ギリギリ愛
-// @version      v0.0.1
+// @version      v0.0.2
 // @author       appdevelpo
 // @lang         zh-cn
 // @license      MIT
@@ -14,11 +14,13 @@
 
 var latest = async () => {
     try {
+        var {parseHTML} = require("linkedom")
         const res = await fetch(
             "https://bgm.girigirilove.com/show/2-----------/",
         );
         const text = await res.text();
         const { document } = parseHTML(text);
+        
         const item = document.querySelectorAll(
             "div.public-pic-b.public-list-box",
         );
@@ -46,10 +48,12 @@ var latest = async () => {
         return bangumi;
     } catch (error) {
         console.error("Error fetching or parsing:", error);
+        throw error;
     }
 };
 
 var search = async (kw, page) => {
+    var {parseHTML} = require("linkedom")
     try {
         const res = await fetch(
             `https://bgm.girigirilove.com/search/${kw}----------${page}---/`,
@@ -82,6 +86,7 @@ var search = async (kw, page) => {
 };
 
 var detail = async (url) => {
+    var {parseHTML} = require("linkedom")
     try {
         const res = await fetch(`https://bgm.girigirilove.com${url}`);
         const text = await res.text();
