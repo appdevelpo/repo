@@ -1,6 +1,6 @@
 // ==MiruExtension==
 // @name         rawkuma
-// @version      v0.0.5
+// @version      v0.0.6
 // @author       appdevelpo
 // @lang         jp
 // @license      MIT
@@ -168,6 +168,18 @@ var detail = async (url) => {
 };
 
 var watch = async (url) => {
+    return {
+        "groups":[{
+          "title":"Default",
+          "mirrors":[{
+            "name":"Default",
+            "url":url
+          }]
+        }]
+    }
+}
+
+var mirror = async (url) => {
   var {parseHTML} = require("linkedom")
   try {
     const res = await fetch(url);

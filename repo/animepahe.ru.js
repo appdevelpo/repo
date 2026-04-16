@@ -123,7 +123,7 @@ async function watch(url) {
   });
 
   return {
-    mirrors: Object.keys(groups).map((title) => ({
+    groups: Object.keys(groups).map((title) => ({
       title: title,
       mirrors: groups[title],
     })),

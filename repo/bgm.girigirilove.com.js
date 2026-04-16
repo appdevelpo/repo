@@ -13,6 +13,8 @@
 // ==/MiruExtension==
 
 var latest = async () => {
+    const test =   getSetting("source")
+    console.log(test)
     try {
         var {parseHTML} = require("linkedom")
         const res = await fetch(
@@ -147,8 +149,18 @@ var detail = async (url) => {
 };
 
 var watch = async (url) => {
-    try {
-        const res = await fetch(url);
+    return {
+        "groups":[{
+        "title": "Default",
+        "mirrors":[{
+            "name":"Default",
+            "url":url
+        }]
+    }]}
+}
+
+var mirror = async (url) => {
+    const res = await fetch(url);
         const text = await res.text();
 
         const match = text.match(/var player_aaaa\s*=\s*({.+?})\s*</);
@@ -169,8 +181,4 @@ var watch = async (url) => {
             type: "hls",
             url: videoUrl,
         };
-    } catch (error) {
-        console.error("Error in watch:", error);
-        return null;
-    }
-};
+}
