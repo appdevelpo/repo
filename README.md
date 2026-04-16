@@ -120,7 +120,7 @@ Miru extensions repository | [Miru App Download](https://github.com/miru-project
 | PorCore | porcore.com | v0.0.4 | ijs77 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/porcore.com.js) |
 | PornXP | pornxp.com | v0.0.1 | bachig26 | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/pornxp.com.js) |
 | Ravenscans | ravenscans.com | v0.0.1 | bethro | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/ravenscans.com.js) |
-| rawkuma | rawkuma.com | v0.0.5 | appdevelpo | jp | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rawkuma.com.js) |
+| rawkuma | rawkuma.com | v0.0.6 | appdevelpo | jp | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rawkuma.com.js) |
 | ReadComicsOnline | readcomicsonline.ru | v0.0.1 | OshekharO | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/readcomicsonline.ru.js) |
 | 免费小说网 | ren.0u0.miru.mfxs | v0.0.1 | MiaoMint | zh-cn | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/ren.0u0.miru.mfxs.js) |
 | ACG.RIP | rip.acg | v0.0.1 | MiaoMint | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/rip.acg.js) |
