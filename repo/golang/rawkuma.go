@@ -1,7 +1,7 @@
 // ==MiruExtension==
 // @name         Rawkuma
 // @version      v0.1.0
-// @author       you
+// @author       appdevelpo
 // @lang         ja
 // @license      MIT
 // @icon         https://rawkuma.net/wp-content/uploads/2025/09/Rawkuma-Logo.png
@@ -346,11 +346,12 @@ func Search(pkg, kw string, page int, filter sdk.Filter) ([]sdk.ExtensionListIte
 
 var (
 	rkReChapter = regexp.MustCompile(`(?is)<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>`)
-	rkReSpan    = regexp.MustCompile(`(?is)<span[^>]*>(.*?)</span>`)
 )
 
-// rkChapters scrapes the admin-ajax chapter_list HTML: each chapter is an
-// anchor containing a <time> element, with its name in a <span>.
+// rkChapters scrapes the admin-ajax chapter_list HTML into ONE episode group
+// carrying every chapter URL, preserving the page's chapter order. Chapters
+// are identified by their URL (which encodes the number + id); per-chapter
+// titles are not representable in the single-group model.
 func rkChapters(mangaID int) ([]sdk.ExtensionEpisodeGroup, error) {
 	// A random page number above 3 keeps hidden chapters visible, exactly as
 	// the NatsuId source does (Random.nextInt(99, 9999)).
@@ -360,22 +361,20 @@ func rkChapters(mangaID int) ([]sdk.ExtensionEpisodeGroup, error) {
 	if err != nil {
 		return nil, err
 	}
-	groups := []sdk.ExtensionEpisodeGroup{}
+	urls := []string{}
 	for _, m := range rkReChapter.FindAllStringSubmatch(body, -1) {
 		href, inner := m[1], m[2]
-		if !strings.Contains(inner, "<time") {
-			continue
+		// Each chapter entry is an anchor containing a <time> element.
+		if strings.Contains(inner, "<time") {
+			urls = append(urls, href)
 		}
-		name := "Chapter"
-		if sm := rkReSpan.FindStringSubmatch(inner); sm != nil {
-			name = rkText(sm[1])
-		}
-		groups = append(groups, sdk.ExtensionEpisodeGroup{
-			Title: html.UnescapeString(name),
-			URLs:  []string{href},
-		})
 	}
-	return groups, nil
+	if len(urls) == 0 {
+		return []sdk.ExtensionEpisodeGroup{}, nil
+	}
+	return []sdk.ExtensionEpisodeGroup{
+		{Title: "Chapters", URLs: urls},
+	}, nil
 }
 
 // Detail resolves the manga page URL to its REST entry (cover, terms,
