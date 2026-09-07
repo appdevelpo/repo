@@ -1,7 +1,8 @@
 # IDE
 /.idea
 /.awcache
-/.vscode
+/.vscode/*
+!/.vscode/launch.json
 /.devcontainer
 *.code-workspace
 
@@ -14,3 +15,6 @@
 
 # misc
 .DS_Store
+# Go workspace (local dev overlay for the plug bench)
+/go.work
+/go.work.sum

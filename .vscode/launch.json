@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "inputs": [
+    {
+      "id": "plugStage",
+      "type": "pickString",
+      "description": "Which plug stage to run (runs the native + VM pair)",
+      "options": [
+        "TestLatest",
+        "TestSearch",
+        "TestSearch_Filter",
+        "TestDetail",
+        "TestWatch",
+        "TestMirror",
+        "TestCreateFilter"
+      ],
+      "default": "TestLatest"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "plug: run tests (native + VM)",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${workspaceFolder}/plug",
+      "args": ["-v"],
+      "showLog": true
+    },
+    {
+      "name": "plug: run one stage (pick from list)",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${workspaceFolder}/plug",
+      "args": ["-v", "-run", "${input:plugStage}"],
+      "showLog": true
+    },
+    {
+      "name": "template: run root example tests",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${workspaceFolder}",
+      "args": ["-v"],
+      "showLog": true
+    }
+  ]
+}

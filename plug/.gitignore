@@ -1,0 +1,5 @@
+# Your extension plug stays local — it is never committed.
+# Only plug_test.go (the harness) and example.go (the placeholder) are tracked.
+*.go
+!plug_test.go
+!example.go
