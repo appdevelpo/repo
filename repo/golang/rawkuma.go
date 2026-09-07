@@ -346,12 +346,12 @@ func Search(pkg, kw string, page int, filter sdk.Filter) ([]sdk.ExtensionListIte
 
 var (
 	rkReChapter = regexp.MustCompile(`(?is)<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>`)
+	rkReSpan    = regexp.MustCompile(`(?is)<span[^>]*>(.*?)</span>`)
 )
 
 // rkChapters scrapes the admin-ajax chapter_list HTML into ONE episode group
-// carrying every chapter URL, preserving the page's chapter order. Chapters
-// are identified by their URL (which encodes the number + id); per-chapter
-// titles are not representable in the single-group model.
+// carrying every chapter as a named episode (Name + URL, page order kept).
+// The Name is what the UI shows as the episode row label.
 func rkChapters(mangaID int) ([]sdk.ExtensionEpisodeGroup, error) {
 	// A random page number above 3 keeps hidden chapters visible, exactly as
 	// the NatsuId source does (Random.nextInt(99, 9999)).
@@ -361,19 +361,28 @@ func rkChapters(mangaID int) ([]sdk.ExtensionEpisodeGroup, error) {
 	if err != nil {
 		return nil, err
 	}
-	urls := []string{}
+	episodes := []sdk.ExtensionEpisode{}
 	for _, m := range rkReChapter.FindAllStringSubmatch(body, -1) {
 		href, inner := m[1], m[2]
-		// Each chapter entry is an anchor containing a <time> element.
-		if strings.Contains(inner, "<time") {
-			urls = append(urls, href)
+		// Each chapter entry is an anchor containing a <time> element, with
+		// its display name in a <span>.
+		if !strings.Contains(inner, "<time") {
+			continue
 		}
+		name := "Chapter"
+		if sm := rkReSpan.FindStringSubmatch(inner); sm != nil {
+			name = rkText(sm[1])
+		}
+		episodes = append(episodes, sdk.ExtensionEpisode{
+			Name: html.UnescapeString(name),
+			URL:  href,
+		})
 	}
-	if len(urls) == 0 {
+	if len(episodes) == 0 {
 		return []sdk.ExtensionEpisodeGroup{}, nil
 	}
 	return []sdk.ExtensionEpisodeGroup{
-		{Title: "Chapters", URLs: urls},
+		{Title: "Chapters", Episodes: episodes},
 	}, nil
 }
 
