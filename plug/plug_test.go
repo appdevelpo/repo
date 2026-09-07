@@ -68,8 +68,14 @@ func probeChapterURL(t *testing.T, p string) string {
 		if err != nil || d == nil {
 			continue
 		}
-		if len(d.Chapters) > 0 && len(d.Chapters[0].URLs) > 0 {
-			return d.Chapters[0].URLs[0]
+		if len(d.Chapters) > 0 {
+			g := d.Chapters[0]
+			if len(g.Episodes) > 0 {
+				return g.Episodes[0].URL
+			}
+			if len(g.URLs) > 0 {
+				return g.URLs[0]
+			}
 		}
 	}
 	t.Skip("probe could not find a latest item with chapters in the first 3 results")
