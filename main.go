@@ -34,6 +34,23 @@ func main() {
 
 Miru extensions repository | [Miru App Download](https://github.com/miru-project/miru-app) |
 
+## Develop your own extension
+
+This repo doubles as the extension development bench. See [plug/README.md](plug/README.md).
+
+- The plug/ folder is a plug-and-play test bench for Go (Scriggo V2) extensions.
+- Copy an existing extension as your starting point — for Go: repo/golang/rawkuma.go.
+- Edit your plug, then run the dual harness: cd plug && go test -v . (or press F5 in
+  VS Code — see .vscode/launch.json). Every entry point runs natively AND through
+  the Scriggo VM, printing each result as JSON.
+- To publish: the plug file must live at repo/golang/<package>.go (Go) or
+  repo/js/<package>.js (JavaScript), with the @package header matching the file
+  name and @apiVersion 2. The index.json regenerates automatically on push.
+
+> The bench needs a Go >= 1.27 toolchain (the index generator itself is
+> stdlib-only). Locally, point the bench at a miru-core checkout via go.work —
+> see plug/README.md.
+
 ## List
 |  Name   | Package | Version | Author | Language | Type | Source |
 |  ----   | ---- | --- | ---  | ---  | --- | --- |
@@ -51,31 +68,39 @@ Miru extensions repository | [Miru App Download](https://github.com/miru-project
 }
 
 func readRepoExtensions() []map[string]string {
-	de, err := os.ReadDir("repo")
-	if err != nil {
-		log.Fatal(err)
-	}
+	// Extensions live in per-runtime subdirectories: repo/js for the
+	// JavaScript (goja) runtime and repo/golang for Go (Scriggo).
+	subdirs := []string{"js", "golang"}
 	var extensions []map[string]string
-	for _, de2 := range de {
-		b, err := os.ReadFile(path.Join("repo", de2.Name()))
+	for _, sub := range subdirs {
+		de, err := os.ReadDir(path.Join("repo", sub))
 		if err != nil {
 			log.Println("error:", err)
 			continue
 		}
+		for _, de2 := range de {
+			b, err := os.ReadFile(path.Join("repo", sub, de2.Name()))
+			if err != nil {
+				log.Println("error:", err)
+				continue
+			}
 
-		// Extract MiruExtension block
-		r, _ := regexp.Compile(`MiruExtension([\s\S]+?)/MiruExtension`)
-		data := r.FindAllString(string(b), -1)
-		if len(data) < 1 {
-			log.Println("error: not extension")
-			continue
-		}
+			// Extract MiruExtension block
+			r, _ := regexp.Compile(`MiruExtension([\s\S]+?)/MiruExtension`)
+			data := r.FindAllString(string(b), -1)
+			if len(data) < 1 {
+				log.Println("error: not extension")
+				continue
+			}
 
-		// Parse metadata from the content
-		extension := parseExtensionMetadata(data[0], de2.Name())
-		if extension != nil {
-			extension["url"] = de2.Name()
-			extensions = append(extensions, extension)
+			// Parse metadata from the content
+			extension := parseExtensionMetadata(data[0], de2.Name())
+			if extension != nil {
+				// The download URL must carry the subdirectory so the app can
+				// fetch e.g. js/345movie.net.js or golang/rawkuma.go.
+				extension["url"] = sub + "/" + de2.Name()
+				extensions = append(extensions, extension)
+			}
 		}
 	}
 	return extensions
@@ -113,6 +138,10 @@ func parseExtensionMetadata(content string, fileName string) map[string]string {
 			extension["description"] = value
 		case "api":
 			extension["api"] = value
+		case "apiVersion":
+			extension["apiVersion"] = value
+		case "nsfw":
+			extension["nsfw"] = value
 		case "type":
 			extension["type"] = value
 		case "tags":
@@ -121,10 +150,24 @@ func parseExtensionMetadata(content string, fileName string) map[string]string {
 		}
 	}
 
-	// Validate package name matches file name
+	// Validate package name matches file name (both runtimes: js and golang)
 	pkg, exists := extension["package"]
-	if !exists || pkg+".js" != fileName {
-		log.Printf("warning: package name does not match file name | file: %s | package: %s\n", fileName, pkg)
+	if !exists {
+		log.Printf("warning: missing package name | file: %s\n", fileName)
+		return nil
+	}
+	if strings.HasSuffix(fileName, ".js") {
+		if pkg+".js" != fileName {
+			log.Printf("warning: package name does not match file name | file: %s | package: %s\n", fileName, pkg)
+			return nil
+		}
+	} else if strings.HasSuffix(fileName, ".go") {
+		if pkg+".go" != fileName {
+			log.Printf("warning: package name does not match file name | file: %s | package: %s\n", fileName, pkg)
+			return nil
+		}
+	} else {
+		log.Printf("warning: unsupported extension file | file: %s\n", fileName)
 		return nil
 	}
 
