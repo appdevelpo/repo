@@ -11,7 +11,6 @@
 // @nsfw         true
 // ==/MiruExtension==
 
-
 export default class extends Extension {
     async latest(page) {
         // Latest updates
@@ -30,8 +29,16 @@ export default class extends Extension {
             const html = await element.content;
             const title = await this.querySelector(html, "div.title").text;
             const url = await this.getAttributeText(html, "a", "href");
-            const cover = await this.getAttributeText(html, "img.lazy", "data-src");
-            const updt = await this.getAttributeText(html, "div.title", "class");
+            const cover = await this.getAttributeText(
+                html,
+                "img.lazy",
+                "data-src",
+            );
+            const updt = await this.getAttributeText(
+                html,
+                "div.title",
+                "class",
+            );
 
             if (title && url && cover) {
                 mangas.push({
@@ -57,8 +64,16 @@ export default class extends Extension {
             const html = await element.content;
             const title = await this.querySelector(html, "div.title").text;
             const url = await this.getAttributeText(html, "a", "href");
-            const cover = await this.getAttributeText(html, "img.lazy", "data-src");
-            const updt = await this.getAttributeText(html, "div.title", "class");
+            const cover = await this.getAttributeText(
+                html,
+                "img.lazy",
+                "data-src",
+            );
+            const updt = await this.getAttributeText(
+                html,
+                "div.title",
+                "class",
+            );
 
             if (title && url && cover) {
                 mangas.push({
@@ -73,16 +88,17 @@ export default class extends Extension {
         return mangas;
     }
 
-
-
     async detail(url) {
-        const strippedpath = url.replace(/^(https?:\/\/)?([^\/]+)(\/.*)?/, '$3');
+        const strippedpath = url.replace(
+            /^(https?:\/\/)?([^\/]+)(\/.*)?/,
+            "$3",
+        );
         const res = await this.request(strippedpath);
 
         const title = await this.querySelector(res, "h1.text-left").text;
         const cover = await this.getAttributeText(res, "img.lazy", "data-src");
-        const desc = await this.querySelector(res, "div.tag-container > time").text;
-
+        const desc = await this.querySelector(res, "div.tag-container > time")
+            .text;
 
         return {
             title: title,
@@ -93,21 +109,33 @@ export default class extends Extension {
                 urls: [{
                     name: title,
                     url: url,
-                }, ],
-            }, ],
+                }],
+            }],
         };
     }
 
     async watch(url) {
-        const strippedpath = url.replace(/^(https?:\/\/)?([^\/]+)(\/.*)?/, '$3');
+        const strippedpath = url.replace(
+            /^(https?:\/\/)?([^\/]+)(\/.*)?/,
+            "$3",
+        );
         const res = await this.request(strippedpath);
 
-        const images = await Promise.all((await this.querySelectorAll(res, "div.single-thumb-col > div > a > img")).map(async (element) => {
-            return (await this.getAttributeText(element.content, "img.lazy", "data-src")).trim().replace("t.", ".").replace("//", "//i3.wp.com/");
-        }));
+        const images = await Promise.all(
+            (await this.querySelectorAll(
+                res,
+                "div.single-thumb-col > div > a > img",
+            )).map(async (element) => {
+                return (await this.getAttributeText(
+                    element.content,
+                    "img.lazy",
+                    "data-src",
+                )).trim().replace("t.", ".").replace("//", "//i3.wp.com/");
+            }),
+        );
 
         return {
             urls: images,
-        }
+        };
     }
 }
