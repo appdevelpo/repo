@@ -5,7 +5,7 @@
 // @lang         ja
 // @license      MIT
 // @icon         https://rawkuma.net/wp-content/uploads/2025/09/Rawkuma-Logo.png
-// @package      rawkuma
+// @package      rawkuma.net
 // @type         manga
 // @webSite      https://rawkuma.net
 // @apiVersion   2
