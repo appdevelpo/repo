@@ -2093,9 +2093,9 @@
   "license": "MIT",
   "name": "Rawkuma",
   "nsfw": "false",
-  "package": "rawkuma",
+  "package": "rawkuma.net",
   "type": "manga",
-  "url": "golang/rawkuma.go",
+  "url": "golang/rawkuma.net.go",
   "version": "v0.1.0",
   "webSite": "https://rawkuma.net"
  }
