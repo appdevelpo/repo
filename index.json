@@ -2098,5 +2098,19 @@
   "url": "golang/rawkuma.net.go",
   "version": "v0.1.0",
   "webSite": "https://rawkuma.net"
+ },
+ {
+  "apiVersion": "2",
+  "author": "appdevelpo",
+  "icon": "https://raw.githubusercontent.com/appdevelpo/repo/refs/heads/miru_alpha/icon/royalroad.com.ico",
+  "lang": "en",
+  "license": "MIT",
+  "name": "RoyalRoad",
+  "nsfw": "false",
+  "package": "royalroad.com",
+  "type": "fikushon",
+  "url": "golang/royalroad.com.go",
+  "version": "v0.1.0",
+  "webSite": "https://www.royalroad.com"
  }
 ]

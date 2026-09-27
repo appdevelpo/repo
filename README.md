@@ -150,3 +150,4 @@ This repo doubles as the extension development bench. See [plug/README.md](plug/
 | 优质资源库 | yzzy.tv | v0.0.2 | hualiong | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/yzzy.tv.js) |
 | ZeroScans | zeroscans.com | v0.0.2 | OshekharO | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/zeroscans.com.js) |
 | Rawkuma | rawkuma.net | v0.1.0 | appdevelpo | ja | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/golang/rawkuma.net.go) |
+| RoyalRoad | royalroad.com | v0.1.0 | appdevelpo | en | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/golang/royalroad.com.go) |
