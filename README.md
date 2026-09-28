@@ -113,7 +113,6 @@ This repo doubles as the extension development bench. See [plug/README.md](plug/
 | rawkuma | rawkuma.com | v0.0.6 | appdevelpo | jp | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/rawkuma.com.js) |
 | ReadComicsOnline | readcomicsonline.ru | v0.0.1 | OshekharO | en | manga | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/readcomicsonline.ru.js) |
 | ACG.RIP | rip.acg | v0.0.1 | MiaoMint | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/rip.acg.js) |
-| RoyalRoad | royalroad.com | v0.0.3 | appdevelpo | en | fikushon | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/royalroad.com.js) |
 | 樱花动漫 | sakura | v0.0.2 | Monster | zh-cn | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/sakura.js) |
 | Samehadaku | samehadaku | v0.0.1 | Nazz | id | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/samehadaku.js) |
 | sFlix | sflix.to | v0.0.3 | appdevelpo | en | bangumi | [Source Code](https://github.com/miru-project/repo/blob/main/repo/js/sflix.to.js) |
