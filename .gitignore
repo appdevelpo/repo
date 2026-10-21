@@ -1,0 +1,29 @@
+# IDE
+/.idea
+/.awcache
+/.vscode/*
+!/.vscode/launch.json
+/.devcontainer
+*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# misc
+.DS_Store
+
+# Built index generator binary
+/repo-gen
+
+# Go workspace (local dev overlay for the plug bench). The tracked
+# plug/go.mod already points at the miru-core submodule, so the bench builds
+# without this file -- it only adds the root generator module to the
+# workspace.
+/go.work
+/go.work.sum
+
+# Local scratch workspace (parsers, fixtures, probes)
